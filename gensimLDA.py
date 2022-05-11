@@ -1,12 +1,13 @@
 from gensim.corpora import Dictionary
 from gensim.models import LdaModel
 import random
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 # https://elmundodelosdatos.com/topic-modeling-gensim-asignacion-topicos/
-
+df = pd.read_csv("HRBlockIntuitReviewsTrainDev_vLast7.csv")
 df = "dataFrame"
 # Cargamos en el diccionario la lista de palabras que tenemos de las reviews
 diccionario = Dictionary(df.Tokens)
