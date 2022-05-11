@@ -1,5 +1,6 @@
 # Parte 1
-import json, re
+import json
+import re
 import pandas as pd
 from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
@@ -55,7 +56,7 @@ print(df.Tokens[0][0:10])
 # Parte 2: https://elmundodelosdatos.com/topic-modeling-gensim-asignacion-topicos/
 # Cargamos en el diccionario la lista de palabras que tenemos de las reviews
 diccionario = Dictionary(df.Tokens)
-print(f'Número de tokens: {len(diccionario)}')
+print(f'Número de tokens: {len(diccionario)}') #mostrar el numero se palabras
 
 # Reducimos el diccionario filtrando las palabras mas raras o demasiado frecuentes
 # no_below = mantener tokens que se encuentran en el a menos x documentos
@@ -63,7 +64,7 @@ print(f'Número de tokens: {len(diccionario)}')
 diccionario.filter_extremes(no_below=2, no_above = 0.8)
 print(f'Número de tokens: {len(diccionario)}')
 
-# Creamos el corpus
+# Creamos el corpus (por cada roken en el df) QUE ES UN ARRAY BOW
 corpus = [diccionario.doc2bow(review) for review in df.Tokens]
 
 # BOW de una review
@@ -71,7 +72,8 @@ print(corpus[5])
 
 lda = LdaModel(corpus=corpus, id2word=diccionario,
                num_topics=50, random_state=42,
-               chunksize=1000, passes=10, alpha='auto', eta='auto')
+               chunksize=1000, passes=10,
+               alpha='auto', eta='auto')
 
 # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
 topicos = lda.print_topics(num_words=5, num_topics=50)
