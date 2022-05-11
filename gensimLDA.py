@@ -71,8 +71,8 @@ corpus = [diccionario.doc2bow(review) for review in df.Tokens]
 print(corpus[5])
 
 lda = LdaModel(corpus=corpus, id2word=diccionario,
-               num_topics=50, random_state=42,
-               chunksize=1000, passes=10,
+               num_topics=20, random_state=42,
+               chunksize=1000, passes=1,
                alpha='auto', eta='auto')
 
 # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
@@ -90,12 +90,11 @@ for i in range(1, 5):
     plt.show()
 
 # Aqui imprimimos una review aleatoria para comprobar la eficacia de nuestro modelo
-"""
 indice_review = random.randint(0,len(df))
 review = df.iloc[indice_review]
-print(str(review.compañia) + ": ")
-print(review.review)
-"""
+print("Brand: " + str(review["brand"]))
+print("Summary:" + str(review["summary"]))
+print("Review: " + str(review["reviewText"]))
 
 # Obtenemos el BOW de la review
 # Obtenemos la distribucion de topicos
