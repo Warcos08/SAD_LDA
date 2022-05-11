@@ -71,7 +71,7 @@ print(corpus[5])
 
 lda = LdaModel(corpus=corpus, id2word=diccionario,
                num_topics=50, random_state=42,
-               chunksize=1000, passes=10, alpha='auto')
+               chunksize=1000, passes=10, alpha='auto', eta='auto')
 
 # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
 topicos = lda.print_topics(num_words=5, num_topics=50)
