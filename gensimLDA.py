@@ -1,14 +1,58 @@
+# Parte 1
+import json, re
+import pandas as pd
+from nltk import WordNetLemmatizer
+from nltk.corpus import stopwords
+from nltk.stem import SnowballStemmer
+from nltk.tokenize import ToktokTokenizer
+
+# Parte 2
 from gensim.corpora import Dictionary
 from gensim.models import LdaModel
 import random
-import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
-# https://elmundodelosdatos.com/topic-modeling-gensim-asignacion-topicos/
+STOPWORDS = set(stopwords.words("english"))
+wnl = WordNetLemmatizer()
+stemmer = SnowballStemmer("english")
+
+def limpiar_texto(texto):
+    # Eliminamos los caracteres especiales
+    texto = re.sub(r'\W', ' ', str(texto))
+    # Eliminado las palabras que tengo un solo caracter
+    texto = re.sub(r'\s+[a-zA-Z]\s+', ' ', texto)
+    # Sustituir los espacios en blanco en uno solo
+    texto = re.sub(r'\s+', ' ', texto, flags=re.I)
+    # Convertimos textos a minusculas
+    texto = texto.lower()
+    return texto
+
+def eliminar_stopwords(tokens):
+    return [token for token in tokens if token not in STOPWORDS and not token.isdigit()]
+
+def lematizar(tokens):
+    return [wnl.lemmatize(token) for token in tokens]
+
+def estemizar(tokens):
+    return [stemmer.stem(token) for token in tokens]
+
+# Parte 1: https://elmundodelosdatos.com/topic-modeling-gensim-fundamentos-preprocesamiento-textos/
 df = pd.read_csv("HRBlockIntuitReviewsTrainDev_vLast7.csv")
-df = "dataFrame"
+df = df[['reviewText', 'summary']]
+# 1.- Limpiamos (quitar caracteres especiaes, minúsculas...)
+df["Tokens"] = df.reviewText.apply(limpiar_texto)
+# 2.- Tokenizamos
+tokenizer= ToktokTokenizer()
+df["Tokens"] = df.Tokens.apply(tokenizer.tokenize)
+# 3.- Eliminar stopwords y digitos
+df["Tokens"] = df.Tokens.apply(eliminar_stopwords)
+# 4.- ESTEMIZAR / LEMATIZAR ???
+df["Tokens"] = df.Tokens.apply(estemizar)
+print(df.Tokens[0][0:10])
+
+# Parte 2: https://elmundodelosdatos.com/topic-modeling-gensim-asignacion-topicos/
 # Cargamos en el diccionario la lista de palabras que tenemos de las reviews
 diccionario = Dictionary(df.Tokens)
 print(f'Número de tokens: {len(diccionario)}')
