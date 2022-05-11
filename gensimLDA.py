@@ -46,7 +46,7 @@ for i in range(1, 5):
 """
 indice_review = random.randint(0,len(df))
 review = df.iloc[indice_review]
-print("Titular: " + review.compañia)
+print(str(review.compañia) + ": ")
 print(review.review)
 """
 
