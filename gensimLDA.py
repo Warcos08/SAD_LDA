@@ -40,7 +40,7 @@ def estemizar(tokens):
     return [stemmer.stem(token) for token in tokens]
 
 # Parte 1: https://elmundodelosdatos.com/topic-modeling-gensim-fundamentos-preprocesamiento-textos/
-df = pd.read_csv("HRBlockIntuitReviewsTrainDev_vLast7.csv")
+df = pd.read_csv("./HRBlockIntuitReviewsTrainDev_vLast7.csv")
 df = df[['reviewText', 'summary']]
 # 1.- Limpiamos (quitar caracteres especiaes, minúsculas...)
 df["Tokens"] = df.reviewText.apply(limpiar_texto)
@@ -92,10 +92,10 @@ for i in range(1, 5):
 # Aqui imprimimos una review aleatoria para comprobar la eficacia de nuestro modelo
 indice_review = random.randint(0,len(df))
 review = df.iloc[indice_review]
-print("*****" + str(review) + " " + str(type(review)))
-'''print("Brand: " + str(review["brand"]))
-print("Summary:" + str(review["summary"]))
-print("Review: " + str(review["reviewText"]))'''
+
+print("***********************")
+print("\nReview: " + review[0] + "\n")
+print("***********************")
 
 # Obtenemos el BOW de la review
 # Obtenemos la distribucion de topicos
@@ -117,6 +117,8 @@ ax = distribucion_topicos.plot.bar(y='Contribucion',x='Topico',
                                    title = 'Tópicos mas importantes'
                                    'de review ' + str(indice_review))
 
+ax
+
 # Imprimimos las palabras mas significativas de los topicos
 for ind, topico in distribucion_topicos.iterrows():
     print("*** Tópico: " + str(int(topico.Topico)) + " ***")
@@ -125,20 +127,22 @@ for ind, topico in distribucion_topicos.iterrows():
     palabras = ', '.join(palabras)
     print(palabras, "\n")
 
-# Podemos incluir una nueva review para probar el modelo
 """
+# Podemos incluir una nueva review para probar el modelo
 texto_review = open("review.txt")
 review_nuevo = texto_review.read().replace("\n", " ")
 texto_review.close()
-"""
+
 
 # BOW de la nueva review
-"""
-bow_review_nuevo = diccionario.doc2bow(articulo_nuevo)
-"""
+review_nuevo = limpiar_texto(review_nuevo)
+review_nuevo = tokenizer.tokenize(review_nuevo)
+review_nuevo = eliminar_stopwords(review_nuevo)
+review_nuevo = estemizar(review_nuevo)
+
+bow_review_nuevo = diccionario.doc2bow(review_nuevo)
 
 # Mostramos los resultados como antes
-"""
 distribucion_topicos = pd.DataFrame({'Topico':dist_indices,
                                      'Contribucion':dist_contrib })
 distribucion_topicos.sort_values('Contribucion', 
@@ -147,10 +151,8 @@ ax = distribucion_topicos.plot.bar(y='Contribucion',x='Topico',
                                    rot=0, color="green",
                                    title = 'Tópicos más importantes' 
                                    'para documento nuevo')
-"""
 
 # Imprimimos de nuevo las palabras mas significativas
-"""
 for ind, topico in distribucion_topicos.iterrows():
     print("*** Tópico: " + str(int(topico.Topico)) + " ***")
     palabras = [palabra[0] for palabra in lda.show_topic(
@@ -160,6 +162,6 @@ for ind, topico in distribucion_topicos.iterrows():
 """
 
 # Guardamos el modelo y el diccionario para usarlo de nuevo mas adelante
-lda.save("review.model")
-diccionario.save("review.dictionary")
+# lda.save("review.model")
+# diccionario.save("review.dictionary")
 
