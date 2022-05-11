@@ -117,7 +117,7 @@ ax = distribucion_topicos.plot.bar(y='Contribucion',x='Topico',
                                    title = 'Tópicos mas importantes'
                                    'de review ' + str(indice_review))
 
-ax
+plt.show()
 
 # Imprimimos las palabras mas significativas de los topicos
 for ind, topico in distribucion_topicos.iterrows():
