@@ -50,6 +50,69 @@ print(str(review.compañia) + ": ")
 print(review.review)
 """
 
+# Obtenemos el BOW de la review
+# Obtenemos la distribucion de topicos
+bow_review = corpus[indice_review]
+distribucion_review = lda[bow_review]
 
+# Indices de los topicos mas significativos
+dist_indices = [topico[0] for topico in lda[bow_review]]
+# Contribución de los topicos mas significativos
+dist_contrib = [topico[1] for topico in lda[bow_review]]
 
+# Representacion grafica de los topicos mas significativos
+distribucion_topicos = pd.DataFrame({'Topico':dist_indices,
+                                     'Contribucion':dist_contrib })
+distribucion_topicos.sort_values('Contribucion',
+                                 ascending=False, inplace=True)
+ax = distribucion_topicos.plot.bar(y='Contribucion',x='Topico',
+                                   rot=0, color="orange",
+                                   title = 'Tópicos mas importantes'
+                                   'de review ' + str(indice_review))
+
+# Imprimimos las palabras mas significativas de los topicos
+for ind, topico in distribucion_topicos.iterrows():
+    print("*** Tópico: " + str(int(topico.Topico)) + " ***")
+    palabras = [palabra[0] for palabra in lda.show_topic(
+        topicid=int(topico.Topico))]
+    palabras = ', '.join(palabras)
+    print(palabras, "\n")
+
+# Podemos incluir una nueva review para probar el modelo
+"""
+texto_review = open("review.txt")
+review_nuevo = texto_review.read().replace("\n", " ")
+texto_review.close()
+"""
+
+# BOW de la nueva review
+"""
+bow_review_nuevo = diccionario.doc2bow(articulo_nuevo)
+"""
+
+# Mostramos los resultados como antes
+"""
+distribucion_topicos = pd.DataFrame({'Topico':dist_indices,
+                                     'Contribucion':dist_contrib })
+distribucion_topicos.sort_values('Contribucion', 
+                                 ascending=False, inplace=True)
+ax = distribucion_topicos.plot.bar(y='Contribucion',x='Topico', 
+                                   rot=0, color="green",
+                                   title = 'Tópicos más importantes' 
+                                   'para documento nuevo')
+"""
+
+# Imprimimos de nuevo las palabras mas significativas
+"""
+for ind, topico in distribucion_topicos.iterrows():
+    print("*** Tópico: " + str(int(topico.Topico)) + " ***")
+    palabras = [palabra[0] for palabra in lda.show_topic(
+        topicid=int(topico.Topico))]
+    palabras = ', '.join(palabras)
+    print(palabras, "\n")
+"""
+
+# Guardamos el modelo y el diccionario para usarlo de nuevo mas adelante
+lda.save("review.model")
+diccionario.save("review.dictionary")
 
