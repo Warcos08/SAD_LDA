@@ -92,9 +92,10 @@ for i in range(1, 5):
 # Aqui imprimimos una review aleatoria para comprobar la eficacia de nuestro modelo
 indice_review = random.randint(0,len(df))
 review = df.iloc[indice_review]
-print("Brand: " + str(review["brand"]))
+print("*****" + str(review) + " " + str(type(review)))
+'''print("Brand: " + str(review["brand"]))
 print("Summary:" + str(review["summary"]))
-print("Review: " + str(review["reviewText"]))
+print("Review: " + str(review["reviewText"]))'''
 
 # Obtenemos el BOW de la review
 # Obtenemos la distribucion de topicos
