@@ -112,6 +112,7 @@ for t in range (0,2):
             print(topico)
 
         #hay q sacar el valor de alpha y beta de alguna manera y lode symetric es sustituirlo por auto
+
         archivo = open(nombreCSV, "a")
         contenido = [str(nTopics), str(alpha), str(eta)]
         writer = csv.writer(archivo)
