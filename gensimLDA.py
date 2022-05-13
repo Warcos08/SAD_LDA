@@ -40,22 +40,29 @@ def lematizar(tokens):
 def estemizar(tokens):
     return [stemmer.stem(token) for token in tokens]
 
-# Parte 1: https://elmundodelosdatos.com/topic-modeling-gensim-fundamentos-preprocesamiento-textos/
-ruta="./HRBlockIntuitReviewsTrainDev_vLast7.csv"
+
+# ---> Parte 1: https://elmundodelosdatos.com/topic-modeling-gensim-fundamentos-preprocesamiento-textos/
+ruta = str(input("Introdice el path relativo (./nombre.csv) "))
 df = pd.read_csv(ruta)
 df = df[['reviewText', 'summary']]
+
 # 1.- Limpiamos (quitar caracteres especiaes, minúsculas...)
 df["Tokens"] = df.reviewText.apply(limpiar_texto)
+
 # 2.- Tokenizamos
 tokenizer= ToktokTokenizer()
 df["Tokens"] = df.Tokens.apply(tokenizer.tokenize)
+
 # 3.- Eliminar stopwords y digitos
 df["Tokens"] = df.Tokens.apply(eliminar_stopwords)
+
 # 4.- ESTEMIZAR / LEMATIZAR ???
 df["Tokens"] = df.Tokens.apply(estemizar)
 print(df.Tokens[0][0:10])
 
-# Parte 2: https://elmundodelosdatos.com/topic-modeling-gensim-asignacion-topicos/
+
+
+# ---> Parte 2: https://elmundodelosdatos.com/topic-modeling-gensim-asignacion-topicos/
 # Cargamos en el diccionario la lista de palabras que tenemos de las reviews
 diccionario = Dictionary(df.Tokens)
 print(f'Número de tokens: {len(diccionario)}') #mostrar el numero se palabras
@@ -79,23 +86,30 @@ writer.writerow(cabeceras)
 archivo.close()
 print("PREPARANDO ARCHIVO .CSV PARA VOLCAR PARAMETROS...")
 
-for nTopics in range (10, 100, 5):
-    lda = LdaModel(corpus=corpus, id2word=diccionario,
-                   num_topics=nTopics, random_state=42,
-                   chunksize=1000, passes=1,
-                   alpha='auto', eta='auto')
+for t in range (0,2):
+    if t==0:
+        tipo='auto'
+    elif t==1:
+      tipo='symmeytric'
 
-    # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
-    topicos = lda.print_topics(num_words=5, num_topics=50)
-    for topico in topicos:
-        print(topico)
+    for nTopics in range (10, 101, 5):
+        print("n_topics --> " + nTopics)
+        lda = LdaModel(corpus=corpus, id2word=diccionario,
+                       num_topics=nTopics, random_state=42,
+                       chunksize=1000, passes=1,
+                       alpha='tipo', eta='tipo')
 
-    #hay q sacar el valor de alpha y beta de alguna manera y lode symetric es sustituirlo por auto
-    archivo = open("GensimParams" + ruta + ".csv", "a")
-    contenido = [str(nTopics), str(alpha), str(eta)]
-    writer = csv.writer(archivo)
-    writer.writerow(contenido)  # se escribe cuando el array se completa
-    archivo.close()
+        # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
+        topicos = lda.print_topics(num_words=5, num_topics=50)
+        for topico in topicos:
+            print(topico)
+
+        #hay q sacar el valor de alpha y beta de alguna manera y lode symetric es sustituirlo por auto
+        archivo = open("GensimParams" + ruta + ".csv", "a")
+        contenido = [str(nTopics), str(alpha), str(eta)]
+        writer = csv.writer(archivo)
+        writer.writerow(contenido)  # se escribe cuando el array se completa
+        archivo.close()
 
 '''
 # Nube de palabras, donde se ven las palbras de los topicos con un tamaño equivalente a su relevancia en el documento
