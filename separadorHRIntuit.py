@@ -12,11 +12,11 @@ def main():
     IntuitPos = pd.DataFrame(columns=["reviewText", "summary"])
 
     Neg = data.loc[(data['overall'] <3)]
-    HRNeg = Neg.loc[(data['brand'].isin(['Administaff HRTools', 'H&R Block', 'HRBB9']))]
-    IntuitNeg = Neg.loc[(data['brand'].isin(['Intuit', 'by\n \n Intuit ','TurboTax Premier 2014 Fed + State + Fed Efile Tax Software [Old Version]']))]
+    HRNeg = Neg.loc[(data['brand'].isin(['Administaff HRTools', 'H&R Block', 'HRBB9', 'by\n    \n    H&R Block']))]
+    IntuitNeg = Neg.loc[(data['brand'].isin(['Intuit', 'by\n    \n    Intuit','TurboTax Premier 2014 Fed + State + Fed Efile Tax Software [Old Version]']))]
     Pos = data.loc[(data['overall'] >3)]
-    HRPos = Pos.loc[(data['brand'].isin(['Administaff HRTools', 'H&R Block', 'HRBB9']))]
-    IntuitPos = Pos.loc[(data['brand'].isin(['Intuit', 'by\n \n Intuit ','TurboTax Premier 2014 Fed + State + Fed Efile Tax Software [Old Version]']))]
+    HRPos = Pos.loc[(data['brand'].isin(['Administaff HRTools', 'H&R Block', 'HRBB9', 'by\n    \n    H&R Block']))]
+    IntuitPos = Pos.loc[(data['brand'].isin(['Intuit', 'by\n    \n    Intuit','TurboTax Premier 2014 Fed + State + Fed Efile Tax Software [Old Version]']))]
     # print los dataframes nuevos
     print("#########################################################")
     print(HRNeg.head(5))
