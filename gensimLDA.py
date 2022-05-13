@@ -42,7 +42,7 @@ def estemizar(tokens):
 
 
 # ---> Parte 1: https://elmundodelosdatos.com/topic-modeling-gensim-fundamentos-preprocesamiento-textos/
-ruta = str(input("Introdice el path relativo (./nombre.csv) "))
+ruta = str(input("Introduce el path relativo (EJ: ./data/nombre.csv) :"))
 df = pd.read_csv(ruta)
 df = df[['reviewText', 'summary']]
 
@@ -90,14 +90,20 @@ for t in range (0,2):
     if t==0:
         tipo='auto'
     elif t==1:
-      tipo='symmeytric'
+        tipo='symmeytric'
+
 
     for nTopics in range (10, 101, 5):
+
+        print("------------------------------")
+        print("alpha and beta --> " + tipo)
         print("n_topics --> " + nTopics)
+        print("------------------------------")
+
         lda = LdaModel(corpus=corpus, id2word=diccionario,
                        num_topics=nTopics, random_state=42,
                        chunksize=1000, passes=1,
-                       alpha='tipo', eta='tipo')
+                       alpha=tipo, eta=tipo)
 
         # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
         topicos = lda.print_topics(num_words=5, num_topics=50)
