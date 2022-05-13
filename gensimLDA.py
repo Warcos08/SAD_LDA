@@ -80,7 +80,8 @@ corpus = [diccionario.doc2bow(review) for review in df.Tokens]
 print(corpus[5])
 
 cabeceras = ["num_topics", "alpha", "beta"]
-archivo = open("GensimParams" + ruta + ".csv", "w")
+nombreCSV="GensimParams" + ruta.split('/')[-1].split('/')[-1]
+archivo = open(nombreCSV, "w")
 writer = csv.writer(archivo)
 writer.writerow(cabeceras)
 archivo.close()
@@ -97,7 +98,7 @@ for t in range (0,2):
 
         print("------------------------------")
         print("alpha and beta --> " + tipo)
-        print("n_topics --> " + nTopics)
+        print("n_topics --> " + str(nTopics))
         print("------------------------------")
 
         lda = LdaModel(corpus=corpus, id2word=diccionario,
@@ -111,7 +112,7 @@ for t in range (0,2):
             print(topico)
 
         #hay q sacar el valor de alpha y beta de alguna manera y lode symetric es sustituirlo por auto
-        archivo = open("GensimParams" + ruta + ".csv", "a")
+        archivo = open("nombreCSV" + ruta + ".csv", "a")
         contenido = [str(nTopics), str(alpha), str(eta)]
         writer = csv.writer(archivo)
         writer.writerow(contenido)  # se escribe cuando el array se completa
