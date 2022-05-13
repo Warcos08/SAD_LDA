@@ -6,6 +6,7 @@ from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 from nltk.tokenize import ToktokTokenizer
+import csv
 
 # Parte 2
 from gensim.corpora import Dictionary
@@ -13,7 +14,7 @@ from gensim.models import LdaModel
 import random
 import numpy as np
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
+#from wordcloud import WordCloud
 
 STOPWORDS = set(stopwords.words("english"))
 wnl = WordNetLemmatizer()
@@ -40,7 +41,8 @@ def estemizar(tokens):
     return [stemmer.stem(token) for token in tokens]
 
 # Parte 1: https://elmundodelosdatos.com/topic-modeling-gensim-fundamentos-preprocesamiento-textos/
-df = pd.read_csv("./HRBlockIntuitReviewsTrainDev_vLast7.csv")
+ruta="./HRBlockIntuitReviewsTrainDev_vLast7.csv"
+df = pd.read_csv(ruta)
 df = df[['reviewText', 'summary']]
 # 1.- Limpiamos (quitar caracteres especiaes, minúsculas...)
 df["Tokens"] = df.reviewText.apply(limpiar_texto)
@@ -70,16 +72,32 @@ corpus = [diccionario.doc2bow(review) for review in df.Tokens]
 # BOW de una review
 print(corpus[5])
 
-lda = LdaModel(corpus=corpus, id2word=diccionario,
-               num_topics=20, random_state=42,
-               chunksize=1000, passes=1,
-               alpha='auto', eta='auto')
+cabeceras = ["num_topics", "alpha", "beta"]
+archivo = open("GensimParams" + ruta + ".csv", "w")
+writer = csv.writer(archivo)
+writer.writerow(cabeceras)
+archivo.close()
+print("PREPARANDO ARCHIVO .CSV PARA VOLCAR PARAMETROS...")
 
-# Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
-topicos = lda.print_topics(num_words=5, num_topics=50)
-for topico in topicos:
-    print(topico)
+for nTopics in range (10, 100, 5):
+    lda = LdaModel(corpus=corpus, id2word=diccionario,
+                   num_topics=nTopics, random_state=42,
+                   chunksize=1000, passes=1,
+                   alpha='auto', eta='auto')
 
+    # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
+    topicos = lda.print_topics(num_words=5, num_topics=50)
+    for topico in topicos:
+        print(topico)
+
+    #hay q sacar el valor de alpha y beta de alguna manera y lode symetric es sustituirlo por auto
+    archivo = open("GensimParams" + ruta + ".csv", "a")
+    contenido = [str(nTopics), str(alpha), str(eta)]
+    writer = csv.writer(archivo)
+    writer.writerow(contenido)  # se escribe cuando el array se completa
+    archivo.close()
+
+'''
 # Nube de palabras, donde se ven las palbras de los topicos con un tamaño equivalente a su relevancia en el documento
 for i in range(1, 5):
     plt.figure()
@@ -88,6 +106,7 @@ for i in range(1, 5):
     plt.axis("off")
     plt.title("Tópico " + str(i))
     plt.show()
+'''
 
 # Aqui imprimimos una review aleatoria para comprobar la eficacia de nuestro modelo
 indice_review = random.randint(0,len(df))
