@@ -13,7 +13,12 @@ from gensim.models import LdaModel
 import random
 import numpy as np
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
+# from wordcloud import WordCloud
+
+import logging
+logging.basicConfig(filename='gensim.log',
+                    format="%(asctime)s:%(levelname)s:%(message)s",
+                    level=logging.INFO)
 
 STOPWORDS = set(stopwords.words("english"))
 wnl = WordNetLemmatizer()
@@ -39,93 +44,121 @@ def lematizar(tokens):
 def estemizar(tokens):
     return [stemmer.stem(token) for token in tokens]
 
+
 # Parte 1: https://elmundodelosdatos.com/topic-modeling-gensim-fundamentos-preprocesamiento-textos/
-df = pd.read_csv("./HRBlockIntuitReviewsTrainDev_vLast7.csv")
-df = df[['reviewText', 'summary']]
-# 1.- Limpiamos (quitar caracteres especiaes, minúsculas...)
-df["Tokens"] = df.reviewText.apply(limpiar_texto)
-# 2.- Tokenizamos
-tokenizer= ToktokTokenizer()
-df["Tokens"] = df.Tokens.apply(tokenizer.tokenize)
-# 3.- Eliminar stopwords y digitos
-df["Tokens"] = df.Tokens.apply(eliminar_stopwords)
-# 4.- ESTEMIZAR / LEMATIZAR ???
-df["Tokens"] = df.Tokens.apply(estemizar)
-print(df.Tokens[0][0:10])
+data = pd.read_csv("data/HRBlockIntuitReviewsTrainDev_vLast7.csv")
+#data = data.head(500)
 
-# Parte 2: https://elmundodelosdatos.com/topic-modeling-gensim-asignacion-topicos/
-# Cargamos en el diccionario la lista de palabras que tenemos de las reviews
-diccionario = Dictionary(df.Tokens)
-print(f'Número de tokens: {len(diccionario)}') #mostrar el numero se palabras
 
-# Reducimos el diccionario filtrando las palabras mas raras o demasiado frecuentes
-# no_below = mantener tokens que se encuentran en el a menos x documentos
-# no_above = mantener tokens que se encuentran en no mas del 80% de los documentos
-diccionario.filter_extremes(no_below=2, no_above = 0.8)
-print(f'Número de tokens: {len(diccionario)}')
 
-# Creamos el corpus (por cada roken en el df) QUE ES UN ARRAY BOW
-corpus = [diccionario.doc2bow(review) for review in df.Tokens]
 
-# BOW de una review
-print(corpus[5])
 
-lda = LdaModel(corpus=corpus, id2word=diccionario,
-               num_topics=20, random_state=42,
-               chunksize=1000, passes=1,
-               alpha='auto', eta='auto')
 
-# Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
-topicos = lda.print_topics(num_words=5, num_topics=50)
-for topico in topicos:
-    print(topico)
+# Definimos las pruebas que vamos a hacer
+pruebas = []
+pruebas.append([HRNeg, "auto", "auto", 8])
+pruebas.append([HRPos, "auto", "auto", 13])
+pruebas.append([IntuitNeg, "auto", "auto", 13])
+pruebas.append([IntuitPos, "auto", "auto", 18])
 
-# Nube de palabras, donde se ven las palbras de los topicos con un tamaño equivalente a su relevancia en el documento
-for i in range(1, 5):
-    plt.figure()
-    plt.imshow(WordCloud(background_color='white', prefer_horizontal=1.0)
-               .fit_words(dict(lda.show_topic(i, 20))))
-    plt.axis("off")
-    plt.title("Tópico " + str(i))
-    plt.show()
+i = 1
+for prueba in pruebas:
 
-# Aqui imprimimos una review aleatoria para comprobar la eficacia de nuestro modelo
-indice_review = random.randint(0,len(df))
-review = df.iloc[indice_review]
+    print("Prueba " + str(i))
+    i = i+1
 
-print("***********************")
-print("\nReview: " + review[0] + "\n")
-print("***********************")
+    # Hiperparametros
+    df = prueba[0]
+    alpha = prueba[1]
+    beta = prueba[2]
+    n_topics = prueba[3]
+    # n_passes = prueba[4]
 
-# Obtenemos el BOW de la review
-# Obtenemos la distribucion de topicos
-bow_review = corpus[indice_review]
-distribucion_review = lda[bow_review]
+    # 1.- Limpiamos (quitar caracteres especiales, minúsculas...)
+    df["Tokens"] = df.reviewText.apply(limpiar_texto)
+    # 2.- Tokenizamos
+    tokenizer= ToktokTokenizer()
+    df["Tokens"] = df.Tokens.apply(tokenizer.tokenize)
+    # 3.- Eliminar stopwords y digitos
+    df["Tokens"] = df.Tokens.apply(eliminar_stopwords)
+    # 4.- ESTEMIZAR / LEMATIZAR ???
+    df["Tokens"] = df.Tokens.apply(estemizar)
+    print(df.Tokens[0][0:10])
 
-# Indices de los topicos mas significativos
-dist_indices = [topico[0] for topico in lda[bow_review]]
-# Contribución de los topicos mas significativos
-dist_contrib = [topico[1] for topico in lda[bow_review]]
+    # Parte 2: https://elmundodelosdatos.com/topic-modeling-gensim-asignacion-topicos/
+    # Cargamos en el diccionario la lista de palabras que tenemos de las reviews
+    diccionario = Dictionary(df.Tokens)
+    print(f'Número de tokens: {len(diccionario)}') #mostrar el numero se palabras
 
-# Representacion grafica de los topicos mas significativos
-distribucion_topicos = pd.DataFrame({'Topico':dist_indices,
-                                     'Contribucion':dist_contrib })
-distribucion_topicos.sort_values('Contribucion',
-                                 ascending=False, inplace=True)
-ax = distribucion_topicos.plot.bar(y='Contribucion',x='Topico',
-                                   rot=0, color="orange",
-                                   title = 'Tópicos mas importantes'
-                                   'de review ' + str(indice_review))
+    # Reducimos el diccionario filtrando las palabras mas raras o demasiado frecuentes
+    # no_below = mantener tokens que se encuentran en el a menos x documentos
+    # no_above = mantener tokens que se encuentran en no mas del 80% de los documentos
+    diccionario.filter_extremes(no_below=2, no_above = 0.8)
+    print(f'Número de tokens: {len(diccionario)}')
 
-plt.show()
+    # Creamos el corpus (por cada roken en el df) QUE ES UN ARRAY BOW
+    corpus = [diccionario.doc2bow(review) for review in df.Tokens]
 
-# Imprimimos las palabras mas significativas de los topicos
-for ind, topico in distribucion_topicos.iterrows():
-    print("*** Tópico: " + str(int(topico.Topico)) + " ***")
-    palabras = [palabra[0] for palabra in lda.show_topic(
-        topicid=int(topico.Topico))]
-    palabras = ', '.join(palabras)
-    print(palabras, "\n")
+    # BOW de una review
+    print(corpus[5])
+
+    lda = LdaModel(corpus=corpus, id2word=diccionario,
+                   num_topics=n_topics, random_state=42,
+                   chunksize=1000, passes=30,
+                   alpha=alpha, eta=beta,
+                   eval_every=5)
+
+    # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
+    topicos = lda.print_topics(num_words=5, num_topics=50)
+    print("----------------------------------------------------------")
+    for topico in topicos:
+        print(topico)
+
+    # Nube de palabras, donde se ven las palbras de los topicos con un tamaño equivalente a su relevancia en el documento
+    '''for i in range(1, 5):
+        plt.figure()
+        plt.imshow(WordCloud(background_color='white', prefer_horizontal=1.0)
+                   .fit_words(dict(lda.show_topic(i, 20))))
+        plt.axis("off")
+        plt.title("Tópico " + str(i))
+        plt.show()'''
+
+    # Aqui imprimimos una review aleatoria para comprobar la eficacia de nuestro modelo
+    indice_review = random.randint(0,len(df))
+    review = df.iloc[indice_review]
+
+    print("***********************")
+    print("\nReview: " + review[0] + "\n")
+    print("***********************")
+
+    # Obtenemos el BOW de la review
+    # Obtenemos la distribucion de topicos
+    bow_review = corpus[indice_review]
+    distribucion_review = lda[bow_review]
+
+    # Indices de los topicos mas significativos
+    dist_indices = [topico[0] for topico in lda[bow_review]]
+    # Contribución de los topicos mas significativos
+    dist_contrib = [topico[1] for topico in lda[bow_review]]
+
+    # Representacion grafica de los topicos mas significativos
+    distribucion_topicos = pd.DataFrame({'Topico':dist_indices,
+                                         'Contribucion':dist_contrib })
+    distribucion_topicos.sort_values('Contribucion',
+                                     ascending=False, inplace=True)
+    ax = distribucion_topicos.plot.bar(y='Contribucion',x='Topico',
+                                       rot=0, color="orange",
+                                       title = 'Tópicos mas importantes'
+                                       'de review ' + str(indice_review))
+    # plt.show()
+
+    # Imprimimos las palabras mas significativas de los topicos
+    for ind, topico in distribucion_topicos.iterrows():
+        print("*** Tópico: " + str(int(topico.Topico)) + " ***")
+        palabras = [palabra[0] for palabra in lda.show_topic(
+            topicid=int(topico.Topico))]
+        palabras = ', '.join(palabras)
+        print(palabras, "\n")
 
 """
 # Podemos incluir una nueva review para probar el modelo

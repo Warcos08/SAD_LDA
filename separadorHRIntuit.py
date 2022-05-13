@@ -57,7 +57,7 @@ def main():
             nombre = "IntuitPos.csv"
             df = IntuitPos
 
-        f = open("data/Gensim" + str(i) + ".csv")
+        f = open("data/" + nombre)
         writer = csv.writer(f)
 
         writer.writerow(["reviewText", "summary"])
