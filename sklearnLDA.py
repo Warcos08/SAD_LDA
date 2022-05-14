@@ -50,7 +50,7 @@ eta = float(input("Introduce el valor de eta (EJ: 0.25, 1.0, 1.25...):"))
 
 #file = "HRBlockIntuitReviewsTrainDev_vLast7.csv"
 df = pd.read_csv(file)
-df = df.head(5000)  #a veces con más datos da fallos y no sé porque
+df = df.sample(n=5000, random_state=1)  #a veces con más datos da fallos y no sé porque
 documents = df['reviewText'].tolist()
 
 from sklearn.feature_extraction.text import CountVectorizer
