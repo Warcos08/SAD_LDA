@@ -1,0 +1,14 @@
+num_topics_Total,alpha,beta,topicoAct,words
+13,2.0,2.0,0, year 0.02649 software 0.0262 tax 0.02389 state 0.02149 block 0.02121 turbotax 0.01658 program 0.01505 return 0.01462 taxcut 0.0128 file 0.01112
+13,2.0,2.0,1, used 0.0101 years 0.00945 software 0.00466 using 0.00352 great 0.00319 good 0.00311 price 0.00291 tax 0.00261 product 0.00247 taxes 0.00232
+13,2.0,2.0,2, good 0.00815 taxes 0.00545 software 0.00496 used 0.00389 price 0.00307 years 0.00295 product 0.00277 great 0.00261 using 0.00218 year 0.00208
+13,2.0,2.0,3, worked 0.02516 software 0.00664 good 0.00554 used 0.00442 years 0.00426 fine 0.00354 great 0.00307 tax 0.00248 problems 0.00243 price 0.00229
+13,2.0,2.0,4, product 0.00639 software 0.00425 used 0.00345 great 0.00333 years 0.0032 good 0.00293 price 0.00253 easy 0.0025 works 0.00249 taxes 0.00202
+13,2.0,2.0,5, use 0.08129 easy 0.06487 software 0.01101 years 0.00976 using 0.00876 taxes 0.00625 used 0.00621 block 0.00538 year 0.00521 fairly 0.00451
+13,2.0,2.0,6, taxes 0.02683 years 0.01882 using 0.01274 used 0.0105 easy 0.00929 software 0.00821 great 0.00567 product 0.00543 program 0.00432 good 0.00407
+13,2.0,2.0,7, good 0.00386 software 0.00321 used 0.00287 years 0.00285 great 0.00236 works 0.00213 using 0.00204 step 0.00201 price 0.00198 product 0.00197
+13,2.0,2.0,8, tax 0.09488 turbo 0.04732 cut 0.01864 years 0.01177 used 0.01115 software 0.00539 year 0.00485 price 0.00447 using 0.00438 easy 0.00345
+13,2.0,2.0,9, software 0.00417 years 0.00369 works 0.00294 good 0.00285 great 0.00267 used 0.00228 using 0.00219 product 0.00208 price 0.00208 taxes 0.00203
+13,2.0,2.0,10, good 0.01165 great 0.0092 product 0.00734 used 0.00395 years 0.00368 price 0.00325 works 0.00258 software 0.00255 taxes 0.00227 using 0.00218
+13,2.0,2.0,11, product 0.02337 years 0.01954 used 0.0102 easy 0.00874 using 0.00735 great 0.00537 good 0.00532 software 0.00431 use 0.00412 price 0.00404
+13,2.0,2.0,12, product 0.01685 years 0.00761 great 0.00573 good 0.00553 works 0.00523 price 0.00506 software 0.00442 using 0.00382 used 0.00375 taxes 0.00219
