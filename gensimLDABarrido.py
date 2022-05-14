@@ -60,8 +60,6 @@ df["Tokens"] = df.Tokens.apply(eliminar_stopwords)
 df["Tokens"] = df.Tokens.apply(estemizar)
 print(df.Tokens[0][0:10])
 
-
-
 # ---> Parte 2: https://elmundodelosdatos.com/topic-modeling-gensim-asignacion-topicos/
 # Cargamos en el diccionario la lista de palabras que tenemos de las reviews
 diccionario = Dictionary(df.Tokens)
@@ -79,49 +77,62 @@ corpus = [diccionario.doc2bow(review) for review in df.Tokens]
 # BOW de una review
 print(corpus[5])
 
-cabeceras = ["num_topics", "alpha", "beta"]
+cabeceras = ["num_topics_Total", "alpha", "beta", "topicoAct", "words"]
 nombreCSV="GensimParams" + ruta.split('/')[-1].split('/')[-1]
 archivo = open(nombreCSV, "w")
 writer = csv.writer(archivo)
 writer.writerow(cabeceras)
 archivo.close()
 print("PREPARANDO ARCHIVO .CSV PARA VOLCAR PARAMETROS...")
+archivo = open(nombreCSV, "a")
+tipo = 'auto'
 
-for t in range(0, 2):
-    if t == 0:
-        tipo = 'auto'
-    elif t == 1:
-        tipo = 'symmetric'
+for nTopics in range (10, 101, 5):
 
+    print("------------------------------")
+    print("alpha and beta --> " + tipo)
+    print("n_topics --> " + str(nTopics))
+    print("------------------------------")
 
-    for nTopics in range (10, 101, 5):
+    lda = LdaModel(corpus=corpus, id2word=diccionario,
+                   num_topics=nTopics, random_state=42,
+                   chunksize=1000, passes=10,
+                   alpha=tipo, eta=tipo)
 
-        print("------------------------------")
-        print("alpha and beta --> " + tipo)
-        print("n_topics --> " + str(nTopics))
-        print("------------------------------")
+    # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
+    topicos = lda.print_topics(num_words=5, num_topics=nTopics)
+    for topico in topicos:
+        print(topico)
 
-        lda = LdaModel(corpus=corpus, id2word=diccionario,
-                       num_topics=nTopics, random_state=42,
-                       chunksize=1000, passes=10,
-                       alpha=tipo, eta=tipo)
-
-        # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
-        topicos = lda.print_topics(num_words=5, num_topics=nTopics)
-        for topico in topicos:
-            print(topico)
-
-        print('ALPHA -->' + str(lda.alpha))
-        print('ETA -->' + str(lda.eta))
-
-        #hay q sacar el valor de alpha y beta de alguna manera y lode symetric es sustituirlo por auto
-        archivo = open(nombreCSV, "a")
-        contenido = [str(nTopics), str(lda.alpha), str(lda.eta)]
+    print('ALPHA -->' + str(lda.alpha))
+    print('ETA -->' + str(lda.eta))
+    infoTopics = lda.print_topics(nTopics, 10)
+    #hay q sacar el valor de alpha y beta de alguna manera y lode symetric es sustituirlo por auto
+    for i in range (0, nTopics):
+        contenido = [str(nTopics), str(lda.alpha), str(lda.eta), i, infoTopics[i]]
         writer = csv.writer(archivo)
         writer.writerow(contenido)  # se escribe cuando el array se completa
-        archivo.close()
+
+archivo.close()
+
+
+# COSAS QUE NO USAMOS PERO NO VIENEN TENERLAS POR AQUÍ
+# FUNCIÓN IMPRIMIR
 '''
-# Nube de palabras, donde se ven las palbras de los topicos con un tamaño equivalente a su relevancia en el documento
+# Indices de los topicos mas significativos
+dist_indices = [topico[0] for topico in lda[bow_review]]
+# Contribución de los topicos mas significativos
+dist_contrib = [topico[1] for topico in lda[bow_review]]
+
+for ind, topico in distribucion_topicos.iterrows():
+    print("*** Tópico: " + str(int(topico.Topico)) + " ***")
+    palabras = [palabra[0] for palabra in lda.show_topic(
+        topicid=int(topico.Topico))]
+    palabras = ', '.join(palabras)
+    print(palabras, "\n")'''
+
+# NUBE DE PALABRAS
+'''
 for i in range(1, 5):
     plt.figure()
     plt.imshow(WordCloud(background_color='white', prefer_horizontal=1.0)
@@ -131,25 +142,8 @@ for i in range(1, 5):
     plt.show()
 '''
 
-# Aqui imprimimos una review aleatoria para comprobar la eficacia de nuestro modelo
-indice_review = random.randint(0,len(df))
-review = df.iloc[indice_review]
-
-print("***********************")
-print("\nReview: " + review[0] + "\n")
-print("***********************")
-
-# Obtenemos el BOW de la review
-# Obtenemos la distribucion de topicos
-bow_review = corpus[indice_review]
-distribucion_review = lda[bow_review]
-
-# Indices de los topicos mas significativos
-dist_indices = [topico[0] for topico in lda[bow_review]]
-# Contribución de los topicos mas significativos
-dist_contrib = [topico[1] for topico in lda[bow_review]]
-
-# Representacion grafica de los topicos mas significativos
+# REPRESENTACIÓN GRÁFICA
+'''
 distribucion_topicos = pd.DataFrame({'Topico':dist_indices,
                                      'Contribucion':dist_contrib })
 distribucion_topicos.sort_values('Contribucion',
@@ -159,16 +153,9 @@ ax = distribucion_topicos.plot.bar(y='Contribucion',x='Topico',
                                    title = 'Tópicos mas importantes'
                                    'de review ' + str(indice_review))
 
-plt.show()
+plt.show()'''
 
-# Imprimimos las palabras mas significativas de los topicos
-for ind, topico in distribucion_topicos.iterrows():
-    print("*** Tópico: " + str(int(topico.Topico)) + " ***")
-    palabras = [palabra[0] for palabra in lda.show_topic(
-        topicid=int(topico.Topico))]
-    palabras = ', '.join(palabras)
-    print(palabras, "\n")
-
+# PROBAR EL MODELO
 """
 # Podemos incluir una nueva review para probar el modelo
 texto_review = open("review.txt")
@@ -203,7 +190,7 @@ for ind, topico in distribucion_topicos.iterrows():
     print(palabras, "\n")
 """
 
-# Guardamos el modelo y el diccionario para usarlo de nuevo mas adelante
-# lda.save("review.model")
-# diccionario.save("review.dictionary")
-
+# GUARDAR EL MODELO
+'''lda.save("review.model")
+diccionario.save("review.dictionary")
+'''
