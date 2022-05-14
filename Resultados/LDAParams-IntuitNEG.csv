@@ -1,14 +1,14 @@
 num_topics_Total,alpha,beta,topicoAct,words
-13,2.0,2.0,0, intuit 0.0173 quicken 0.01688 software 0.01477 turbotax 0.01436 tax 0.01389 product 0.013 year 0.01286 years 0.01099 version 0.01033 program 0.00914
-13,2.0,2.0,1, disk 0.00046 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 shame 0.00032 does 0.00031
-13,2.0,2.0,2, disk 0.00046 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 shame 0.00032 state 0.00032
-13,2.0,2.0,3, disk 0.00046 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 shame 0.00032 state 0.00031
-13,2.0,2.0,4, disk 0.00045 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 state 0.00032 shame 0.00032
-13,2.0,2.0,5, disk 0.00046 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 shame 0.00032 state 0.00031
-13,2.0,2.0,6, disk 0.00046 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 state 0.00032 shame 0.00032
-13,2.0,2.0,7, disk 0.00046 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 state 0.00032 shame 0.00032
-13,2.0,2.0,8, disk 0.00046 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 state 0.00032 shame 0.00032
-13,2.0,2.0,9, disk 0.00046 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 state 0.00032 shame 0.00032
-13,2.0,2.0,10, disk 0.00045 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00033 state 0.00032 shame 0.00032
-13,2.0,2.0,11, disk 0.00046 load 0.00041 waste 0.00037 os 0.00036 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 shame 0.00032 state 0.00032
-13,2.0,2.0,12, disk 0.00046 load 0.00041 waste 0.00037 os 0.00037 work 0.00035 thanks 0.00034 did 0.00033 bye 0.00032 shame 0.00032 does 0.00031
+13,0.9,0.9,0, product 0.03106 real 0.01062 wish 0.00858 changes 0.00677 old 0.00652 poor 0.00642 little 0.00631 year 0.00624 love 0.00516 rating 0.00494
+13,0.9,0.9,1, bookkeeping 0.00359 overpriced 0.00239 accounting 0.00199 package 0.00197 companies 0.00182 currency 0.00177 harder 0.00157 news 0.00094 suggest 0.00089 traditional 0.00082
+13,0.9,0.9,2, tax 0.02989 year 0.02496 turbotax 0.02477 state 0.01664 return 0.01321 turbo 0.01294 software 0.0126 deluxe 0.01235 years 0.01162 product 0.01118
+13,0.9,0.9,3, crap 0.00083 confusing 0.0003 terrible 0.00029 meet 0.00029 staying 0.00028 garbage 0.00027 awful 0.00027 disappointed 0.00026 returned 0.00026 expectations 0.00026
+13,0.9,0.9,4, computer 0.02427 install 0.01839 intuit 0.01311 program 0.01169 copy 0.01048 installed 0.0096 software 0.00806 cd 0.00783 running 0.00671 turbotax 0.00663
+13,0.9,0.9,5, election 0.00131 treat 0.00098 attachments 0.00083 safe 0.00064 crap 0.00062 asset 0.00059 met 0.00056 nags 0.00041 integrated 0.00038 18 0.00038
+13,0.9,0.9,6, crap 0.00124 confusing 0.0003 terrible 0.00029 meet 0.00028 staying 0.00028 garbage 0.00027 awful 0.00027 disappointed 0.00026 returned 0.00026 difficult 0.00026
+13,0.9,0.9,7, chris 0.00225 hi 0.00065 crap 0.00062 resolution 0.00052 okay 0.00052 res 0.00051 posting 0.00041 contacting 0.00038 group 0.00035 monitors 0.00034
+13,0.9,0.9,8, blah 0.00334 crap 0.00079 toll 0.00041 meeting 0.0003 confusing 0.00029 goodbye 0.00029 terrible 0.00028 busy 0.00028 58 0.00028 meet 0.00027
+13,0.9,0.9,9, quicken 0.0343 transactions 0.02002 account 0.01994 accounts 0.01746 bank 0.00946 enter 0.00698 transaction 0.00551 register 0.00547 update 0.00536 payment 0.00535
+13,0.9,0.9,10, crap 0.00098 confusing 0.0003 terrible 0.00029 meet 0.00028 staying 0.00028 garbage 0.00027 awful 0.00027 disappointed 0.00026 returned 0.00026 expectations 0.00026
+13,0.9,0.9,11, quicken 0.02522 version 0.01686 intuit 0.0139 software 0.01376 time 0.01132 support 0.01061 product 0.01018 years 0.00927 program 0.00903 just 0.00868
+13,0.9,0.9,12, crap 0.00064 confusing 0.0003 terrible 0.00029 meet 0.00028 staying 0.00028 garbage 0.00027 awful 0.00027 disappointed 0.00026 returned 0.00026 difficult 0.00026
