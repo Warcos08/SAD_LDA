@@ -44,9 +44,9 @@ def display_topics(H, W, feature_names, documents, no_top_words, no_top_document
 # Tutorial: https://blog.mlreview.com/topic-modeling-with-scikit-learn-e80d33668730
 # Tutorial2: https://machinelearninggeek.com/latent-dirichlet-allocation-using-scikit-learn/
 file = str(input("Introduce el path relativo (EJ: ./data/nombre.csv) :"))
-nTopics = int(input("Introduce el numero de topicos:"))
-alpha = float(input("Introduce el valor de alpha:"))
-eta = float(input("Introduce el valor de eta:"))
+nTopics = int(input("Introduce el numero de topicos (EJ: 1,2,3...):"))
+alpha = float(input("Introduce el valor de alpha (EJ: 0.25, 1.0, 1.25...):"))
+eta = float(input("Introduce el valor de eta (EJ: 0.25, 1.0, 1.25...):"))
 
 #file = "HRBlockIntuitReviewsTrainDev_vLast7.csv"
 df = pd.read_csv(file)
