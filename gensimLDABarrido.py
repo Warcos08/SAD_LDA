@@ -87,11 +87,11 @@ writer.writerow(cabeceras)
 archivo.close()
 print("PREPARANDO ARCHIVO .CSV PARA VOLCAR PARAMETROS...")
 
-for t in range (0,2):
-    if t==0:
-        tipo='auto'
-    elif t==1:
-        tipo='symmeytric'
+for t in range(0, 2):
+    if t == 0:
+        tipo = 'auto'
+    elif t == 1:
+        tipo = 'symmetric'
 
 
     for nTopics in range (10, 101, 5):
@@ -103,22 +103,23 @@ for t in range (0,2):
 
         lda = LdaModel(corpus=corpus, id2word=diccionario,
                        num_topics=nTopics, random_state=42,
-                       chunksize=1000, passes=1,
+                       chunksize=1000, passes=10,
                        alpha=tipo, eta=tipo)
 
         # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
-        topicos = lda.print_topics(num_words=5, num_topics=50)
+        topicos = lda.print_topics(num_words=5, num_topics=nTopics)
         for topico in topicos:
             print(topico)
 
-        #hay q sacar el valor de alpha y beta de alguna manera y lode symetric es sustituirlo por auto
+        print('ALPHA -->' + str(lda.alpha))
+        print('ETA -->' + str(lda.eta))
 
+        #hay q sacar el valor de alpha y beta de alguna manera y lode symetric es sustituirlo por auto
         archivo = open(nombreCSV, "a")
-        contenido = [str(nTopics), str(alpha), str(eta)]
+        contenido = [str(nTopics), str(lda.alpha), str(lda.eta)]
         writer = csv.writer(archivo)
         writer.writerow(contenido)  # se escribe cuando el array se completa
         archivo.close()
-
 '''
 # Nube de palabras, donde se ven las palbras de los topicos con un tamaño equivalente a su relevancia en el documento
 for i in range(1, 5):
