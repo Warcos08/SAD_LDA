@@ -2,7 +2,7 @@ import pandas as pd
 import csv
 
 def main():
-    data = pd.read_csv("HRBlockIntuitReviewsTrainDev_vLast7.csv")
+    data = pd.read_csv("data/HRBlockIntuitReviewsTrainDev_vLast7.csv")
     data = data[['overall', 'brand', 'reviewText', 'summary']]
 
     # Formo los dataframes que vamos a utilizar en cada prueba
