@@ -50,12 +50,12 @@ eta = float(input("Introduce el valor de eta (EJ: 0.25, 1.0, 1.25...):"))
 
 #file = "HRBlockIntuitReviewsTrainDev_vLast7.csv"
 df = pd.read_csv(file)
-df = df.sample(n=5000, random_state=1)  #a veces con más datos da fallos y no sé porque
-documents = df['reviewText'].tolist()
+#df = df.sample(n=6000, random_state=1)  #a veces con más datos da fallos y no sé porque
+documents = df['reviewText']
 
 from sklearn.feature_extraction.text import CountVectorizer
 tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words="english")
-tf = tf_vectorizer.fit_transform(documents)
+tf = tf_vectorizer.fit_transform(documents.values.astype(str))
 tf_feature_names = tf_vectorizer.get_feature_names()
 
 from sklearn.decomposition import LatentDirichletAllocation
