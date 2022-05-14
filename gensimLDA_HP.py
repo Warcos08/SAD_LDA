@@ -80,9 +80,9 @@ corpus = [diccionario.doc2bow(review) for review in df.Tokens]
 print(corpus[5])
 
 lda = LdaModel(corpus=corpus, id2word=diccionario,
-               num_topics=12, random_state=42,
+               num_topics=28, random_state=42,
                chunksize=1000, passes=1,
-               alpha='auto', eta='auto')
+               alpha=2, eta=2)
 
 # Imprimimos los topicos creados con las 5 palabras que más contribuyen a ese tópico y sus pesos
 topicos = lda.print_topics(num_words=5, num_topics=50)
@@ -122,11 +122,10 @@ plt.show()
 
 # Imprimimos las palabras mas significativas de los topicos
 cabeceras = ["num_topics", "alpha", "beta"]
-nombreTXT = "Gnsm_" + "nTopics:" + str(lda.num_topics) + "_alphaBeta:" + str(lda.alpha)+str(lda.eta) + ".txt"
+nombreTXT = "Gnsm-" + "nTopics_" + str(lda.num_topics) + "-alpha_" + str(lda.alpha[0]).split(".")[0] + "-beta_" + str(lda.eta[0]).split(".")[0] + ".txt"
 print(nombreTXT)
 archivo = open(nombreTXT, "w")
 writer = csv.writer(archivo)
-archivo.close()
 print("PREPARANDO ARCHIVO .TXT PARA VOLCAR DISTRIBUCION PALABRAS EN LOS TOPICOS...")
 
 
