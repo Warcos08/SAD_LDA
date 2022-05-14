@@ -9,7 +9,7 @@ from sklearn.decomposition import LatentDirichletAllocation
 def display_topics(H, W, feature_names, documents, no_top_words, no_top_documents):
 
     cabeceras = ["num_topics_Total", "alpha", "beta", "topicoAct", "words"]
-    nombreCSV="LDAParams-" + file.split('/')[-1].split('/')[-1]
+    nombreCSV="Resultados/LDAParams-" + file.split('/')[-1].split('/')[-1]
     archivo = open(nombreCSV, "w")
     writer = csv.writer(archivo)
     writer.writerow(cabeceras)
