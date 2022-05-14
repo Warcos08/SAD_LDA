@@ -78,7 +78,7 @@ corpus = [diccionario.doc2bow(review) for review in df.Tokens]
 print(corpus[5])
 
 cabeceras = ["num_topics_Total", "alpha", "beta", "topicoAct", "words"]
-nombreCSV="GensimParams" + ruta.split('/')[-1].split('/')[-1]
+nombreCSV="Resultados/GensimParams" + ruta.split('/')[-1].split('/')[-1]
 archivo = open(nombreCSV, "w")
 writer = csv.writer(archivo)
 writer.writerow(cabeceras)

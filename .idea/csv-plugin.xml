@@ -3,14 +3,21 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="/HRNEG.csv">
+        <entry key="/GensimParamsHRNEG.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/data/Gensim1.csv">
+        <entry key="/GensimParamsIntuitNEG.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Resultados/GensimParamsHRPOS.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -25,6 +32,13 @@
           </value>
         </entry>
         <entry key="/data/HRPOS.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/IntuitNEG.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
