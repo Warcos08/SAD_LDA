@@ -1,0 +1,14 @@
+num_topics_Total,alpha,beta,topicoAct,words
+13,2.0,2.0,0, work 0.06675 does 0.05292 bought 0.03663 bad 0.0207 buy 0.01758 lost 0.01459 did 0.01441 terrible 0.01053 recommend 0.00953 friendly 0.00794
+13,2.0,2.0,1, support 0.03821 problem 0.02043 help 0.01675 tried 0.01358 hours 0.01353 time 0.01101 error 0.01037 phone 0.00961 customer 0.00921 got 0.00906
+13,2.0,2.0,2, version 0.11903 mac 0.04698 windows 0.03443 new 0.02033 versions 0.01589 pc 0.01437 old 0.01424 2015 0.01335 2007 0.01213 features 0.01136
+13,2.0,2.0,3, disappointed 0.01837 useless 0.01571 difficult 0.01256 order 0.01106 refund 0.00734 totally 0.00707 returned 0.00684 amazon 0.00683 item 0.00676 unable 0.00636
+13,2.0,2.0,4, quicken 0.09607 data 0.02006 transactions 0.01772 account 0.01712 accounts 0.01523 bank 0.01449 update 0.00884 new 0.00848 2013 0.0084 financial 0.00832
+13,2.0,2.0,5, software 0.14907 money 0.0657 time 0.01727 waste 0.01397 better 0.0136 worst 0.01136 microsoft 0.01111 wish 0.00989 trying 0.00837 piece 0.00707
+13,2.0,2.0,6, don 0.04834 just 0.04695 like 0.03492 download 0.03299 time 0.024 want 0.02235 know 0.01665 doesn 0.01636 way 0.01629 won 0.01298
+13,2.0,2.0,7, program 0.08248 computer 0.02678 install 0.01822 installed 0.01335 intuit 0.01068 files 0.01002 copy 0.00989 hard 0.0092 new 0.00862 cd 0.00732
+13,2.0,2.0,8, years 0.07892 upgrade 0.04806 used 0.04582 ve 0.04135 using 0.03074 reviews 0.01608 2014 0.01188 longer 0.01162 ll 0.01162 forced 0.01094
+13,2.0,2.0,9, intuit 0.08152 quickbooks 0.0274 business 0.02529 company 0.01752 customer 0.01701 customers 0.01405 pay 0.0127 payroll 0.0118 qb 0.01125 service 0.00919
+13,2.0,2.0,10, use 0.11382 10 0.02459 purchased 0.02223 thought 0.01693 easy 0.01677 able 0.01329 wanted 0.0105 20 0.00864 purchase 0.0076 easier 0.00624
+13,2.0,2.0,11, tax 0.05362 year 0.04834 turbotax 0.04546 state 0.02799 return 0.02531 turbo 0.02431 deluxe 0.02279 file 0.01809 taxes 0.01671 forms 0.01052
+13,2.0,2.0,12, product 0.13162 user 0.02792 simple 0.01262 bugs 0.01119 away 0.00766 poor 0.00765 long 0.00757 making 0.00666 better 0.00546 release 0.00535
