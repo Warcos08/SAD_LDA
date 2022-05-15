@@ -1,9 +1,9 @@
-num_topics_Total,alpha,beta,topicoAct,words
-8,2.0,2.0,0, software 0.02402 block 0.01781 support 0.0157 program 0.01335 update 0.01146 problem 0.00957 time 0.00917 download 0.00916 customer 0.00897 amazon 0.00847
-8,2.0,2.0,1, buy 0.00087 product 0.00082 horrible 0.00077 terrible 0.00075 does 0.00064 hard 0.00055 disappointed 0.00055 friendly 0.00054 ordered 0.00052 buying 0.00052
-8,2.0,2.0,2, agent 0.00799 available 0.00764 moment 0.00406 thank 0.00395 currently 0.00373 agents 0.00264 stand 0.00258 busy 0.00245 patience 0.00225 missing 0.0018
-8,2.0,2.0,3, buy 0.00081 terrible 0.00073 horrible 0.00072 does 0.00071 product 0.0007 hard 0.0007 software995 0.00058 friendly 0.00057 party 0.00056 sorry 0.00055
-8,2.0,2.0,4, tax 0.03497 software 0.02396 state 0.02375 return 0.01948 year 0.0181 turbotax 0.0149 block 0.01472 file 0.01195 program 0.0117 taxes 0.01143
-8,2.0,2.0,5, stock 0.00536 transactions 0.00303 1099 0.00295 financial 0.0026 sales 0.0023 terrible 0.00212 does 0.00195 capital 0.00181 brokerage 0.00173 limited 0.00171
-8,2.0,2.0,6, list 0.00186 policy 0.00175 product 0.00171 value 0.00157 poorly 0.00147 does 0.00138 privacy 0.00122 item 0.00121 wizard 0.00117 junk 0.00111
-8,2.0,2.0,7, money 0.02219 waste 0.01342 total 0.00274 contributions 0.00273 donations 0.0014 buy 0.00138 non 0.00137 cash 0.00118 worthless 0.00117 month 0.00109
+num_topics_Total,alpha,beta,topicoAct,words
+8,0.9,0.9,0, turbotax 0.02535 tax 0.01955 year 0.0187 software 0.01396 form 0.01333 forms 0.01269 taxcut 0.01252 program 0.01052 business 0.01051 data 0.00947
+8,0.9,0.9,1, terrible 0.01548 horrible 0.00928 junk 0.0064 crap 0.00452 piece 0.00399 bother 0.0028 marketing 0.00253 head 0.00189 valid 0.00186 itin 0.00183
+8,0.9,0.9,2, agent 0.01669 available 0.01538 thank 0.00847 moment 0.00837 currently 0.0081 agents 0.00548 stand 0.00521 busy 0.00516 support 0.0046 patience 0.00452
+8,0.9,0.9,3, self 0.01216 employed 0.00782 worthless 0.00696 w2 0.00552 wife 0.0054 calculate 0.00404 aca 0.00386 months 0.00378 proper 0.0037 accountant 0.00362
+8,0.9,0.9,4, software 0.03072 state 0.02866 tax 0.02841 block 0.02324 return 0.0187 file 0.01583 turbo 0.01185 year 0.01101 program 0.00998 support 0.00966
+8,0.9,0.9,5, update 0.02126 software 0.02019 program 0.01834 download 0.01598 block 0.01362 install 0.0126 work 0.01073 tried 0.00933 amazon 0.00906 support 0.00872
+8,0.9,0.9,6, bonus 0.00535 policy 0.00494 gift 0.00371 sell 0.00335 privacy 0.00288 reps 0.00276 services 0.00256 notice 0.00237 pin 0.00232 protection 0.0022
+8,0.9,0.9,7, money 0.04047 waste 0.02302 ira 0.00732 total 0.00591 contributions 0.00519 link 0.00402 worth 0.00374 non 0.00364 charitable 0.00295 add 0.00295
