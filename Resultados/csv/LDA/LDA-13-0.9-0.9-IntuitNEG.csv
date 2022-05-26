@@ -1,0 +1,14 @@
+num_topics_Total,alpha,beta,topicoAct,words
+13,0.9,0.9,0, 2014 0.03478 2013 0.0337 problems 0.02241 bugs 0.01824 updates 0.01749 release 0.01589 2016 0.01445 fix 0.01225 crashes 0.01153 terrible 0.01107
+13,0.9,0.9,1, support 0.04207 problem 0.022 help 0.01682 time 0.01583 hours 0.01543 tried 0.01398 customer 0.01346 error 0.01116 phone 0.01092 service 0.01032
+13,0.9,0.9,2, product 0.24904 download 0.04489 personal 0.02073 recommend 0.01691 link 0.01624 com 0.01297 2008 0.00976 products 0.00826 data 0.00716 review 0.00694
+13,0.9,0.9,3, amazon 0.05431 refund 0.04667 purchased 0.03711 purchase 0.03496 did 0.02797 disappointed 0.01912 order 0.01674 box 0.01186 download 0.01002 received 0.00983
+13,0.9,0.9,4, intuit 0.05958 years 0.03527 upgrade 0.03447 ve 0.01785 year 0.01556 version 0.01396 reviews 0.01298 customers 0.01297 deluxe 0.01239 customer 0.01065
+13,0.9,0.9,5, program 0.01792 information 0.01446 enter 0.01221 does 0.01175 income 0.00998 simple 0.00888 stock 0.0077 correct 0.00739 wrong 0.0068 investment 0.00676
+13,0.9,0.9,6, quicken 0.06592 transactions 0.0221 account 0.02138 accounts 0.01901 bank 0.01819 update 0.01007 new 0.00988 online 0.00965 download 0.00954 data 0.00913
+13,0.9,0.9,7, computer 0.0362 program 0.03438 software 0.02769 install 0.02488 intuit 0.0228 installed 0.01799 copy 0.01385 turbotax 0.01084 hard 0.01034 new 0.01014
+13,0.9,0.9,8, money 0.05911 don 0.05157 software 0.04489 just 0.03923 buy 0.03799 work 0.02512 doesn 0.01749 bought 0.01748 want 0.01652 use 0.01566
+13,0.9,0.9,9, version 0.09732 quicken 0.09472 mac 0.04605 windows 0.03373 data 0.0259 new 0.01733 old 0.01582 years 0.01407 using 0.01403 pc 0.01322
+13,0.9,0.9,10, quickbooks 0.04299 business 0.03371 payroll 0.0185 qb 0.01779 software 0.01645 company 0.01593 pay 0.01536 intuit 0.0132 small 0.01223 pro 0.01116
+13,0.9,0.9,11, tax 0.06532 turbotax 0.05278 year 0.04707 state 0.03409 return 0.03053 turbo 0.02966 file 0.02162 taxes 0.02042 deluxe 0.01507 years 0.0133
+13,0.9,0.9,12, user 0.03264 use 0.03063 better 0.02438 like 0.0177 time 0.01123 make 0.01093 interface 0.01058 easy 0.01 little 0.00949 difficult 0.00927

@@ -1,0 +1,14 @@
+num_topics_Total,alpha,beta,topicoAct,words
+13,0.9,0.9,0, product 0.13597 great 0.11122 price 0.10226 good 0.0995 recommend 0.0299 buy 0.01519 highly 0.01468 value 0.01396 right 0.01007 brand 0.00539
+13,0.9,0.9,1, state 0.06823 return 0.04045 file 0.03403 federal 0.03007 filing 0.02521 taxcut 0.02264 returns 0.02192 free 0.02087 pay 0.01107 don 0.01077
+13,0.9,0.9,2, program 0.15712 simple 0.037 user 0.02864 process 0.02543 taxes 0.02511 step 0.02297 friendly 0.02068 follow 0.01675 nice 0.01189 instructions 0.00931
+13,0.9,0.9,3, years 0.15129 used 0.10671 software 0.09739 using 0.08169 block 0.06551 ve 0.04993 works 0.03042 past 0.01778 10 0.01152 happy 0.01137
+13,0.9,0.9,4, does 0.03719 job 0.02116 needs 0.02022 perfect 0.01129 advertised 0.00983 complex 0.00802 clear 0.00705 stock 0.00676 irs 0.00648 usual 0.00614
+13,0.9,0.9,5, use 0.18983 easy 0.17366 year 0.06817 taxes 0.05883 software 0.02563 best 0.01895 makes 0.01889 doing 0.01631 easier 0.01562 accurate 0.00953
+13,0.9,0.9,6, worked 0.03276 problems 0.0249 did 0.02275 problem 0.01985 fine 0.0174 just 0.01503 update 0.01351 issues 0.01248 install 0.01139 work 0.01084
+13,0.9,0.9,7, tax 0.15092 turbo 0.04618 software 0.02489 year 0.02391 block 0.01554 business 0.01533 cut 0.01133 time 0.01099 like 0.01094 questions 0.0106
+13,0.9,0.9,8, turbotax 0.075 year 0.0416 block 0.03181 tt 0.02095 deluxe 0.01982 better 0.01607 switched 0.01438 like 0.01368 version 0.0136 just 0.01344
+13,0.9,0.9,9, amazon 0.04877 software 0.0357 download 0.03307 got 0.02978 refund 0.02537 purchase 0.01883 block 0.01441 deal 0.01417 buy 0.01361 purchased 0.01164
+13,0.9,0.9,10, software 0.02142 form 0.01803 forms 0.01316 block 0.01303 tax 0.01158 need 0.01137 year 0.01049 return 0.00951 data 0.00938 enter 0.0088
+13,0.9,0.9,11, excellent 0.0381 quick 0.03228 delivery 0.0084 stuff 0.00768 date 0.00569 effective 0.00521 beats 0.00414 known 0.00407 kiplinger 0.00395 llc 0.00349
+13,0.9,0.9,12, money 0.04299 needed 0.04164 love 0.02858 fast 0.02322 helpful 0.01891 thanks 0.01379 save 0.01271 exactly 0.01102 item 0.00927 taxes 0.00921

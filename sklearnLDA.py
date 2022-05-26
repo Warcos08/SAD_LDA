@@ -7,38 +7,41 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 
 def display_topics(H, W, feature_names, documents, no_top_words, no_top_documents):
+    #cabeceras = ["num_topics_Total", "alpha", "beta", "topicoAct", "words"]
+    #nombreCSV="Resultados/LDAParams-" + file.split('/')[-1].split('/')[-1]
+    #archivo = open(nombreCSV, "w")
+    #writer = csv.writer(archivo)
+    #writer.writerow(cabeceras)
+    #archivo.close()
+    #print("PREPARANDO ARCHIVO .CSV PARA VOLCAR PARAMETROS...")
+    #archivo = open(nombreCSV, "a")
 
-    cabeceras = ["num_topics_Total", "alpha", "beta", "topicoAct", "words"]
-    nombreCSV="Resultados/LDAParams-" + file.split('/')[-1].split('/')[-1]
-    archivo = open(nombreCSV, "w")
-    writer = csv.writer(archivo)
-    writer.writerow(cabeceras)
-    archivo.close()
-    print("PREPARANDO ARCHIVO .CSV PARA VOLCAR PARAMETROS...")
-    archivo = open(nombreCSV, "a")
-    tipo = 'auto'
+    archivo = open('Resultados/txt/LDA-28-0.25-0.30-NintNeg.txt', 'w')   #PARA QUE SALGA EN FORMATO TXT
 
     for topic_idx, topic in enumerate(H):
         print("Topic %d:" % (topic_idx))
+        archivo.write("\nTopic %d:" % (topic_idx))
         print(''.join([' ' + feature_names[i] + ' ' + str(round(topic[i], 5)) #y esto también
                 for i in topic.argsort()[:-no_top_words - 1:-1]]))
+        archivo.write(''.join([' ' + feature_names[i] + ' ' + str(round(topic[i], 5))
+                        for i in topic.argsort()[:-no_top_words - 1:-1]]))
 
         top_doc_indices = np.argsort( W[:,topic_idx] )[::-1][0:no_top_documents]
         docProbArray=np.argsort(W[:,topic_idx])
         print(docProbArray)
         howMany=len(docProbArray);
-        print("How Many");
+        print("\nHow Many");
         print(howMany);
 
-        infoTopics = ''.join([' ' + feature_names[i] + ' ' + str(round(topic[i], 5)) #y esto también
-                for i in topic.argsort()[:-no_top_words - 1:-1]])
-
-        contenido = [str(nTopics), str(alpha), str(eta), topic_idx, infoTopics]
-        writer = csv.writer(archivo)
-        writer.writerow(contenido)
+        #archivo.write()
+        #contenido = [str(nTopics), str(alpha), str(eta), topic_idx, infoTopics]
+        #writer = csv.writer(archivo)
+        #writer.writerow(contenido)
 
         for doc_index in top_doc_indices:
             print(documents[doc_index])
+            archivo.write(documents[doc_index])
+            archivo.write("\n")
     archivo.close()
 
 # Tutorial: https://blog.mlreview.com/topic-modeling-with-scikit-learn-e80d33668730
