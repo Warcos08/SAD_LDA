@@ -1,0 +1,552 @@
+
+Topic 0: program 0.02057 update 0.01913 taxcut 0.01379 install 0.01334 tried 0.00865 windows 0.00821 work 0.00772 computer 0.00752 installed 0.00738 error 0.0073
+ How Many: 5153
+There are two bugs that affect H&R Block At Home 2009 for some Apple Mac users.  Since both problems prevent customers from updating the program from the H&R Block web servers, customers must correct both problems manually before any updates from H&R Block are possible.  I already discussed this in the Comments section on John Young's review, however I realize that not everyone follows the Comments link, plus this new description is more concise.  So you get it again.
+
+Who it affects: Mac customers who both: 1) have multiple login accounts on the Mac and 2) attempt to run H&R Block At Home 2009 from a non-admin account.
+
+Problem #1: During the installation process the initial update fails due to file permissions.  Error message is: "1008:5,-5000 Access denied error.  You do not have enough access privileges for this installation"
+
+Resolution: 1) Stop the program installation and log in under the admin account, 2) open a Finder window, 3) open the Applications folder, 4) uninstall the H&R Block 2009 program by dragging the icon to the Trash, 5) in the Finder window open the Utilities folder, 6) run the Disk Utility program, 7) select your hard drive as the disk upon which to operate, 8) click on the "Repair Disk Permissions" button and wait for that process to complete, 9) reinstall the H&R Block 2009 program under the admin account.
+
+Problem #2: When running H&R Block 2009 using a non-admin login account, the program crashes immediately upon launch due to file permissions.  Error message is: "Initialization Failed. Exception thrown during initialization: File open failed. File = /Users/Shared/H&R Block/2009/update.tim in open:MacFileWriterImpl"
+
+Resolution: 1) Exit the program and log in under the admin account, 2) open a Finder window, 3) open the Macintosh HD icon, 4) open the Users folder, then the Shared folder, then the H&R Block folder, 5) right-click on the 2009 folder, 6) select "Get Info" on the menu, 7) on the pop-up window in the "Sharing & Permissions" section set ALL permissions that say "Read Only" to instead say "Read & Write", 8) return to the Finder window and open the 2009 folder, 9) right-click on the update.tim file, 10) select "Get Info" on the menu, 11) on the pop-up window in the "Sharing & Permissions" section set ALL permissions that say "Read Only" to instead say "Read & Write".
+
+Upon successful resolution of both of these problems the customer will be able to run H&R Block 2009 from a non-admin account to do their taxes.  As of the date of this note however (1/22/2010) all program updates must still be made using the admin account.
+
+I discovered and diagnosed this on my own machine.  Fortunately I'm a geek and so was able to figure out the problem & share it with others.  Obviously H&R Block did not test this scenario before they shipped the program.  Dunno if a similar problems exists on Windows machines.  Also dunno if there will be further problems when I download & install the State program.  I haven't gotten that far yet.
+
+UPDATE Problem #3: I installed the Maryland state program tonight (1/27) when it became available for download.  Given the problems above I used the admin account to do the install and then switched back to my normal account.  Ran the program: no Maryland state tax program installed!  And you're only allowed to download it one time without paying again!  Turns out the state program downloads into the directory ~/Library/Application Support/H&RBlock/2009/ (for non-techies ~ means starting at your home directory) and a non-shared plugin is created.  This thwarts other accounts from using the state program.
+
+Resolution: Using a Finder window in the admin account copy the file ~/Library/Application Support/H&RBlock/2009/Completed Updates/md.dmg (for other states replace md.dmg with your state's abbreviation e.g. va.dmg for Virginia.)  Paste this into a shared directory such as Macintosh HD/Users/Shared.  Go back into your normal account and copy that same file from the Shared directory into your own ~/Library/Application Support/H&RBlock/2009/Completed Updates/ directory.  Double click on that file (md.dmg in my case.)  A new window will pop up and you'll see a new file which starts with your state's two-letter abbreviation.  In my case it was called MD.TCstate09.  Double click on that file.  Another window will pop up which says it is installing the state plug-in.  After that, you'll be able to use the state program under your normal user account as you intended.
+
+Don't ask me how to update all of this mess at this point when H&R Block is ready to push out new program updates.  Do you use the admin account?  The user account?  Who knows?  It might even depend upon whether you are updating the Federal or the State return.  What a mess!
+
+H&R Block really blew it this year on multi-user account support, at least on the Macs.  I tried relaying this to their Customer Service (3 phone calls and 2 online Chat sessions) but they had no one who understood the Macs and no way for me to email to them my diagnosis and solutions.  They were nice and tried to be helpful but I'm not sure they got exactly what I was saying.  I hope so though.
+
+I have liked H&R Block in the past and they are cheaper than TurboTax.  This year, however, makes it difficult to remain a loyal customer.  We'll see what I do in tax year 2010.
+
+Anyway, I hope my pain is able to help other Mac users get up and running.
+There are two bugs that affect H&R Block At Home 2009 for some Apple Mac users.  Since both problems prevent customers from updating the program from the H&R Block web servers, customers must correct both problems manually before any updates from H&R Block are possible.
+
+Who it affects: Mac customers who both: 1) have multiple login accounts on the Mac and 2) attempt to run H&R Block At Home 2009 from a non-admin account.
+
+Problem #1: During the installation process the initial update fails due to file permissions.  Error message is: "1008:5,-5000 Access denied error.  You do not have enough access privileges for this installation"
+
+Resolution: 1) Stop the program installation and log in under the admin account, 2) open a Finder window, 3) open the Applications folder, 4) uninstall the H&R Block 2009 program by dragging the icon to the Trash, 5) in the Finder window open the Utilities folder, 6) run the Disk Utility program, 7) select your hard drive as the disk upon which to operate, 8) click on the "Repair Disk Permissions" button and wait for that process to complete, 9) reinstall the H&R Block 2009 program under the admin account.
+
+Problem #2: When running H&R Block 2009 using a non-admin login account, the program crashes immediately upon launch due to file permissions.  Error message is: "Initialization Failed. Exception thrown during initialization: File open failed. File = /Users/Shared/H&R Block/2009/update.tim in open:MacFileWriterImpl"
+
+Resolution: 1) Exit the program and log in under the admin account, 2) open a Finder window, 3) open the Macintosh HD icon, 4) open the Users folder, then the Shared folder, then the H&R Block folder, 5) right-click on the 2009 folder, 6) select "Get Info" on the menu, 7) on the pop-up window in the "Sharing & Permissions" section set ALL permissions that say "Read Only" to instead say "Read & Write", 8) return to the Finder window and open the 2009 folder, 9) right-click on the update.tim file, 10) select "Get Info" on the menu, 11) on the pop-up window in the "Sharing & Permissions" section set ALL permissions that say "Read Only" to instead say "Read & Write".
+
+Upon successful resolution of both of these problems the customer will be able to run H&R Block 2009 from a non-admin account to do their taxes.  As of the date of this note however (1/22/2010) all program updates must still be made using the admin account.
+
+I discovered and diagnosed this on my own machine.  Fortunately I'm a geek and so was able to figure out the problem & share it with others.  Obviously H&R Block did not test this scenario before they shipped the program.  Dunno if a similar problems exists on Windows machines.  Also dunno if there will be further problems when I download & install the State program.  I haven't gotten that far yet.
+
+UPDATE Problem #3: I installed the Maryland state program tonight (1/27) when it became available for download.  Given the problems above I used the admin account to do the install and then switched back to my normal account.  Ran the program: no Maryland state tax program installed!  And you're only allowed to download it one time without paying again!  Turns out the state program downloads into the directory ~/Library/Application Support/H&RBlock/2009/ (for non-techies ~ means starting at your home directory) and a non-shared plugin is created.  This thwarts other accounts from using the state program.
+
+Resolution: Using a Finder window in the admin account copy the file ~/Library/Application Support/H&RBlock/2009/Completed Updates/md.dmg (for other states replace md.dmg with your state's abbreviation e.g. va.dmg for Virginia.)  Paste this into a shared directory such as Macintosh HD/Users/Shared.  Go back into your normal account and copy that same file from the Shared directory into your own ~/Library/Application Support/H&RBlock/2009/Completed Updates/ directory.  Double click on that file (md.dmg in my case.)  A new window will pop up and you'll see a new file which starts with your state's two-letter abbreviation.  In my case it was called MD.TCstate09.  Double click on that file.  Another window will pop up which says it is installing the state plug-in.  After that, you'll be able to use the state program under your normal user account as you intended.
+
+Don't ask me how to update all of this mess at this point when H&R Block is ready to push out new program updates.  Do you use the admin account?  The user account?  Who knows?  It might even depend upon whether you are updating the Federal or the State return.  What a mess!
+
+H&R Block really blew it this year on multi-user account support, at least on the Macs.  I tried relaying this to their Customer Service (3 phone calls and 2 online Chat sessions) but they had no one who understood the Macs and no way for me to email to them my diagnosis and solutions.  They were nice and tried to be helpful but I'm not sure they got exactly what I was saying.  I hope so though.
+
+I have liked H&R Block in the past and they are cheaper than TurboTax.  This year, however, makes it difficult to remain a loyal customer.  We'll see what I do in tax year 2010.
+
+Anyway, I hope my pain is able to help other Mac users get up and running.
+There are two bugs that affect H&R Block At Home 2009 for some Apple Mac users.  Since both problems prevent customers from updating the program from the H&R Block web servers, customers must correct both problems manually before any updates from H&R Block are possible.
+
+Who it affects: Mac customers who both: 1) have multiple login accounts on the Mac and 2) attempt to run H&R Block At Home 2009 from a non-admin account.
+
+Problem #1: During the installation process the initial update fails due to file permissions.  Error message is: "1008:5,-5000 Access denied error.  You do not have enough access privileges for this installation"
+
+Resolution: 1) Stop the program installation and log in under the admin account, 2) open a Finder window, 3) open the Applications folder, 4) uninstall the H&R Block 2009 program by dragging the icon to the Trash, 5) in the Finder window open the Utilities folder, 6) run the Disk Utility program, 7) select your hard drive as the disk upon which to operate, 8) click on the "Repair Disk Permissions" button and wait for that process to complete, 9) reinstall the H&R Block 2009 program under the admin account.
+
+Problem #2: When running H&R Block 2009 using a non-admin login account, the program crashes immediately upon launch due to file permissions.  Error message is: "Initialization Failed. Exception thrown during initialization: File open failed. File = /Users/Shared/H&R Block/2009/update.tim in open:MacFileWriterImpl"
+
+Resolution: 1) Exit the program and log in under the admin account, 2) open a Finder window, 3) open the Macintosh HD icon, 4) open the Users folder, then the Shared folder, then the H&R Block folder, 5) right-click on the 2009 folder, 6) select "Get Info" on the menu, 7) on the pop-up window in the "Sharing & Permissions" section set ALL permissions that say "Read Only" to instead say "Read & Write", 8) return to the Finder window and open the 2009 folder, 9) right-click on the update.tim file, 10) select "Get Info" on the menu, 11) on the pop-up window in the "Sharing & Permissions" section set ALL permissions that say "Read Only" to instead say "Read & Write".
+
+Upon successful resolution of both of these problems the customer will be able to run H&R Block 2009 from a non-admin account to do their taxes.  As of the date of this note however (1/22/2010) all program updates must still be made using the admin account.
+
+I discovered and diagnosed this on my own machine.  Fortunately I'm a geek and so was able to figure out the problem & share it with others.  Obviously H&R Block did not test this scenario before they shipped the program.  Dunno if a similar problems exists on Windows machines.  Also dunno if there will be further problems when I download & install the State program.  I haven't gotten that far yet.
+
+UPDATE Problem #3: I installed the Maryland state program tonight (1/27) when it became available for download.  Given the problems above I used the admin account to do the install and then switched back to my normal account.  Ran the program: no Maryland state tax program installed!  And you're only allowed to download it one time without paying again!  Turns out the state program downloads into the directory ~/Library/Application Support/H&RBlock/2009/ (for non-techies ~ means starting at your home directory) and a non-shared plugin is created.  This thwarts other accounts from using the state program.
+
+Resolution: Using a Finder window in the admin account copy the file ~/Library/Application Support/H&RBlock/2009/Completed Updates/md.dmg (for other states replace md.dmg with your state's abbreviation e.g. va.dmg for Virginia.)  Paste this into a shared directory such as Macintosh HD/Users/Shared.  Go back into your normal account and copy that same file from the Shared directory into your own ~/Library/Application Support/H&RBlock/2009/Completed Updates/ directory.  Double click on that file (md.dmg in my case.)  A new window will pop up and you'll see a new file which starts with your state's two-letter abbreviation.  In my case it was called MD.TCstate09.  Double click on that file.  Another window will pop up which says it is installing the state plug-in.  After that, you'll be able to use the state program under your normal user account as you intended.
+
+Don't ask me how to update all of this mess at this point when H&R Block is ready to push out new program updates.  Do you use the admin account?  The user account?  Who knows?  It might even depend upon whether you are updating the Federal or the State return.  What a mess!
+
+H&R Block really blew it this year on multi-user account support, at least on the Macs.  I tried relaying this to their Customer Service (3 phone calls and 2 online Chat sessions) but they had no one who understood the Macs and no way for me to email to them my diagnosis and solutions.  They were nice and tried to be helpful but I'm not sure they got exactly what I was saying.  I hope so though.
+
+I have liked H&R Block in the past and they are cheaper than TurboTax.  This year, however, makes it difficult to remain a loyal customer.  We'll see what I do in tax year 2010.
+
+Anyway, I hope my pain is able to help other Mac users get up and running.
+I've used H&R Block TaxCut (now H&R Block At Home) in the past and have been very satisfied.  However this year I had two serious permission problems on the Mac.  Fortunately I'm a geek and so was able to figure out solutions.
+
+The problem is only likely to crop up if you have multiple user accounts on the Mac, and use a non-Admin account to run the H&R Block At Home software.  Otherwise, if you're running with full Admin (root) privileges these bugs should not arise.
+
+The first problem came right after I installed the program and it tried to do its initial update.  It failed with the following error messages: "1008:5,-5000 Access denied error" and "You do not have enough access privileges for this installation".  I had been running as a standard user so I switched to the Admin account, but to no avail.  I even tried running Mac's Disk Utility program and did a Repair Disk Permissions with no success.  I had to delete the program, re-run Disk Utility -> Repair Disk Permissions with the program gone, then reinstall the program as Admin.  Then and only then would it do a program update and continue on.
+
+However, for security reasons I don't like to run as Admin, so I went back to my standard user account at that point.  Then the second problem came up.  When I tried to start the program as a normal user I got the following error message: "Initialization Failed.  Exception thrown during initialization: File open failed.  File = /Users/Shared/H&R Block/2009/update.tim in open:MacFileWriterImpl".  After puzzling over that for a bit I realized what was wrong and confirmed it by dropping down into the underlying Unix OS underneath Mac OS X.  And that is, H&R Block has the permissions set wrong for the file specified above and for the folder (or directory) containing that file.  Sure enough, an ls -l in Unix confirmed that the permissions on that directory do not grant write access to anyone other than the owner of the file & directory. For those of us who create multiple accounts on the Mac, and who installed the program using the Admin account, mere mortal user accounts will not be able to modify that file.  (And I suspect the file keeps track of the last update attempt, which normally occurs immediately upon program initialization, which is why it crashes the program right away.)
+
+So the fastest way for me to fix the problem was to go back to the Admin account, open up a Unix window using Mac's Terminal utility, change directories (cd) down to the 2009 directory, and reset the permissions with "chmod go+w 2009" "cd 2009" and "chmod go+w update.tim" for the file as well.  Then everyone (group and other) can write to the file.  Went back to the standard user and - well of course it worked!
+
+Those two solutions should help those of you who are comfortable with a bit of the techie side of Mac OS and/or Unix.  However for the others, this is clearly a permissions bug in the H&R Block At Home software which I hope they get pushed out to their customers quickly.  However they'll have to walk their customers through it verbally, since unless you can update the program online, you can't install the patches to fix the installation & update bugs.  I called technical support tonight and reported the problem, cause, and solution, so hopefully their Customer Support call centers will be able to help other customers.
+
+I'd love to give the program more stars, but I fear these two permission bugs are going to cause a lot of grief to a lot of H&R Block customers who own Apple computers.  Hopefully however this will help some folks get up and running.
+
+Three updates since I originally posted this review:
+
+1) I should have provided instructions to users to fix the permissions using non-Unix commands.  So here goes using the Apple Mac OS X interface: a) sign on as Admin, b) open a Finder window and navigate down to /Users/Shared/H&R Block, c) right-click on the 2009 folder, d) select "Get Info" on the menu, e) on the pop-up window in the "Sharing & Permissions" section set ALL permissions that say "Read Only" to instead say "Read & Write", e) navigate into the 2009 folder and repeat the permission change instructions for the update.tim file.  You're done & now your standard user account can run H&R Block At Home.
+
+2) H&R Block pushed out an update tonight (1/21/2010).  As an experiment I tried updating the program from my standard user account.  It ran to completion with no errors however after finishing told me that I still had that same update that needed to be done ... which means it didn't update the files on disk after all.  So the permission bugs persist, at least for now.  You'll have to perform all updates using the Admin superuser account (that worked) but if you do that you can at least run the program as a normal user.
+
+3) I installed the Maryland state program tonight (1/27) when it became available for download.  Given the problems above I used the admin account to do the install and then switched back to my normal account.  Ran the program: no Maryland state tax program installed!  And you're only allowed to download it one time without paying again!  Turns out the state program downloads into the directory ~/Library/Application Support/H&RBlock/2009/ (for non-techies ~ means starting at your home directory) and a non-shared plugin is created.  This thwarts other accounts from using the state program.
+
+Resolution: Using a Finder window in the admin account copy the file ~/Library/Application Support/H&RBlock/2009/Completed Updates/md.dmg (for other states replace md.dmg with your state's abbreviation e.g. va.dmg for Virginia.)  Paste this into a shared directory such as Macintosh HD/Users/Shared.  Go back into your normal account and copy that same file from the Shared directory into your own ~/Library/Application Support/H&RBlock/2009/Completed Updates/ directory.  Double click on that file (md.dmg in my case.)  A new window will pop up and you'll see a new file which starts with your state's two-letter abbreviation.  In my case it was called MD.TCstate09.  Double click on that file.  Another window will pop up which says it is installing the state plug-in.  After that, you'll be able to use the state program under your normal user account as you intended.
+
+Don't ask me how to update all of this mess at this point when H&R Block is ready to push out new program updates.  Do you use the admin account?  The user account?  Who knows?  It might even depend upon whether you are updating the Federal or the State return.  What a mess!
+
+H&R Block really blew it this year on multi-user account support, at least on the Macs.  I tried relaying this to their Customer Service (3 phone calls and 2 online Chat sessions) but they had no one who understood the Macs and no way for me to email to them my diagnosis and solutions.  They were nice and tried to be helpful but I'm not sure they got exactly what I was saying.  I hope so though.
+
+I have liked H&R Block in the past and they are cheaper than TurboTax.  This year, however, makes it difficult to remain a loyal customer.  We'll see what I do in tax year 2010.
+
+Anyway, I hope my pain is able to help other Mac users get up and running.
+This review is for TaxCut 2007 Premium Federal on CD for Windows XP SP2.
+
+I've been a user of TaxCut since tax year 2004. The tax part of TaxCut 2007 seems to work OK. I had problems with the installation and update of TaxCut 2007. Specifically, the TaxCut 2007 installation and update features modify the list of users who can access the \Program Files folder limiting it to only the Administrator who can access this folder. This effectively denies all other users on the XP system access to this folder, which means that ordinary users will have problems executing programs under this folder (which effectively is most installed programs). It also implies that only the Administrator can execute TaxCut.
+
+I was able to fix this issue by looking at another XP system and modifying the access control list (ACL) of the \Program Files folder on the TaxCut system to match the other computer's ACL. Although this restored the system back to normal, TaxCut 2007 still only worked for an administrator, not an ordinary user. I've contacted TaxCut about the \Program Files folder problem. They said that they are looking into it.
+
+This problem occurred when I installed TaxCut. It also occurred on the recent (Jan 10, 2008) update, which I installed on Jan 13, 2008.
+This review is for TaxCut 2007 Premium Federal on CD for Windows XP SP2.
+
+I've been a user of TaxCut since tax year 2004. The tax part of TaxCut 2007 seems to work OK. I had problems with the installation and update of TaxCut 2007. Specifically, the TaxCut 2007 installation and update features modify the list of users who can access the \Program Files folder limiting it to only the Administrator who can access this folder. This effectively denies all other users on the XP system access to this folder, which means that ordinary users will have problems executing programs under this folder (which effectively is most installed programs). It also implies that only the Administrator can execute TaxCut.
+
+I was able to fix this issue by looking at another XP system and modifying the access control list (ACL) of the \Program Files folder on the TaxCut system to match the other computer's ACL. Although this restored the system back to normal, TaxCut 2007 still only worked for an administrator, not an ordinary user. I've contacted TaxCut about the \Program Files folder problem. They said that they are looking into it.
+
+This problem occurred when I installed TaxCut. It also occurred on the recent (Jan 10, 2008) update, which I installed on Jan 13, 2008.
+I cannot think of a single reason you should have to click 3 buttons and go through 2 screens to enter 1 stock transaction.  On the contrary, you should be able to enter 10 or more per screen.  It took hours to enter 200 stock transactions.
+
+Then, after the error check, certain transactions seemed to be duplicated.  Upon trying to delete them with the delete button, they would not delete.  If you change one of the duplicates, the contents of the other changes also.  Then, looking through the list, I find that every one of the other duplicate transactions were duplicated again each time I tried to delete the first duplicated transaction pair.  Now I have dozens of transactions that will not delete - after spending 2 days doing data entry and using the interviews for doing all data entry and changes, as the product recommends - - - even though it is excruciating slow work with the poor user interface design.
+
+What a piece of junk.  (And this was the final 2003 version - - - the one with all the latest fixes!)
+I cannot think of a single reason you should have to click 3 buttons and go through 2 screens to enter 1 stock transaction.  On the contrary, you should be able to enter 10 or more per screen.  It took hours to enter 200 stock transactions.
+
+Then, after the error check, certain transactions seemed to be duplicated.  Upon trying to delete them with the delete button, they would not delete.  If you change one of the duplicates, the contents of the other changes also.  Then, looking through the list, I find that every one of the other duplicate transactions were duplicated again each time I tried to delete the first duplicated transaction pair.  Now I have dozens of transactions that will not delete - after spending 2 days doing data entry and using the interviews for doing all data entry and changes, as the product recommends - - - even though it is excruciating slow work with the poor user interface design.
+
+What a piece of junk.  (And this was the final 2003 version - - - the one with all the latest fixes!)
+I first installed this from my standard filevault account where I keep all my important stuff. The update would not install while in this account (error 1008:5....). So, I switch to my admin account to do the update. That wouldn't work either. So I delete the app, install within my admin account and do the update. This works. I think I am home free. I switch back to my standard account where I keep all my financial data and try to start the app. It crashes on start. And the next. And the next. I switch to my admin account and it starts up fine. So I now have to change my standard account to an admin account every time I want to use TaxCut.
+
+This shows a real lack of some basic testing.
+
+Further testing shows this will not work. It may be a problem with running it in a filevault account, but in any case it is a lot of trouble.
+Here's how to get the H&R Block Mac Updater to work. The problem is that the updater app tries to update all your Time Machine backups so you will get a never-ending "gathering information" message while the app is going though all your backups.  To get around this, go to System Preferences and turn off Time Machine.  Then on the desktop locate the drive your Time Machine backups are stored on, right click on that icon and choose Eject, and disconnect the USB of that drive.  Then the updater will work.  When the Updater is finished with its update, reconnect the USB of your Time Machine drive, go back to System Preferences, turn Time Machine back on, and you are good to go.
+
+Topic 1: income 0.01356 irs 0.00897 calculate 0.00667 dollars 0.00563 owed 0.00553 w2 0.00526 ira 0.00502 00 0.00479 care 0.00401 000 0.0039
+ How Many: 5153
+We took a distribution from our daughter's 529 plan for her college tuition last year. This software does a poor job of helping to distinguish between taxable and non-taxable distributions. It asked us to enter non-taxable distributions without defining what qualified as non-taxable. It was a good thing we knew about the details beforehand and did not have to depend on the software.
+When calculate IRA contribution, this software has a bug. It limited on IRA/Roth IRA contribution to W2 income only. For us that has limited W2 income, but mostly in investment income, this software artificially set contribution limit to W2 income only.  Now, we have already made IRA contribution to the investment firm last year, and they have already reported to IRS.  The software cuts our allowed IRA to substantially less. This will cause an auditing by IRS.
+
+But HR Blocks said to us, after many length calls, that although the software has bug, it is too late for them to fix it. They will investigate if we could get refund since software was purchased over 60 days.
+
+We have used their taxcut software for almost 10 years. This will be the last time I brought it.
+This software does not calculate your tax obligations correctly. It is not up to date with the IRS website. I am self employed and all of my earnings are from non-passive income and the software is indicating that I owe Net Investment Tax due to the fact that I get a K1 from my business. These K1 earnings are non-passive and therefore should not be taxed as Net Investment Income but the software is currently saying I owe Net Investment Tax when I have no investment income. Be careful if you buy this software because you will be over charged for your taxes.
+I have used this software for a number of years, and always been pleased with its performance.  Unfortunately, the software is incorrectly computing my Massachusetts taxes this year.  Like many, I converted a traditional IRA to a Roth IRA in 2010.  Under both federal and Mass state law, I am eligible to spread the taxes owed based on this conversion between the 2011 and 2012 tax years.  The federal portion of the software had no problems, but the state version is having a problem.  Initially, it correctly splits the total Roth conversion amount in 1/2 so that it can be spread evenly between 2011 and 2012.  BUT, it then takes the entire amount and adds it to the split.
+
+For example, if you converted a $50K traditional IRA to a Roth IRA in 2010, you should pay taxes on $25k in 2011 and $25K in 2012.  The software is doing the split, but then adding back in the $50K.  In the end, it is telling me i converted a $75K Roth IRA and owe taxes on it!!!
+It has a serious bug. Last year I filed as head of household because my daughter lived with me. She has since moved out so this year I deleted her as a my only dependent. The software failed to use this information and continued to calculate as head of household (with no dependent listed) instead of single. Luckily I caught it will reviewing the printed forms before signing. I otherwise would have underpaid by thousands of dollars and incurred fines.
+
+I now have less confidence that it is calculating my taxes correctly.
+
+UPDATE: I just discovered that it has been assessing penalties for not having health coverage (which I have always had) without even asking! This software has cost me $1,900!
+Here's a warning for anyone who uses Taxcut New Mexico.  If you are a non-resident, NM has you declare how much of your income was earned in NM and how much was not.  Taxcut has this backwards, telling you to put amounts earned in NM into the column reserved for money earned as a non-resident.  Not only that, it won't let you declare amounts from a w-2 as earned as a non-resident.  All in all, it's worthless.  I've used Taxcut for 10 years, but next year I'm moving on.  I wish H&R Bolix had a user feedback feature.
+Here's a warning for anyone who uses Taxcut New Mexico.  If you are a non-resident, NM has you declare how much of your income was earned in NM and how much was not.  Taxcut has this backwards, telling you to put amounts earned in NM into the column reserved for money earned as a non-resident.  Not only that, it won't let you declare amounts from a w-2 as earned as a non-resident.  All in all, it's worthless.  I've used Taxcut for 10 years, but next year I'm moving on.  I wish H&R Bolix had a user feedback feature.
+I entered all the info and and put in the IRA contribution for my spouse and  it said.
+"Based on the information you have entered so far, none of your traditional IRA contributions for 2009 will be deductible would like to enter a contribution anyway? "
+In reality the contribution made by my wife is deductible and I have checked this with IRS.
+I am having an issue with an apparent bug with 403b and 457b for government employees on "Non-W2 Wages" form. Tentative limitation locked at 18,000. If changed, then does not allow e-file.
+I tried this software, taxslayer, and turbotax.  This was the only one that had my Health Savings Account (HSA) contributions wrong.  They were telling me that I made excess contributions though I was eligible for the full amount.  There is a question that asked if I was part of a High Deductible Health Plan (HDHP) as of Dec 1, 2008 (which I was and answered yes) and it proceeded to  as me my filing status for each month that year.  Afterward it said that I had made an excess contribution of $xx.xx.
+
+According to the irs website I was eligible to make up to $5800 in contributions. (which I didn't go over)  Google "hsa excess contribution irs" and take the first link
+
+"If you had family HDHP coverage on the first day of the last month of your tax year, your contribution limit for 2008 is $5,800 even if you changed coverage during the year.
+Last-month rule.  Under the last-month rule, if you are an eligible individual on the first day of the last month of your tax year (December 1 for most taxpayers), you are considered an eligible individual for the entire year. You are treated as having the same HDHP coverage for the entire year as you had on the first day of that last month. "
+
+This was the major error that I found, not that any of them are perfect.  But this was about to be a small nightmare for myself considering I would have to contact my HSA bank and get the money withdrawn and correct my taxes/w2 forms.
+
+This software may work fine for everything else but I have opted for a software that covers all of my situation.  They may update it but as of 30 January it was not working correctly for this issue.  Good luck and happy buying!
+
+Topic 2: software 0.02581 state 0.02533 return 0.02121 tax 0.01843 year 0.01839 file 0.01483 turbotax 0.01479 program 0.01323 block 0.01142 taxes 0.01084
+ How Many: 5153
+Anyone who files more than one state tax return will find this software difficult.  H&R Block state returns are NOT seamlessly integrated as they are in TurboTax.  My husband works partially in New Jersey and we reside in New York.  We get a credit on our New York return for the taxes paid to New Jersey.
+
+After preparing the H&R Block New Jersey return, the New York return had no idea that we were entitled to a credit for NJ taxes paid.  Consequently, I had to jump back and forth between the NY and NJ returns and manually enter the NJ numbers in the NY return!  This is in stark contrast to TurboTax.  In prior years, after working on our TurboTax NJ return, our NY return knew exactly what to deduct.  I'm a tax professional and I knew to look for the credit on our NY return.  Someone less familiar with income taxes might not.
+
+Another issue arose when allocating wages on the NJ return.  I found a work-around that involved overriding the data on the NJ 1040 non-resident form.  Once again, TurboTax made this easy in prior years.
+
+I saved/closed/re-opened the returns to see if NY and NJ somehow recalculated and were integrated,.  No such luck.  I plan on doing a thorough, line-by-line review of the state returns to see that there are other issues not yet discovered.  I'll also probably return to TurboTax next year despite their pricing issues for 2014.
+
+Update after line-by-line review of returns:  Other income was incorrectly imported to NJ return.  I can't find a way to correct it, so I guess I'll do a paper return.
+I am a NJ resident that is employed in NY.  I switched to H&R Block after years of being a TurboTax user, after all of the recent backlash over the price increase.  The $29.99 price tag seemed like a bargain, until I purchased the second state for a whopping $39.99.  Still, I thought I was coming out ahead since TurboTax also charges extra for the second state (though I think only $29.99).  But here's the kicker - H&R Block won't e-file the second state return!  It only allowed me to e-file my Federal return and my NJ return.  For my NY return, it wanted me to print and file by mail - which, on it's own printed form says I cannot do because NY won't accept by mail, returns that were prepared using a tax preparation software.
+
+After being on hold for 45 minutes, I finally reached a customer service rep who was completely unhelpful and could not figure out what went wrong.  They tried to suggest first that NY won't accept e-files, despite the fact that I have been e-filing with NY for 6 years already.  I had to browbeat my way to talking with a supervisor (I believe my exact words were "can you please transfer me to a supervisor - I am about to go ballistic and I don't think it's fair that you should be on the receiving end of it") who finally agreed to refund me the money I paid for the extra state.  Still, now I'm left with buying TurboTax just to file my NY return - and I'll probably have to purchase a second state also because the NY return requires information from my NJ return.  I guess this is why TurboTax was confident enough to raise their prices - they knew that a certain number of multi-state filers would have to ultimately go back to them.  I hate them all.  I'm tempted to go old school and file a paper return...using a slide rule and an abacus.
+I have used H & R Block software for years.  It is easy to prepare those annual required documents for the IRS.  As my finances got more complicated through the years, the software made it easy enough for me to prepare my taxes myself and save in the long run.  One year, I took all my documents to their office and those folks got the same figure as I did with the software.  My confidence with the program's calculations is high.
+
+HOWEVER, this year required filing in a second state and the program made a significant error.  When I got to the step for electronic filing, instead of filing in all three areas; i.e.: Federal, state 1 and state 2, I received a screen that said the 2nd state could only be e-filed after Federal had been accepted.  When my Federal submission was accepted, the program now says that my 2nd state can't be filed separate from the Federal.  ALL 3 submissions should have uploaded at the same time.
+
+Calls to customer service had no answer other than it "should have worked and we have no idea why it didn't."
+
+Once the forms have been submitted, there is no way to pull them back; only submit an amended return.  There was no way to electronically file the 2nd state.  My refund was delayed. Over $100 for the software that promises your refund in 21 days or less, and the error has no remedy.  Customer service only responded with, "are there any other questions I can answer today?"
+
+The question in my mind now is, "Should I have purchased Turbo Tax instead?"  Customer Service had no answer.
+My mother worked for H&R Block for many years, so I have no personal problem with them.
+
+I have not used the 2004, but I just quit working on the 2002 edition.  I got halfway through my return (20 hours work) and I finally quit.  The numbers were incorrect, but I did not notice until the last few entries.
+
+I have rental properties and, even though I entered the information where it belonged, it somehow got transferred elsewhere.  All of my real estate taxes got moved from where they belonged to form A.  Entering the information directly onto the tax forms required me to override every single step (3 mouse clicks, I think?).  Also, I was not able to go to help and figure out what my standard mileage cost was, so it took me considerable time to go through their mileage dialogue boxes when all I wanted was standard mileage.
+
+I had used Turbo Tax in previous years and was not unhappy with them; however, I had heard that Turbo Tax put spyware on the computer, and that it was difficult to install on more than one computer, so I decided to opt for a change.  TaxCut was cheaper, and I figured there would really be no difference (I used Parson's tax software years ago and liked them until they stopped making that program).  Anyway, at least for year 2002, TaxCut is much worse than Turbo Tax and Parson's old tax program.  The big problem is, it puts information in the wrong place; and I have been doing my own taxes for 20 years, so it is not a mistake which I am making.
+
+I downloaded TaxAct just a moment ago; it is cheaper than either turbo tax or taxcut, and so far, it behaves just like it is supposed to.  I have been entering some info by their prompts and other info directingly onto the tax forms, and, except for the fact that the auto-save requires me to hit the hardreturn every time, other than that, I really like TaxAct. It is functioning exactly how it is supposed to.  Furthermore, I have entered in a couple of properties and printed it out, and everything is going where it belongs.
+My mother worked for H&R Block for many years, so I have no personal problem with them.
+
+I have not used the 2004, but I just quit working on the 2002 edition.  I got halfway through my return (20 hours work) and I finally quit.  The numbers were incorrect, but I did not notice until the last few entries.
+
+I have rental properties and, even though I entered the information where it belonged, it somehow got transferred elsewhere.  All of my real estate taxes got moved from where they belonged to form A.  Entering the information directly onto the tax forms required me to override every single step (3 mouse clicks, I think?).  Also, I was not able to go to help and figure out what my standard mileage cost was, so it took me considerable time to go through their mileage dialogue boxes when all I wanted was standard mileage.
+
+I had used Turbo Tax in previous years and was not unhappy with them; however, I had heard that Turbo Tax put spyware on the computer, and that it was difficult to install on more than one computer, so I decided to opt for a change.  TaxCut was cheaper, and I figured there would really be no difference (I used Parson's tax software years ago and liked them until they stopped making that program).  Anyway, at least for year 2002, TaxCut is much worse than Turbo Tax and Parson's old tax program.  The big problem is, it puts information in the wrong place; and I have been doing my own taxes for 20 years, so it is not a mistake which I am making.
+
+I downloaded TaxAct just a moment ago; it is cheaper than either turbo tax or taxcut, and so far, it behaves just like it is supposed to.  I have been entering some info by their prompts and other info directingly onto the tax forms, and, except for the fact that the auto-save requires me to hit the hardreturn every time, other than that, I really like TaxAct. It is functioning exactly how it is supposed to.  Furthermore, I have entered in a couple of properties and printed it out, and everything is going where it belongs.
+My mother worked for H&R Block for many years, so I have no personal problem with them.
+
+I have not used the 2004, but I just quit working on the 2002 edition.  I got halfway through my return (20 hours work) and I finally quit.  The numbers were incorrect, but I did not notice until the last few entries.
+
+I have rental properties and, even though I entered the information where it belonged, it somehow got transferred elsewhere.  All of my real estate taxes got moved from where they belonged to form A.  Entering the information directly onto the tax forms required me to override every single step (3 mouse clicks, I think?).  Also, I was not able to go to help and figure out what my standard mileage cost was, so it took me considerable time to go through their mileage dialogue boxes when all I wanted was standard mileage.
+
+I had used Turbo Tax in previous years and was not unhappy with them; however, I had heard that Turbo Tax put spyware on the computer, and that it was difficult to install on more than one computer, so I decided to opt for a change.  TaxCut was cheaper, and I figured there would really be no difference (I used Parson's tax software years ago and liked them until they stopped making that program).  Anyway, at least for year 2002, TaxCut is much worse than Turbo Tax and Parson's old tax program.  The big problem is, it puts information in the wrong place; and I have been doing my own taxes for 20 years, so it is not a mistake which I am making.
+
+I downloaded TaxAct just a moment ago; it is cheaper than either turbo tax or taxcut, and so far, it behaves just like it is supposed to.  I have been entering some info by their prompts and other info directingly onto the tax forms, and, except for the fact that the auto-save requires me to hit the hardreturn every time, other than that, I really like TaxAct. It is functioning exactly how it is supposed to.  Furthermore, I have entered in a couple of properties and printed it out, and everything is going where it belongs.
+My mother worked for H&R Block for many years, so I have no personal problem with them.
+
+I have not used the 2004, but I just quit working on the 2002 edition.  I got halfway through my return (20 hours work) and I finally quit.  The numbers were incorrect, but I did not notice until the last few entries.
+
+I have rental properties and, even though I entered the information where it belonged, it somehow got transferred elsewhere.  All of my real estate taxes got moved from where they belonged to form A.  Entering the information directly onto the tax forms required me to override every single step (3 mouse clicks, I think?).  Also, I was not able to go to help and figure out what my standard mileage cost was, so it took me considerable time to go through their mileage dialogue boxes when all I wanted was standard mileage.
+
+I had used Turbo Tax in previous years and was not unhappy with them; however, I had heard that Turbo Tax put spyware on the computer, and that it was difficult to install on more than one computer, so I decided to opt for a change.  TaxCut was cheaper, and I figured there would really be no difference (I used Parson's tax software years ago and liked them until they stopped making that program).  Anyway, at least for year 2002, TaxCut is much worse than Turbo Tax and Parson's old tax program.  The big problem is, it puts information in the wrong place; and I have been doing my own taxes for 20 years, so it is not a mistake which I am making.
+
+I downloaded TaxAct just a moment ago; it is cheaper than either turbo tax or taxcut, and so far, it behaves just like it is supposed to.  I have been entering some info by their prompts and other info directingly onto the tax forms, and, except for the fact that the auto-save requires me to hit the hardreturn every time, other than that, I really like TaxAct. It is functioning exactly how it is supposed to.  Furthermore, I have entered in a couple of properties and printed it out, and everything is going where it belongs.
+My mother worked for H&R Block for many years, so I have no personal problem with them.
+
+I have not used the 2004, but I just quit working on the 2002 edition.  I got halfway through my return (20 hours work) and I finally quit.  The numbers were incorrect, but I did not notice until the last few entries.
+
+I have rental properties and, even though I entered the information where it belonged, it somehow got transferred elsewhere.  All of my real estate taxes got moved from where they belonged to form A.  Entering the information directly onto the tax forms required me to override every single step (3 mouse clicks, I think?).  Also, I was not able to go to help and figure out what my standard mileage cost was, so it took me considerable time to go through their mileage dialogue boxes when all I wanted was standard mileage.
+
+I had used Turbo Tax in previous years and was not unhappy with them; however, I had heard that Turbo Tax put spyware on the computer, and that it was difficult to install on more than one computer, so I decided to opt for a change.  TaxCut was cheaper, and I figured there would really be no difference (I used Parson's tax software years ago and liked them until they stopped making that program).  Anyway, at least for year 2002, TaxCut is much worse than Turbo Tax and Parson's old tax program.  The big problem is, it puts information in the wrong place; and I have been doing my own taxes for 20 years, so it is not a mistake which I am making.
+
+I downloaded TaxAct just a moment ago; it is cheaper than either turbo tax or taxcut, and so far, it behaves just like it is supposed to.  I have been entering some info by their prompts and other info directingly onto the tax forms, and, except for the fact that the auto-save requires me to hit the hardreturn every time, other than that, I really like TaxAct. It is functioning exactly how it is supposed to.  Furthermore, I have entered in a couple of properties and printed it out, and everything is going where it belongs.
+My mother worked for H&R Block for many years, so I have no personal problem with them.
+
+I have not used the 2004, but I just quit working on the 2002 edition.  I got halfway through my return (20 hours work) and I finally quit.  The numbers were incorrect, but I did not notice until the last few entries.
+
+I have rental properties and, even though I entered the information where it belonged, it somehow got transferred elsewhere.  All of my real estate taxes got moved from where they belonged to form A.  Entering the information directly onto the tax forms required me to override every single step (3 mouse clicks, I think?).  Also, I was not able to go to help and figure out what my standard mileage cost was, so it took me considerable time to go through their mileage dialogue boxes when all I wanted was standard mileage.
+
+I had used Turbo Tax in previous years and was not unhappy with them; however, I had heard that Turbo Tax put spyware on the computer, and that it was difficult to install on more than one computer, so I decided to opt for a change.  TaxCut was cheaper, and I figured there would really be no difference (I used Parson's tax software years ago and liked them until they stopped making that program).  Anyway, at least for year 2002, TaxCut is much worse than Turbo Tax and Parson's old tax program.  The big problem is, it puts information in the wrong place; and I have been doing my own taxes for 20 years, so it is not a mistake which I am making.
+
+I downloaded TaxAct just a moment ago; it is cheaper than either turbo tax or taxcut, and so far, it behaves just like it is supposed to.  I have been entering some info by their prompts and other info directingly onto the tax forms, and, except for the fact that the auto-save requires me to hit the hardreturn every time, other than that, I really like TaxAct. It is functioning exactly how it is supposed to.  Furthermore, I have entered in a couple of properties and printed it out, and everything is going where it belongs.
+for instance, form 1040 64a,I tested it on EITC Assistant Tool,if you are single and your gross income is below &12000(you could test it yourself), you should have EIT. However, on H&R block tax software, it shows nothing and doesn't give me any income credit. I called the H&R block , the technician couldn't help me, just told me to overwrite the amount on the line 64b.
+And also i already paid $40 for the software, but if i want to pay my federal tax with my credit card,i have to pay extra fee. And , if i want to efile my states tax return, i have to pay another $19.95.
+state  1 state program included. Additional states are $39.95 each.
+state e-file  $19.95 for each state e-file us
+$40+19.95+39.95=99.9
+Then,why i should i buy the h&r block tax software, instead of finding a accountant, and let him/her do everything for me. At less, the accountant doesn't make some simple mistakes as H&R block does. In fact, i can't save much$ on using this software, and i have to spend time on doing lots of searching to avoid any mistake generates by this software.
+
+Topic 3: rental 0.00733 property 0.00671 enter 0.00549 depreciation 0.00516 foreign 0.00489 items 0.00438 rebate 0.00428 entries 0.00364 loss 0.00343 limited 0.00324
+ How Many: 5153
+Willpower is acceptable, as far as its function goes.  It provides a scheme for detailing your assets, and a boilerplate Will and Last text.  It's not clear, however, that the scheme couldn't be done comparably with a spreadsheet.  In addition, the Will and Last text often needs editing, for the legal language is convoluted so it can be massaged by a computer program to handle the cases checked.
+
+However, Kiplinger provides NO UPGRADE from one year's Willpower to another, something which you'd think would be important as laws change.  I was talked into buying a completely new version, which I did.  Guess what:  The new version has NO MEANS OF IMPORTING INFORMATION from the older version.  That means you have to enter all your property all over again.
+
+The lack of a means of importing information is why I rated this at One Star.  Otherwise it'd get a Three Stars.
+
+I'm on the hunt for a third-party conversions program.  I may write one myself.
+Willpower is acceptable, as far as its function goes. It provides a scheme for detailing your assets, and a boilerplate Will and Last text. It's not clear, however, that the scheme couldn't be done comparably with a spreadsheet. In addition, the Will and Last text often needs editing, for the legal language is convoluted so it can be massaged by a computer program to handle the cases checked.
+
+However, Kiplinger provides NO UPGRADE from one year's Willpower to another, something which you'd think would be important as laws change. I was talked into buying a completely new version, which I did. Guess what: The new version has NO MEANS OF IMPORTING INFORMATION from the older version. That means you have to enter all your property all over again.
+
+The lack of a means of importing information is why I rated this at One Star. Otherwise it'd get a Three Stars.
+
+I'm on the hunt for a third-party conversions program. I may write one myself.
+Willpower is acceptable, as far as its function goes.  It provides a scheme for detailing your assets, and a boilerplate Will and Last text.  It's not clear, however, that the scheme couldn't be done comparably with a spreadsheet.  In addition, the Will and Last text often needs editing, for the legal language is convoluted so it can be massaged by a computer program to handle the cases checked.
+
+However, Kiplinger provides NO UPGRADE from one year's Willpower to another, something which you'd think would be important as laws change.  I was talked into buying a completely new version, which I did.  Guess what:  The new version has NO MEANS OF IMPORTING INFORMATION from the older version.  That means you have to enter all your property all over again.
+
+The lack of a means of importing information is why I rated this at One Star.  Otherwise it'd get a Three Stars.
+
+I'm on the hunt for a third-party conversions program.  I may write one myself.
+The valuable parts of this book are not valuable because of CRC Press or the Author of this book. The valuable content is the content reprinted in toto and in part from the OMB and NIST SP 800 and other publications paid for by the US taxpayers. Download the real parts for free from NIST and buy the ISC(2) CAP CBK of which Amazon has seevral (the official CBK books and the aftermarkets).
+Just finished using TaxCut Standard 2002 Federal. Absolutely awful as compared to TurboTax. Many questions and statements in the interview are ambiguous. The navigation through the program is good, but TurboTax did a better job of helping you categorize some entries. In many cases, TaxCut defaults to IRS tax guide language, which is sketchy, at best. For example, under itemized deductions, TaxCut uses standard government language for the various item categories, including the nebuluous "other." TurboTax uses more familiar categories, distinguishing such items as "software," an item TaxCut does not recognize. Also downloaded TaxCut State 2002 for Georgia. Georgia has not adopted the Federal Job Creation and Worker Assistance Act of 2002 that allows you to take a bonus depreciation on certain types of property. The bonus must be excluded on the Georgia return (and in many other states.) TaxCut leaves you hanging on this issue, tells you to get the Georgia forms and rework the depreciation for Georgia manually. I gave up at that point and bought TurboTax. TurboTax accounted for all of the state and federal law differences automatically and, it also filled out all of the additional state forms without prompting. One last problem with TaxCut. If you elect to use the integral electronic filing system, it balks at "too many ___ forms" "too many entries per ____ form" and "wrong punctuation on line ____," etc. TurboTax did the electronic filing without a hitch.
+Just finished using TaxCut Standard 2002 Federal. Absolutely awful as compared to TurboTax. Many questions and statements in the interview are ambiguous. The navigation through the program is good, but TurboTax did a better job of helping you categorize some entries. In many cases, TaxCut defaults to IRS tax guide language, which is sketchy, at best. For example, under itemized deductions, TaxCut uses standard government language for the various item categories, including the nebuluous "other." TurboTax uses more familiar categories, distinguishing such items as "software," an item TaxCut does not recognize. Also downloaded TaxCut State 2002 for Georgia. Georgia has not adopted the Federal Job Creation and Worker Assistance Act of 2002 that allows you to take a bonus depreciation on certain types of property. The bonus must be excluded on the Georgia return (and in many other states.) TaxCut leaves you hanging on this issue, tells you to get the Georgia forms and rework the depreciation for Georgia manually. I gave up at that point and bought TurboTax. TurboTax accounted for all of the state and federal law differences automatically and, it also filled out all of the additional state forms without prompting. One last problem with TaxCut. If you elect to use the integral electronic filing system, it balks at "too many ___ forms" "too many entries per ____ form" and "wrong punctuation on line ____," etc. TurboTax did the electronic filing without a hitch.
+This version is so incomplete, it is a total waste of money.
+1) Data entry is tedious.  For periodic contributions (such as payroll deductions or church donations) there is no way to automatically enter them into the program.
+2) When adding non-cash contributions, you are reminded for every single entry if you go over the limits that require you to retain records.
+3) Adding details for non-cash contributions requires you to enter data that the IRS does not, and the date field in that box is badly designed.
+4) The only useful part of the program, value tables for common donated items, is woefully small.
+Its' competitor, "It's Deductible" is a far better program.
+Don't waste your money.
+This version is so incomplete, it is a total waste of money.
+1) Data entry is tedious.  For periodic contributions (such as payroll deductions or church donations) there is no way to automatically enter them into the program.
+2) When adding non-cash contributions, you are reminded for every single entry if you go over the limits that require you to retain records.
+3) Adding details for non-cash contributions requires you to enter data that the IRS does not, and the date field in that box is badly designed.
+4) The only useful part of the program, value tables for common donated items, is woefully small.
+Its' competitor, "It's Deductible" is a far better program.
+Don't waste your money.
+I bought DeductionPro because I'd donated a lot of old clothing, furniture and books to charity last year, and I wanted some assistance organizing and valuing those contributions for my tax preparation. DeductionPro allowed me to enter all of this information, provided a table for estimating their value, and prepared the required IRS form for claiming those deductions since they were valued at over $500.
+Beyond that, there's not much to this software. Its user interface is not very slick. There fields have limited space to enter information, the error messages are not helpful, there are no good instructions, and it's overall look and feel is pretty amateurish. I wasn't very impressed. However, since it comes free with TaxCut, it was clearly worth the money I (didn't) pay.
+There's nothing here that you can't get by simply using tax preparation software. The only real value add is the valuation tables, and they are pretty limited. You can also use it to record cash donations, out of pocket expenses and other kinds of deductions. However, unlike TaxCut, there's limited advise available for doing so, and no obvious benefit to using this software for those things.
+On the whole, using DeductionPro benefited me, but it's nothing to write home about. If you don't need the merchandise valuation tables for non-cash donations, I wouldn't spend the time or money to use this software. Your tax prep software will do it all just as well. If you do need help valuing your donations, then this might make your life a little easier, but not much.
+I bought DeductionPro because I'd donated a lot of old clothing, furniture and books to charity last year, and I wanted some assistance organizing and valuing those contributions for my tax preparation. DeductionPro allowed me to enter all of this information, provided a table for estimating their value, and prepared the required IRS form for claiming those deductions since they were valued at over $500.
+Beyond that, there's not much to this software. Its user interface is not very slick. There fields have limited space to enter information, the error messages are not helpful, there are no good instructions, and it's overall look and feel is pretty amateurish. I wasn't very impressed. However, since it comes free with TaxCut, it was clearly worth the money I (didn't) pay.
+There's nothing here that you can't get by simply using tax preparation software. The only real value add is the valuation tables, and they are pretty limited. You can also use it to record cash donations, out of pocket expenses and other kinds of deductions. However, unlike TaxCut, there's limited advise available for doing so, and no obvious benefit to using this software for those things.
+On the whole, using DeductionPro benefited me, but it's nothing to write home about. If you don't need the merchandise valuation tables for non-cash donations, I wouldn't spend the time or money to use this software. Your tax prep software will do it all just as well. If you do need help valuing your donations, then this might make your life a little easier, but not much.
+
+Topic 4: tax 0.04813 software 0.03884 block 0.03537 turbo 0.02698 product 0.02315 business 0.01982 version 0.01667 amazon 0.01595 download 0.01367 buy 0.01164
+ How Many: 5153
+<div id="video-block-R1OZX56X1LJ5YN" class="a-section a-spacing-small a-spacing-top-mini video-block"></div><input type="hidden" name="" value="https://images-na.ssl-images-amazon.com/images/I/C18IMoepMmS.mp4" class="video-url"><input type="hidden" name="" value="https://images-na.ssl-images-amazon.com/images/I/21sVfv5gUtS.png" class="video-slate-img-url">&nbsp;I have found that H&R Block Business 2014 does not work on higher DPI modes necessary for the visually impaired. This is what it looks like.
+I've used H&R block business tax software for several years when I do the taxes for a small C-corp.  I have used this package because, in the past, it has been much cheaper than competitor's corporate tax package.  It is really a pretty inferior software package, but useable once you get the hang of it. Unlike major competitors, they have done almost nothing to improve the product for many years.  It is buggy and clunky and now H&R Block has increased the price so that it costs almost as much as the far superior Turbo Tax corporate tax package. Now there's no excuse to burden myself another tax season with this clunky package.
+<div id="video-block-R2VEXT9QU6AZ0Z" class="a-section a-spacing-small a-spacing-top-mini video-block"></div><input type="hidden" name="" value="https://images-na.ssl-images-amazon.com/images/I/B1fdLFCyEnS.mp4" class="video-url"><input type="hidden" name="" value="https://images-na.ssl-images-amazon.com/images/I/91BsJFgJh%2BS.png" class="video-slate-img-url">&nbsp;I have used TurboTax for almost 20 years now, and looks like will for another as this H&R Block does not import as advertised.
+
+I uploaded a video if you want to see my webchat with H&R Block Representative.
+
+Like I am going to hand enter all my past data .... RIGHT.
+I bought both H&R and Turbo Tax this year to compare.  Turbo Tax is better.
+I bought both H&R and Turbo Tax this year to compare.  Turbo Tax is better.
+I bought both H&R and Turbo Tax this year to compare.  Turbo Tax is better.
+I bought both H&R and Turbo Tax this year to compare.  Turbo Tax is better.
+I have used this software for many years but will seek other makers next year. It had gotten better but the last cople of years the company seems to be trying to get customers to leave.  I was never able to import last years data into the software. The same is True for their professional verision ATX. The software does what it supose to do but not being to restore backups or being able to rollover old data makes the software worthless to me. Google the product before you buyit. There are so many complaints that professional preparers that use their professional product ATX are considering a class action law suite. I would join their efforts is I could .
+Have used Turbo Tax Deluxe for years with no problems. Based on reviews this year that Turbo Tax Deluxe had removed a lot of functionality I require without upgrading to more expensive version, I purchased H&R Block 14 Deluxe, which advertised that it had all the functionality that prior Turbo Tax Deluxe had in the past. That is False! H&R Block 14 Deluxe DOES NOT HAVE K-1 PUBLICLY TRADED LIMITED PARTNERSHIP software. I am having to download over 100 pages of forms and instructions and do them manually. Also, the interface is not as easy to use as Turbo Tax. Have already input all tax information into this version of software or I would return it. Very disappointed in this product and False advertising and WILL NEVER purchase again. Be aware!
+Bad Product! Incurs much more tax!
+I used both "H&R Block Tax Software" and "H&R Block Online Tax Preparation" to see if there is any tax difference.
+It ends up with $354 more tax liabilities when using the tax software!
+Now I learn that cheap product may cost you more. Totally wasted my money.
+I've used TaxCut the previous 6 years, to my satisfaction.  The software is average.  It does not offer any great features not offered by its competitors, except the optional H&R Block professional review (which, in most cases, costs extra).  I made the switch to Turbo Tax this year because of the HUGE PRICE INCREASE over previous years.  Turbo Tax is actually a litte more user friendly and offers some great online tools.
+I've used TaxCut the previous 6 years, to my satisfaction.  The software is average.  It does not offer any great features not offered by its competitors, except the optional H&R Block professional review (which, in most cases, costs extra).  I made the switch to Turbo Tax this year because of the HUGE PRICE INCREASE over previous years.  Turbo Tax is actually a litte more user friendly and offers some great online tools.
+I found the Business section of the tax software very confusing. I had used Tax Cut in the past and found it is easy to use and thought I would have no problems with H&R Block since they were essentially the same company. I ended up wasting my money on H&R Block and went and bought Turbo Tax and not using the H&R Block software.
+
+Topic 5: rip 0.0044 sucks 0.00291 pen 0.00214 screw 0.00199 snail 0.00197 ssn 0.00192 crappy 0.0019 insult 0.00187 charging 0.00187 favor 0.00181
+ How Many: 5153
+To add insult to injury Tax Cut also inaccurately calculated my tax return resulting in a correction from the IRS and a lesser refund. There's nothing like the cold-chill up the back when you see "IRS" in the return address box on the envelope. Thanks H&R! The mail-in refund people play games with the Catch 22 of needing original copies of the receipt and UPC in two places at once. Of course I got the cheaper refung only. I never seem to get used to all the incompetence & dishonesty in our society everywhere. Zero Stars for Tax Cut!!!
+To add insult to injury Tax Cut also inaccurately calculated my tax return resulting in a correction from the IRS and a lesser refund. There's nothing like the cold-chill up the back when you see "IRS" in the return address box on the envelope. Thanks H&R! The mail-in refund people play games with the Catch 22 of needing original copies of the receipt and UPC in two places at once. Of course I got the cheaper refung only. I never seem to get used to all the incompetence & dishonesty in our society everywhere. Zero Stars for Tax Cut!!!
+I would not recommend the H&R Block TaxCut Federal + State software, especially if you are a volunteer firefighter in New York State.  The NY State program does not have many of the credit forms including the IT-245 tax credit form for New York State volunteer firefighters and volunteer ambulance workers.  This omission almost cost me $200.  Sure the software cost $10 less than TurboTax, but it if it leaves out important credits, you are better off going with TurboTax.  According to the TurboTax web site, this form (IT-245), among the others omitted by TaxCut are included.  Additionally, the chat sessions (4 time) were of little help, as well as 3 phone conversations that were dead ends.  Since I already bought the software, I simply wanted to get the needed forms from the internet and fill them out in longhand.  Then I would edit the IT-201 adding the $200 to line 71 and have TaxCut recalculate the refund.  But TaxCut technical support said there is no way to edit, other than crossout and add the items by pen (so much for the software).
+
+There are 96,000 volunteer firefighters (and I don't know how many volunteer ambulance workers) in New York.  That means we are dealing with $20 Million, and if a quarter of the NY volunteer firefighters use this software without question, they stand to loose $5 Million.  Not sure if the software that H&R Block uses at there shops in NY has this problem, but it is sure worth a look. Do yourself a favor and buy TurboTax.
+I would not recommend the H&R Block TaxCut Federal + State software, especially if you are a volunteer firefighter in New York State.  The NY State program does not have many of the credit forms including the IT-245 tax credit form for New York State volunteer firefighters and volunteer ambulance workers.  This omission almost cost me $200.  Sure the software cost $10 less than TurboTax, but it if it leaves out important credits, you are better off going with TurboTax.  According to the TurboTax web site, this form (IT-245), among the others omitted by TaxCut are included.  Additionally, the chat sessions (4 time) were of little help, as well as 3 phone conversations that were dead ends.  Since I already bought the software, I simply wanted to get the needed forms from the internet and fill them out in longhand.  Then I would edit the IT-201 adding the $200 to line 71 and have TaxCut recalculate the refund.  But TaxCut technical support said there is no way to edit, other than crossout and add the items by pen (so much for the software).
+
+There are 96,000 volunteer firefighters (and I don't know how many volunteer ambulance workers) in New York.  That means we are dealing with $20 Million, and if a quarter of the NY volunteer firefighters use this software without question, they stand to loose $5 Million.  Not sure if the software that H&R Block uses at there shops in NY has this problem, but it is sure worth a look. Do yourself a favor and buy TurboTax.
+PLEASE FOR THE LOVE OF THE CHILDREN.. DON'T BUY THIS!
+
+A baby butterfly dies every time someone buys this software
+Ocean temperatures rise every time someone buys this rip off
+The hole in the ozone expands by 10 meters ever time someone makes the mistake of giving H&R Block money
+Cancer proliferates in Whales every time someone buys this wretched excuse of a scam
+Charlie Manson wants you to buy this software
+Obama will become a Republican, leave Michelle and elope John Boehner if too many fine Americans buy this software
+Punxsutawney Phil will declare an Ice Age if you give any money to H&R Block!
+
+ALL OF THAT CAN BE YOUR FAULT TOO IF YOU BUY THIS RIP OFF!!
+
+Bait and switch Software so be warned. If you own a house or anything other than what can be done with FREE FEDERAL AND STATE services, don't buy this crap. And here I thought Turbo Tax had screwed up. No matter how bad TT messed up, I'll never recommend these thieving clowns to anyone!!
+
+SO... very poor version explanations, additional cost post purchase just to be able to get my donations and interest included.. THEN THE POS CHARGES ANOTHER $40 to do State?!?!?!?!? WOW, could they be anymore like their brick and mortar scam shops. Knew there was a reason I never tried these clowns before, now shame on me.
+
+BUT WAIT THERE'S More! H&R charges another 19.95 (WTF what's wrong with round numbers???) to eFile your state taxes. Not new, TurboTax does the same, but damn, its adding insult to injury with these clowns.
+
+Now I remember why I only ever tried to use these twits at a brick and mortar store.. they nickle and dime you to death. Hell I'm amazed they didn't try charging me for bandwidth and disk space.. oh wait, they did.
+
+These schmucks are just as bad as the IRS themselves. All I can wish upon their executives and pricing thieves is that one day their Karma will catch up to them.. something along the lines of a piano falling on their house... From Orbit, because its the only way to be sure!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Misleading, picture says state is included.  It is not.  This comes across as an intentional rip off.
+didn't download, even with help, tips, trouble shooting, crystal ball, and a genie in a bottle it still sucked.  what super sucks is the no refund on software, i get it... but still annoyed
+This program stinks! First of all, it took me forever to do my taxes on this d*** thing. Then we had to download the State Taxes after it said on the box that it was included with the Federal Taxes. Next, when all was said and done (yea right!) it said I had warnings and erros but it didn't say how to fix it. After many screams and hollers, I was ready to e-file (a big joke!); I had to fill out even more paper work then I did when I had to do it by snail mail. And I couldn't even print it out for snail mail! Whoever made this program, must have been a nerd who got picked on a lot and this is their revenge.
+  This program stinks, stay away from it and do what you normally do. All this does is ask you bogus questions about, God knows what, and you're left with anger and fustration. I'd give this a big fat ZERO if I could but it gets a one by default.
+This program stinks! First of all, it took me forever to do my taxes on this d*** thing. Then we had to download the State Taxes after it said on the box that it was included with the Federal Taxes. Next, when all was said and done (yea right!) it said I had warnings and erros but it didn't say how to fix it. After many screams and hollers, I was ready to e-file (a big joke!); I had to fill out even more paper work then I did when I had to do it by snail mail. And I couldn't even print it out for snail mail! Whoever made this program, must have been a nerd who got picked on a lot and this is their revenge.
+  This program stinks, stay away from it and do what you normally do. All this does is ask you bogus questions about, God knows what, and you're left with anger and fustration. I'd give this a big fat ZERO if I could but it gets a one by default.
+Dear tax software companies,
+
+Please, for the love of freshly shampooed dogs, baby pudding, and bountiful amounts of ketchup, please stop requiring the damn Internet to use your stupid software.
+
+Thank you,
+
+People whose parents are old and refuse to use the Internet.
+
+Topic 6: support 0.04125 code 0.01612 chat 0.01352 phone 0.01118 customer 0.01014 minutes 0.01003 number 0.00942 tech 0.00871 refund 0.00862 hold 0.00796
+ How Many: 5153
+There is no assistance for form 8853 (long term care insurance proceeds). You have to enter the form yourself. That's not what I'm paying for.
+
+But at least the form is available through the app. I filled it in by hand. But oh no, H&R Block's software knows how to do this 'better'. Better as in, incorrectly attempts to partially fill in the form for you. Then errors when you validate the return. Then won't let you fix the problem.
+
+This is what 1 hour of 'interaction' with the H&R Block 24 hour support chat looks like (copy and paste result of waiting from 10:10 PM through 11:10 PM Sunday March 29th):
+
+Customer Chat
+Chat Transcript
+Welcome to H&R Block Technical Support. Please wait while we find a technical support agent to assist you.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+
+So looks like I'm on my own after all.
+Product update won't load, here's how the 24 hours customer service goes via chat:
+
+Welcome to TaxCut technical support. Please wait while we find a technical support agent to assist you.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+An agent will be with you in a moment. Thank you for your patience.
+The next available Agent will be with you in a moment.
+All agents are currently busy. Please stand by.
+My first try with Tax prep software, Appears reasonably intuitive but I'm experiencing issues with Windows 8 crashing; Online support seems a little under-resourced:
+
+Chat Transcript
+Welcome to H&R Block Technical Support. Please wait while we find a technical support agent to assist you.
+You are currently client number 115 in line. An agent will be with you as quickly as possible. Thank you for your patience.
+All agents are currently busy. Please stand by.
+You are currently client number 112 in line. An agent will be with you as quickly as possible. Thank you for your patience.
+An agent will be with you as quickly as possible. Thank you for your patience.
+You are currently client number 111 in line. An agent will be with you as quickly as possible. Thank you for your patience.
+The next available agent will be with you as quickly as possible.
+While the program is great,the customer support system is lacking.  I called the 800 phone number for a recorded message that directed me to a long distance phone number.  When I dialed that phone number, another voice message instructed me to dial a different long distance phone number.  Two long distance phone calls later I spoke with a customer service representative that was not very helpful.
+While the program is great,the customer support system is lacking.  I called the 800 phone number for a recorded message that directed me to a long distance phone number.  When I dialed that phone number, another voice message instructed me to dial a different long distance phone number.  Two long distance phone calls later I spoke with a customer service representative that was not very helpful.
+I was prepared for the usual abominable handling of itemized lists, so I won't take that into account in my rating. But I am horrified by the Mac versions inability to print forms properly.  No matter what settings I try, it prints forms as approximately 4.5" x 6" on standard, letter-sized paper.  If I save my return as a PDF, the PDF exhibits the same problem.  This problem is visible viewing the PDF on the screen, even before it gets anywhere near a printer.  So far, I have not found a resolution.  My attempt to contact Block's customer support produced the following messages.
+-----
+  All agents are currently busy. Please stand by.
+  An agent will be with you in a moment. Thank you for your patience.
+  The next available Agent will be with you in a moment.
+  All agents are currently busy. Please stand by.
+  An agent will be with you in a moment. Thank you for your patience.
+  The next available Agent will be with you in a moment.
+  All agents are currently busy. Please stand by.
+  An agent will be with you in a moment. Thank you for your patience.
+  The next available Agent will be with you in a moment.
+  All agents are currently busy. Please stand by.
+  An agent will be with you in a moment. Thank you for your patience.
+  The next available Agent will be with you in a moment.
+  All agents are currently busy. Please stand by.
+  An agent will be with you in a moment. Thank you for your patience.
+  The next available Agent will be with you in a moment.
+  All agents are currently busy. Please stand by.
+  An agent will be with you in a moment. Thank you for your patience.
+  The next available Agent will be with you in a moment.
+-----
+at approximately one line per minute.  One wonders what Block's definition of "a moment" is.
+
+UPDATED a few days later:
+
+I was finally able to reach customer support.  After an hour, about half of which was spent waiting, they concluded that they didn't know how to solve my problem.
+There is NO customer support.  Live Chat?  Forget about it - I'm simultaneously online waiting for the Live Chat for over 30 mins, only contact that I have rec'd is "All agents are currently busy. Please stand by. An agent will be with you in a moment. Thank you for your patience."  It's only 3/8/15, not the night before taxes are due.  Same issue on the telephone - 1 hour + and still be "thanked for continuing to hold."  If you have no questions, software is as good as any other; but if you have any questions that can't be answered by their robot (pardon me, "virtual assistant") you're on your own.
+Completely False advertising if you ask me.
+H&R Block refused to honor my refund bonus.  You're supposed to get gift cards totaling your IRS refund (or however much of your refund you specify) plus 10 percent.  So, for example, if you sign up to devote $1000 of your refund to the bonus program, they are supposed to give you $1100 in gift cards.
+
+The catch is that if the IRS reduces your refund for any reason, they reduce your gift cards by the amount of the reduction.  If the reduction is greater than the amount of gift cards you signed up for, then you get nothing.  That's True even if you still have plenty of refund remaining to cover the gift cards.
+
+So beware.
+Not able to Install it despite spending several hours, Contacted a Customer Service Agent (Her name was Madhu) for refund. She assured that refund will be processed in 24 hours but no refund has been yet processed.
+
+I have sent fews more mails requesting for refund, nobody has responded to those emails.
+
+I am really unhappy with Amazon's customer service.
+This software will not download 1099-DIV forms from companies it claims it does and customer support is nonexistent.  Based on my experience I do not believe they actually employ anyone to provide phone or online chat support.  I called the support number and logged on to the online chat system late on a Saturday afternoon and got nothing but repeated irritating repetitions of "an agent will be with you shortly."  After waiting for over an hour for a response either by phone or online chat, I finally gave up.
+
+Topic 7: mac 0.02393 unable 0.01534 os 0.00846 10 0.00688 removed 0.00535 average 0.00299 server 0.00281 bad 0.00185 helped 0.00178 hangs 0.00171
+ How Many: 5153
+If you have a Mac with a Mac OS Extended (Case-sensitive, Journaled) filesystem, this software WILL NOT WORK.  (You will see ? questions marks where the buttons are supposed to be along with missing help documentation and numerous other errors)
+
+You can test to see if you will have this problem by clicking on your computer drive and performing a File->Get Info. If under format you see "Mac OS Extended (Case-sensitive, Journaled)", you will have a problem. If you see this: "Mac OS Extended (Journaled)", you should be fine.
+
+Read more about the issue in my post here:
+http://www.amazon.com/review/R3FYLPSM2R7HNB/ref=cm_cr_rev_detmd_pl?ie=UTF8&asin=B00G0DXNC8&cdForum=FxU6ZKJQB6QCA8&cdMsgID=Mx2G8RW0024YZ18&cdMsgNo=10&cdPage=1&cdSort=oldest&cdThread=Tx2NV5Q94BIP4UM&store=software#Mx2G8RW0024YZ18
+
+== TO H&R Block CUSTOMER SUPPORT ==
+Please fix this issue which has plagued your software for years.  If you have any question about why it is broken, feel free to contact me.
+Errors in State Taxes. Refused to let me E-file with a Childcare provider that is an individual.
+
+If I specify the Childcare provider's SSN as XXX-XX-XXXX  I am unable to e-file error message says the EIN must be XX-XXXXXXX format. If I change it to that format the message says it must be in the XXX-XX-XXXX format.
+
+Same childcare provider as I e-filed with last years version, I'm about ready to ask for a refund
+The product should not be released to the consumer.  I found sections in the application that said it was for testing purposes only and would be removed before production.  Live update reports that I have the latest version.  In addition, I get abnormal termination errors.  My system is very well maintained and I do NOT get errors with any other applications.
+Would you thrust your taxes to such an application?
+The product should not be released to the consumer.  I found sections in the application that said it was for testing purposes only and would be removed before production.  Live update reports that I have the latest version.  In addition, I get abnormal termination errors.  My system is very well maintained and I do NOT get errors with any other applications.
+Would you thrust your taxes to such an application?
+WARNING: Although the product specs state "Mac OS X 10.3.9 or newer," Tax Cut does NOT work properly with Mac OS X 10.5 "Leopard."
+
+The first thing you'll notice is that attempting to register Tax Cut results in an immediate program crash.
+
+The second is that no videos will play as it will complain you have the wrong version of Flash installed when you DO have the proper version of Flash installed.
+
+The third is DeductionPro can't be updated as it thinks you have no Internet connection.
+
+H&R Block's support has been completely silent on this issue and it appears they will not be fixing this.
+
+Since it's now opened software, I'm technically not eligible for a refund and will be disputing the purchase with Amazon and/or my credit card company.
+
+This is a horrific business tactic on H&R Block's part and you have been warned.
+
+Note that this is True of the version on the CD as well as revision "7503," the latest update as of February 9, 2008.
+WARNING: Although the product specs state "Mac OS X 10.3.9 or newer," Tax Cut does NOT work properly with Mac OS X 10.5 "Leopard."
+
+The first thing you'll notice is that attempting to register Tax Cut results in an immediate program crash.
+
+The second is that no videos will play as it will complain you have the wrong version of Flash installed when you DO have the proper version of Flash installed.
+
+The third is DeductionPro can't be updated as it thinks you have no Internet connection.
+
+H&R Block's support has been completely silent on this issue and it appears they will not be fixing this.
+
+Since it's now opened software, I'm technically not eligible for a refund and will be disputing the purchase with Amazon and/or my credit card company.
+
+This is a horrific business tactic on H&R Block's part and you have been warned.
+
+Note that this is True of the version on the CD as well as revision "7503," the latest update as of February 9, 2008.
+This software is unbelievably bad.  It appears to have been written for Windows 3.1, as it cannot deal with anything but 8.3 filenames.  The Okay button for many dialogs is absolutely huge and placed behind text entry fields -- must be seen to be believed.
+The installer hangs at 99% or 100% under WinXP for at least 8 minutes, then proceeds.  It never exits, though, and must be killed with task manager.
+I got this software bundled in the Money 2003 Suite, and paid a little extra to get it.  Don't know how I'm going to get my money back for it.
+This software is unbelievably bad.  It appears to have been written for Windows 3.1, as it cannot deal with anything but 8.3 filenames.  The Okay button for many dialogs is absolutely huge and placed behind text entry fields -- must be seen to be believed.
+The installer hangs at 99% or 100% under WinXP for at least 8 minutes, then proceeds.  It never exits, though, and must be killed with task manager.
+I got this software bundled in the Money 2003 Suite, and paid a little extra to get it.  Don't know how I'm going to get my money back for it.
+Initially, the software downloaded, installed, and updated perfectly fine.  However due to programming issues, button graphics are all displayed as blue question marks.  Attempts to access help files are unsuccessful as well. This is a result of programming referring to all cap (FILENAME.XML) files when they are actually (FileName.xml) sentence case name format. As other reviewers have stated, this program does not work if you have a currently formatted HD as Mac OS Extended (Case-sensitive, Journaled).  Check File->Get Info before buying and downloading.  If you have Mac OS Extended (Journaled), you should be fine. Based on other reviews, this appears to be an issue since the 2013 edition of the software. I re-downloaded the software from Amazon a total of 3 times to ensure it wasn't something caused by transit. I uninstalled and removed all cache and .plist files, then reattempted installation. Everything goes smoothly, but the software is unusable as-is.  You can manage to make it through a few of the steps, but simply by guessing the right button to click. I WAS successful in importing last years TurboTax return, but eventually I reached a point that I couldn't make it go to the next step without clear buttons.
+
+Amazon does not offer refunds for downloaded software (boo), so I just spent the last 1 1/2 hours with H&R Block software support.  I spoke to a very sweet and helpful agent who kindly walked me through the uninstall and reinstall process. She eventually provided me a link for a direct download from H&R Block, but that proved ineffective as well.  Instead of escalating the issue, I asked the agent if she had the authority to issue refunds. With some trepidation she did grant me the authorization for a refund and gave me the address to submit my order confirmation.  I should see a check in a few weeks.
+
+I was hoping to be a new convert to H&R this year after decades of being a TurboTax user. I'm really sorry this didn't work for me.  Unless I decide to reformat my HD, I guess it's TurboTax for another year.  See these reviews for more details and possible workarounds: http://www.amazon.com/review/R2PZSU0YLRXCWI/ref=cm_cr_rdpvoterdr?_encoding=UTF8&thanksvoting=cr-vote-R2PZSU0YLRXCWI#R2PZSU0YLRXCWI.2115. Helpful. Reviews
+http://www.amazon.com/review/R3FYLPSM2R7HNB/ref=cm_cr_rev_detmd_pl?ie=UTF8&asin=B00G0DXNC8&cdForum=FxU6ZKJQB6QCA8&cdMsgID=Mx2G8RW0024YZ18&cdMsgNo=10&cdPage=1&cdSort=oldest&cdThread=Tx2NV5Q94BIP4UM&store=software#Mx2G8RW0024YZ18
+I have been using HR Block since 2007. There used to be a work sheet that calculated average cost of shares if you had multiple transactions for the same stock. HR Block removed it this year. Most likely to get you to buy the premium version. Also removed is a feature at the end that showed the average tax, deduction amounts for other taxpayers in your income range. Kinda helped you see if you are way off the average. Removed.
