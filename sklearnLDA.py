@@ -32,7 +32,7 @@ def display_topics(H, W, feature_names, documents, no_top_words, no_top_document
         howMany=len(docProbArray);
         print("\nHow Many");
         print(howMany);
-        archivo.write("\n How Many: " + howMany)
+        archivo.write("\n How Many: " + str(howMany))
 
         #contenido = [str(nTopics), str(alpha), str(eta), topic_idx, infoTopics]
         #writer = csv.writer(archivo)
