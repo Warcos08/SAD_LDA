@@ -82,4 +82,4 @@ topicnames = ["Topic" + str(i) for i in range(lda_model.n_components)]
 docnames = df["Unnamed: 0"]
 # Make the pandas dataframe
 df_document_topic = pd.DataFrame(np.round(lda_W, 2), columns=topicnames, index=docnames)
-df_document_topic.to_csv("IntuitTMNeg.csv")
+df_document_topic.to_csv("Resultados/Topics-review/IntuitTMPos.csv")
