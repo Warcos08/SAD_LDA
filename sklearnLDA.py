@@ -71,3 +71,15 @@ lda_H = lda_model.components_ / lda_model.components_.sum(axis=1)[:, np.newaxis]
 print("LDA Topics")
 #print(tf_feature_names)
 display_topics(lda_H, lda_W, tf_feature_names, documents, 10, 10)
+
+# Tutorial3: https://yanlinc.medium.com/how-to-build-a-lda-topic-model-using-from-text-601cdcbfd3a6
+print(list(df))
+data = df.reviewText.values.tolist()
+
+# column names
+topicnames = ["Topic" + str(i) for i in range(lda_model.n_components)]
+# index names
+docnames = df["Unnamed: 0"]
+# Make the pandas dataframe
+df_document_topic = pd.DataFrame(np.round(lda_W, 2), columns=topicnames, index=docnames)
+df_document_topic.to_csv("IntuitTMNeg.csv")
