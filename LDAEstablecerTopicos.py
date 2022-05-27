@@ -8,10 +8,10 @@ from sklearn.decomposition import LatentDirichletAllocation
 
 # Tutorial: https://blog.mlreview.com/topic-modeling-with-scikit-learn-e80d33668730
 # Tutorial2: https://machinelearninggeek.com/latent-dirichlet-allocation-using-scikit-learn/
-file = "data/IntuitNEG.csv"
-nTopics = 19
-alpha = 0.9
-eta = 0.9
+file = str(input("Introduce el path relativo (EJ: ./data/nombre.csv) :"))
+nTopics = int(input("Introduce el numero de topicos (EJ: 1,2,3...):"))
+alpha = float(input("Introduce el valor de alpha (EJ: 0.25, 1.0, 1.25...):"))
+eta = float(input("Introduce el valor de eta (EJ: 0.25, 1.0, 1.25...):"))
 
 df = pd.read_csv(file)
 documents = df['reviewText']
@@ -38,7 +38,13 @@ lda_output = lda_model.transform(tf)
 topicnames = ["Topic" + str(i) for i in range(lda_model.n_components)]
 # index names
 docnames = df["Unnamed: 0"]
+# dominant topic for each document
 # Make the pandas dataframe
 df_document_topic = pd.DataFrame(np.round(lda_output, 2), columns=topicnames, index=docnames)
-df_document_topic.to_csv("IntuitTMNeg.csv")
+# dominant topic for each document
+dom_topic = np.argmax(df_document_topic.values, axis = 1)
+df_document_topic["Dom_Topic"] = dom_topic
+
+df_document_topic.to_csv("Resultados/Topics-review/MicroTMPos.csv")
+
 

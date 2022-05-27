@@ -10,7 +10,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/Resultados/Topics-review/MicroPos.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Resultados/Topics-review/MicroTMNeg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Resultados/csv/Gensim/GensimParamsSonyNeg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Topics-18-2-2-MicroNeg.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
