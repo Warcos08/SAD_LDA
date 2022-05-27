@@ -8,10 +8,10 @@ def main():
     Nint = data.loc[data["brand"].isin(["by\n    \n    Nintendo", "Nintendo", "Nintendo of America", "Super Nintendo Super Castlevania IV"])]
     NintNeg = Nint.loc[data["overall"] < 3][["brand", "overall", "reviewText", "summary"]]
     NintPos = Nint.loc[data["overall"] > 3][["brand", "overall", "reviewText", "summary"]]
-    Sony = data.loc[data["brand"].isin(["Sony", "by\n    \n    Sony", "by\n    \n    Sony Computer Entertainment", "by\n    \n    Sony Computer Entertainment America", "by\n    \n    Sony Online Entertainment", "Sony Computer Entertainment", "Sony Entertainment"])]
+    Sony = data.loc[data["brand"].isin(["Sony", "by\n    \n    Sony", "by\n    \n    Sony Computer Entertainment", "by\n    \n    Electronic Arts", "Electronic Arts", "Electronic Arts, Inc.", "Electronc Arts", "by\n    \n    Sony Computer Entertainment America", "by\n    \n    Sony Online Entertainment", "Sony Computer Entertainment", "Sony Entertainment"])]
     SonyNeg = Sony.loc[data["overall"] < 3][["brand", "overall", "reviewText", "summary"]]
     SonyPos = Sony.loc[data["overall"] > 3][["brand", "overall", "reviewText", "summary"]]
-    Micro = data.loc[data["brand"].isin(["Microsoft", "by\n    \n    Electronic Arts", "Electronic Arts", "Electronic Arts, Inc.", "Electronc Arts", "Microsoft Corporation", ])]
+    Micro = data.loc[data["brand"].isin(["Microsoft",  "Microsoft Corporation", ])]
     MicroNeg = Micro.loc[data["overall"] < 3][["brand", "overall", "reviewText", "summary"]]
     MicroPos = Micro.loc[data["overall"] > 3][["brand", "overall", "reviewText", "summary"]]
 
