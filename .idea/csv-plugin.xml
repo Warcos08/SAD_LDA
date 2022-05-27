@@ -31,6 +31,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/Resultados/Topics-review/NintTMNeg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Resultados/Topics-review/NintTMPos.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Resultados/Topics-review/NintTMPos2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Resultados/csv/Gensim/GensimParamsSonyNeg.csv">
           <value>
             <Attribute>
