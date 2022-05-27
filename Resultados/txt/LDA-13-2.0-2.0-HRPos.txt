@@ -1,0 +1,1225 @@
+
+Topic 0: program 0.09999 worked 0.04131 fine 0.0178 did 0.00625 software 0.00459 problems 0.00436 year 0.00405 needed 0.00288 work 0.00263 time 0.00236
+ How Many: 10841
+OK I'm another long-time (6 years) TurboTax user that switched to Taxcut. I finished filing my returns yesterday. After reading the reviews for both TurboTax and Taxcut, I almost did my taxes by hand. As it turns out, for me at least, some of the more the ominous Taxcut feedback (the ones with single stars) was mostly hype.
+My return is moderately complex, with regular and passive income, capital gains, itemized deductions, carryover losses etc. At the end of the day, Taxcut handled it all fine. Here are some positives that address some of the negative feedback:
+1. Imported last year's TurboTax data perfectly. There was one minor glitch in interpreting it, which I'll explain below.
+2. Performed two online updates via dialup, one via LAN, they all worked fine
+3. Properly handled the carryover loss, which had to be treated differently for Fed and State
+4. Interview worked fine - never ran into a question like "please fill in form X"
+5. Navigation through fields worked fine with the Tab key and arrows
+6. E-filing worked great. Yeah the return got rejected a couple of times because Taxcut didn't ask me to fill in fields that the IRS and FTB wanted, but the error status pointed me right to the problems and I fixed them easily, and re-filed. Never crashed, no "socket warnings", etc. I e-filed via dialup.
+The only thing I can think of that might make a difference is alot of people seem to be using the XP OS. I'm using Win 98, and Win 2000. Maybe Taxcut has issues with XP.
+
+Taxcut did what TurboTax made harder this year - I completed the return on my home PC and loaded Taxcut on my work PC only to print it out.
+Here are a couple of negatives:
+1. The program crashed about 5 or 6 times while completing my return, mostly when I was bouncing around between different sections. While annoying, I never lost data, in fact Taxcut seems to retain data even if you don't save the file manually.
+2. When you e-file, you use your last year's AGI as an electronic signature. Taxcut pulled the wrong figure (gross income vs. AGI) from my TurboTax data. I was able to override the field and it worked fine. My return was still rejected because my spouse's AGI didn't match, even though I filed MFJ last year! Taxcut doesn't allow you to specify spouse's AGI in that case, so I had to fake it out and go through as though it was filed separately, override the spouse AGI, and then go back and change the filing status. For some reason, even though the status is MFJ, Taxcut provides a spouse AGI and the IRS checks it. Minor annoyance.
+Overall I like Taxcut and would use it again. I also liked TurboTax alot. Not sure what I'm going to do next year. Either program beats doing taxes by hand by a mile.
+OK I'm another long-time (6 years) TurboTax user that switched to Taxcut. I finished filing my returns yesterday. After reading the reviews for both TurboTax and Taxcut, I almost did my taxes by hand. As it turns out, for me at least, some of the more the ominous Taxcut feedback (the ones with single stars) was mostly hype.
+My return is moderately complex, with regular and passive income, capital gains, itemized deductions, carryover losses etc. At the end of the day, Taxcut handled it all fine. Here are some positives that address some of the negative feedback:
+1. Imported last year's TurboTax data perfectly. There was one minor glitch in interpreting it, which I'll explain below.
+2. Performed two online updates via dialup, one via LAN, they all worked fine
+3. Properly handled the carryover loss, which had to be treated differently for Fed and State
+4. Interview worked fine - never ran into a question like "please fill in form X"
+5. Navigation through fields worked fine with the Tab key and arrows
+6. E-filing worked great. Yeah the return got rejected a couple of times because Taxcut didn't ask me to fill in fields that the IRS and FTB wanted, but the error status pointed me right to the problems and I fixed them easily, and re-filed. Never crashed, no "socket warnings", etc. I e-filed via dialup.
+The only thing I can think of that might make a difference is alot of people seem to be using the XP OS. I'm using Win 98, and Win 2000. Maybe Taxcut has issues with XP.
+
+Taxcut did what TurboTax made harder this year - I completed the return on my home PC and loaded Taxcut on my work PC only to print it out.
+Here are a couple of negatives:
+1. The program crashed about 5 or 6 times while completing my return, mostly when I was bouncing around between different sections. While annoying, I never lost data, in fact Taxcut seems to retain data even if you don't save the file manually.
+2. When you e-file, you use your last year's AGI as an electronic signature. Taxcut pulled the wrong figure (gross income vs. AGI) from my TurboTax data. I was able to override the field and it worked fine. My return was still rejected because my spouse's AGI didn't match, even though I filed MFJ last year! Taxcut doesn't allow you to specify spouse's AGI in that case, so I had to fake it out and go through as though it was filed separately, override the spouse AGI, and then go back and change the filing status. For some reason, even though the status is MFJ, Taxcut provides a spouse AGI and the IRS checks it. Minor annoyance.
+Overall I like Taxcut and would use it again. I also liked TurboTax alot. Not sure what I'm going to do next year. Either program beats doing taxes by hand by a mile.
+worked for me, I did our taxes and it worked well, I had no problems installing it on windows 7, updates worked fine and all the functions worked as they should. I like this because it makes filing taxes much easier.
+This program worked very well for getting our taxes done.  I have used Turbo Tax in the past and this program imported my old data seamlessly.  I was worried about using a program this year as we bought a house, but it had all the new house credits built in.  It would have gotten 5 stars, but it was a bit lacking in the state category.  In MN, there is a form (M1PR) to fill out with your property taxes and rental expenditures, and the program had no reference to this form nor was it in the programs database.  From my understanding, this form is different than traditional income tax but it would be nice to have implemented in the program somehow.
+Software worked great once loaded. Have been using same program for several years and tax preparation is relatively painless. Unable to load program directly from disc. Sent first one back because I thought it was defective. New disc had same issue. Ended up copying contents to hard drive and that worked.
+Downloaded the program without issues. Installation worked and the program was easy to follow along. No problems with the program.
+The product worked fine for me until the very end, and then it didn't. Specifically: In order to efile, you need to enter your AGI from last year's return. The program looked up last year's return (also filed with the HRB software) and plugged in a number for the AGI that was wrong. But it would not let me correct it -- the field containing the (erroneous) AGI was locked.
+
+In order to efile, I had to go an alternative route (which did happen through the HRB software) to get two efile PINs (one for me, one for my wife) from the IRS online and use those to efile.
+
+That did work and I did efile, but it was frustrating and time-consuming to have to work around HRB's bug.
+
+Since the program did work well otherwise, and this one bug was survivable, I'm giving it a 4 stars. If the bug had proved insurmountable and I'd been forced to file on (horrors!) paper, I'd have given it a 2, probably.
+I have had this review hanging around for awhile, but this program worked well for my rather simple tax needs. No big surprises, no weird crashes, just a nice, solid program.
+Everything performed flawlessly this year. The program worked and upgraded without issue. No surprises here. As a TurboTax refugee, I appreciate a  company that gives me what I paid for: no hidden agenda; no gimmicks or tricks to get you to spend more money. For my taxes, I'm sticking with HR Block from this point on.
+
+I received my refund exactly on schedule. I had signed up for the 10% refund-bonus program. If you commit part of your refund (up to $5000) to Amazon gift cards, then you get an extra 10% free. So, as an example, for $4000 worth of gift cards, you get an extra $400. This all worked perfectly. The gift cards came in the same day as the refund. Well done, HR Block.
+I had been a consistent TurboTax customer for well over 10 years. I had read in previous years that the HRB software wasn't as functional in regard to handling complex business returns in comparison to TT. However, the continual pricing increases by TT over the last several years made me decide that 2015 was the year to switch HRB. I am glad I did.
+I've given HRB 4 stars. If was price alone, I'd give them 6 stars. However, I have to subtract 2 stars as you can not import previous years tax files into the HRB business portion of the software. Also I wish HRB had the product available for a Mac OS. Getting back to the business program, you do have to re-enter everything piecemeal. The program will not import a TT file. Also for all of February, I continually received a message that the 1065 form (the information form for partnerships) was not available.  What gives with that??? So the business program leaves much to be desired, at least on the 1065 side of the program. I don't know about the other types of business schedules.
+The Individual Premium portion of the software (which is really a separate program) worked flawlessly in the importing of last years TT files.
+The depreciation schedules are much easier to set up in HRB. The transition to the Forms mode is easier in the HRB program.
+I commend HRB for seemingly keeping the program (particularly the individual program) lean and mean. You don't get the feeling that the computer's processer is being overtaxed (pun intended) by graphic files and continual requests to update the software, which is what you get with TT. It is apparent that Intuit has lost touch with the program and the idea that we just want to file our taxes for a reasonable price.
+To any HRB product manager, I am now your customer. Thanks for keeping the program sleek and very afordable. There are some major improvements that could be made with the business program. Also for us Mac fans/users, this combination program made compatible with a Mac OS would put HRB light years ahead of Intuit.
+
+Topic 1: tax 0.19634 turbo 0.06091 block 0.04796 year 0.03914 cut 0.0153 software 0.01301 easier 0.0102 user 0.00936 years 0.00848 better 0.00688
+ How Many: 10841
+I always buy H&R Block at the beginning of each year. As I found out H&R Block and Amazon always have a 50% discount at the beginning of each year for this software. For the past couple of years, I monitored this H&R Block SW price and I haven't found better price than this 50% discount. Here are my purchase record for the past couple of years.
+
+o 01/07/2012 Got H&R Block Premium, Amazon special deal: $29.99
+o 01/05/2013 Got H&R Block Premium, Amazon special deal: $26.99
+o 01/03/2014 Got H&R Block premium, Amazon special deal: $31.99
+o 01/02/2015 Got H&R Block premium, Amazon special deal: $31.99
+o 01/02/2016 Got H&R Block premium, Amazon special deal: $31.95
+
+I do my own tax return, mainly because I have complex tax situations...more than 7 schedule K-1 forms from various private placement investments (including 2 oil exploring investments with complex tax codes), more than 10 rental properties, and a sole proprietorship (for stock trading).  First of all, not all the tax-filer have the related experience or knowledge to handle my tax return (especially, the complex tax codes from oil exploring investments). Or it will cost me a fortune for an experienced CPA to do my tax return.
+
+I was using Turbo tax initially, but I didn't find special advantage in Turbo Tax when comparing with H&R Block. So, I switched over to Tax Cut, and I have been using H&R Block for the past 8 years. It's not only cheaper, but also capable of handling my tax return's needs. It has an easy interview process to guide people to enter information. It allow me to fetch specific form to make manual modifications. I can do if-else analysis to assess different tax strategies with it. The cost of purchasing additional state tax packages is low (rental properties in various states that require me to file multiple state tax returns.).
+
+To my experience, both Turbo Tax and H&R Block are not much difference in functions and capabilities. But I would recommend H&R Block for its value. (Don't get me wrong...I am not saying Turbo Tax is bad. But it's more expensive.)
+I always buy H&R Block at the beginning of each year. As I found out H&R Block and Amazon always have a 50% discount at the beginning of each year for this software. For the past couple of years, I monitored this H&R Block SW price and I haven't found better price than this 50% discount. Here are my purchase record for the past couple of years.
+
+o 01/07/2012 Got H&R Block Premium, Amazon special deal: $29.99
+o 01/05/2013 Got H&R Block Premium, Amazon special deal: $26.99
+o 01/03/2014 Got H&R Block premium, Amazon special deal: $31.99
+o 01/02/2015 Got H&R Block premium, Amazon special deal: $31.99
+o 01/02/2016 Got H&R Block premium, Amazon special deal: $31.95
+
+I do my own tax return, mainly because I have complex tax situations...more than 7 schedule K-1 forms from various private placement investments (including 2 oil exploring investments with complex tax codes), more than 10 rental properties, and a sole proprietorship (for stock trading).  First of all, not all the tax-filer have the related experience or knowledge to handle my tax return (especially, the complex tax codes from oil exploring investments). Or it will cost me a fortune for an experienced CPA to do my tax return.
+
+I was using Turbo tax initially, but I didn't find special advantage in Turbo Tax when comparing with H&R Block. So, I switched over to Tax Cut, and I have been using H&R Block for the past 8 years. It's not only cheaper, but also capable of handling my tax return's needs. It has an easy interview process to guide people to enter information. It allow me to fetch specific form to make manual modifications. I can do if-else analysis to assess different tax strategies with it. The cost of purchasing additional state tax packages is low (rental properties in various states that require me to file multiple state tax returns.).
+
+To my experience, both Turbo Tax and H&R Block are not much difference in functions and capabilities. But I would recommend H&R Block for its value. (Don't get me wrong...I am not saying Turbo Tax is bad. But it's more expensive.)
+I do my own tax return, mainly because I have complex tax situations...more than 5 schedule K-1 from various LLC investments (including 2 oil drilling investments with complex tax codes), more than 10 rental properties, more than 5 stock trading accounts...etc. First of all, not all the tax-filer have the related experience or knowledge to handle my tax return. Or it will cost me a fortune for an experienced CPA to do my tax return.
+
+I was using Turbo tax initially, but I didn't find special advantage in Turbo Tax when comparing with H&R's Tax Cut. So, I switched over to Tax Cut, and I have been using H&R tax cut for the past 8 years. It's not only cheaper, but also capable of handling my tax return's needs. It has an easy interview process to guide people to enter information. It also allow me to fetch specific form to allow manual modifications. I can also do quite some if-else analysis to assess different tax strategies with it. Also, the cost of purchasing additional state tax packages is low (I have rental properties in various states that require me to file multiple state tax returns.).
+
+To my experience, both Turbo Tax and Tax Cut are not much difference in functions and capabilities. But I would recommend Tax Cut for its value.
+Thankfully, I was able to heed the advice of many former Turbo Tax users and purchase Tax Cut right off the bat.
+Tax Cut works wonderfully, and I experienced no problems in installing or using the problems.  A very seamless operation, indeed.
+To those who are skittish about switching to Tax Cut (i.e. afraid of change or the unknown) let me assure you, Tax Cut works just as well as Turbo Tax, but without the added problems of installation and operation.  I say this, as a former Turbo Tax user from way back when it was part of Parsons Technology.
+I give Tax Cut a big Five Stars!  And the Turbo Tax people need to take notice here.  In fact, I think it's the whole Intuit culture that needs to be changed, when they try to foister outrageous things upon their users (Intuit QuickBooks users:  remember when they forced you to 'subscribe' to the payroll tax tables and gave you no choice otherwise?).
+Thankfully, I was able to heed the advice of many former Turbo Tax users and purchase Tax Cut right off the bat.
+Tax Cut works wonderfully, and I experienced no problems in installing or using the problems.  A very seamless operation, indeed.
+To those who are skittish about switching to Tax Cut (i.e. afraid of change or the unknown) let me assure you, Tax Cut works just as well as Turbo Tax, but without the added problems of installation and operation.  I say this, as a former Turbo Tax user from way back when it was part of Parsons Technology.
+I give Tax Cut a big Five Stars!  And the Turbo Tax people need to take notice here.  In fact, I think it's the whole Intuit culture that needs to be changed, when they try to foister outrageous things upon their users (Intuit QuickBooks users:  remember when they forced you to 'subscribe' to the payroll tax tables and gave you no choice otherwise?).
+My fed & state tax prep is not too complicated; so I complete the tax forms manually (the old fashioned way) then run my entries thru Tax Cut. Tax Cut has oftentimes picked up errors that I had made in the manual mode AND saved me $$, both fed & state, in tax obligation/year.  I do estimated tax requirements for following year same way: manual then run thru Tax Cut. Their Fed est tax segment is fair to good; their state est tax segment is non existent.  My tax savings using Tax Cut more than paid for its cost.
+My fed & state tax prep is not too complicated; so I complete the tax forms manually (the old fashioned way) then run my entries thru Tax Cut. Tax Cut has oftentimes picked up errors that I had made in the manual mode AND saved me $$, both fed & state, in tax obligation/year.  I do estimated tax requirements for following year same way: manual then run thru Tax Cut. Their Fed est tax segment is fair to good; their state est tax segment is non existent.  My tax savings using Tax Cut more than paid for its cost.
+I'm a tax preparer and have been using Tax Cut for the past few years for preparing my personal tax return.  This program is almost as comprehensive as software tax professionals use and is easy enough for just about anyone.  I switched to Tax Cut from Turbo Tax several years ago because it was much cheaper, but now I think the programs are pretty much the same.
+
+First off, the updates take longer than usual, probably the result of Congress taking so long to finalize the tax laws which occurred after the software actually shipped.  So be prepared for 10 minutes of updates before starting your return.
+
+This year Tax Cut makes it much easier to move around the return (income, deductions, etc.) so that you can enter it piecemeal rather than having to go through their interview screens.  It is also much easier to go back to a section if you missed entering something.  You don't have to go through a maze of questions to get to what you need.  BUT when they made it easier to move around, they removed the checkboxes that indicates that you have completed that section.  I entered just a few pieces of information (W-2 and interest) while leaving out major things that I have had on my tax return in prior years (mortgage interest) and did the final check and it did not alert me to missing data.  So, REVIEW YOUR RETURN CAREFULLY to make sure you did not miss anything.
+
+Most companies now issue W-2's which can be imported electronically, but I did not see a way to do that in Tax Cut.  I looked, but didn't see it.  That's a shame.
+
+Tax Cut also improved upon the calculation for the sales tax deduction, but it is still a little confusing for non tax professionals.  They could make it super easy by linking your zip code to a database of tax rates, but I guess a day of programming isn't worth it to them.
+
+The included software Deduction Pro is a decent little program, however they should include a 2008 version so that you can track your contributions all throughout the year.
+
+Tax Cut allows you to e-file, but it will cost you an additional $19.95 to do it.  The Deluxe Turbo Tax with the efile ends up being the same price as Tax Cut if you e-file (assuming Turbo Tax doesn't have hidden charges).
+
+Finally, one nice feature is that Tax Cut allows you to save your return as a PDF so you can uninstall the software and later view your return without having to re-install the software.
+
+I looked at Turbo Tax this year and I actually like the input screens on it much better than Tax Cut this year, mostly because it tracks what areas have been completed and I think their final review is better.  Tax Cut still does the job and I think both programs have their issues, but I would never attempt a tax return without them.
+I'm a tax preparer and have been using Tax Cut for the past few years for preparing my personal tax return.  This program is almost as comprehensive as software tax professionals use and is easy enough for just about anyone.  I switched to Tax Cut from Turbo Tax several years ago because it was much cheaper, but now I think the programs are pretty much the same.
+
+First off, the updates take longer than usual, probably the result of Congress taking so long to finalize the tax laws which occurred after the software actually shipped.  So be prepared for 10 minutes of updates before starting your return.
+
+This year Tax Cut makes it much easier to move around the return (income, deductions, etc.) so that you can enter it piecemeal rather than having to go through their interview screens.  It is also much easier to go back to a section if you missed entering something.  You don't have to go through a maze of questions to get to what you need.  BUT when they made it easier to move around, they removed the checkboxes that indicates that you have completed that section.  I entered just a few pieces of information (W-2 and interest) while leaving out major things that I have had on my tax return in prior years (mortgage interest) and did the final check and it did not alert me to missing data.  So, REVIEW YOUR RETURN CAREFULLY to make sure you did not miss anything.
+
+Most companies now issue W-2's which can be imported electronically, but I did not see a way to do that in Tax Cut.  I looked, but didn't see it.  That's a shame.
+
+Tax Cut also improved upon the calculation for the sales tax deduction, but it is still a little confusing for non tax professionals.  They could make it super easy by linking your zip code to a database of tax rates, but I guess a day of programming isn't worth it to them.
+
+The included software Deduction Pro is a decent little program, however they should include a 2008 version so that you can track your contributions all throughout the year.
+
+Tax Cut allows you to e-file, but it will cost you an additional $19.95 to do it.  The Deluxe Turbo Tax with the efile ends up being the same price as Tax Cut if you e-file (assuming Turbo Tax doesn't have hidden charges).
+
+Finally, one nice feature is that Tax Cut allows you to save your return as a PDF so you can uninstall the software and later view your return without having to re-install the software.
+
+I looked at Turbo Tax this year and I actually like the input screens on it much better than Tax Cut this year, mostly because it tracks what areas have been completed and I think their final review is better.  Tax Cut still does the job and I think both programs have their issues, but I would never attempt a tax return without them.
+Bought Tax Cut because Turbo Tax tried sticking it to their former loyal consumer base.  After receiving Tax Cut, Turbo Tax reversed their decision, too late for this year and possibly for futures years also.  Tax Cut was efficient cost less and hopefully won't try stick it to the consumers that tried them the way Turbo did.  I also use Inuit's Quicken, their gaff with Turbo Tax is making me rethink whether I'll stick with it when it's time to Update.
+
+Topic 2: use 0.1474 easy 0.13558 recommend 0.01756 step 0.01219 software 0.00955 follow 0.00853 quick 0.0084 highly 0.00826 understand 0.00741 accurate 0.00584
+ How Many: 10841
+Easy to use and follow.  The step by step instructions walk you through every step in a simple to understand format.
+taxcut as always is easy, thorough, a pleasure to use.  Easy import of data, easy updates, easy to navigate.  We will continue to use this every year!
+The instructions to get the program going were not very clear. But, once that task was behind me, I found the program to be very easy to use.  I would recommend that a step by step installation (i.e. quick start) and first use directions be included with the software.  Otherwise... great!!!
+easy to use step by step tax software that allows quick and easy corrections and changes!!! I highly reccomend this if you have a business or are self employed
+Easy to understand and use.  The program walks you through the whole process!  Highly recommend!
+This program is very user friendly and very easy to use. Even if you have no knowledge of tax laws, it walks you threw step by step with very simple question answer format. I will definitely purchase this software again, and recommend it to others.
+This program is a snap to use. It easily guides you step by step through all the tax areas. The ones you are familar with are even easier to understand. I'm confident my return is correct and complete. I would highly recommend this to anyone who even thinks they want to do their own taxes.
+Everything as stated. Easy and quick to use and install. Covered all I needed with easy instructions. Would recommend. Fine
+I have been using H&R Block Tax Return products for quite a few years.  It is easy to use and easy to understand.  It asks questions and supplies explanations so you don't miss anything in your tax prep process. The program checks for errors.  E filing is also easy and convenient and tax return check payment is quick with this process.  I highly recommend it.
+This was extremely simple to use and follow.  Guides you through step by step, checks for potential errors, and provides in person audit support should the need ever arise.
+
+Topic 3: software 0.02144 download 0.01811 amazon 0.01194 block 0.01161 form 0.0108 install 0.00939 update 0.00874 year 0.00868 data 0.00823 problem 0.0077
+ How Many: 10841
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both H&R Block and TurboTax to compare. I found that both programs satisfied my needs but H&R Block costs consistently less. I have been buying the Deluxe version of H&R Block, before purchasing I check to see if my needs are covered by the feature set of Deluxe version. The main thing I check if the mutual funds sales and cost basis calculations are included (Schedule D) and the form for Foreign Tax Credit from mutual funds is present (Form 1116). H&R Block Deluxe version includes these forms but to get this functionality in TurboTax you need to buy the Premium version of the software.
+
+ INSTALLATION
+~~~~~~~~~~~~~
+ I had no problems with my install. However last year I helped a friend resolve an install problem on a Windows 8 PC. I am including what we did in case this helps someone else. Normally the automatic install runs a file called "tcauto.exe". This file in turn calls another program located under "installers" directory which actually does the work. We were able to by-pass the error by executing the exe program in the installers directory directly "HRBlock_Deluxe+Efile+State_2014_CD.exe" (it is the only file in that directory).
+
+ If you encounter issues with display, such as not seeing selection boxes, check your screen resolution. Both Windows and Mac minimum requirement for the screen resolution is 1024 x 768 pixels or higher. At a lower resolution H&R Block software will have problem with display such as not properly displaying selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+ If you are using a digital download you will need a key-code to install the software after you dowload it. The key-code can be located two ways.
+Option 1: After my download finished the install started automatically offering me a choice of two links "View Keys" and "Install".
+Option 2: You can locate it in your Amazon account:
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+ Does H&R allow to install the software on two PCs?
+I found the answer on H&R Block web site FAQ under the topic "Installing Software on Another Computer"
+I quote the FAQ answer below:
+"There are just a few steps necessary to re-install the H&R Block At Home program from the CD you received in the mail. Follow the steps below to re-install the program or install it on a second computer.
+Insert the H&R Block At Home CD into your computer.
+Click the Need to Re-install? link on the menu bar at the bottom of the screen.
+The Frequently Asked Questions page will open to the first FAQ titled, "Can I install the software on a second computer?"
+Enter your activation code and last 4 digits of the credit card you used to purchase the program initially and click Activate.
+You can find your activation code in your purchase confirmation e-mail.
+Follow the on-screen instructions to complete the installation."
+
+ WHAT IS INCLUDED
+~~~~~~~~~~~~~
+
+I purchased H&R Block Deluxe plus State. This version entitles me to 5 free federal e-files. It allows me to print and mail as many returns as I want, there is no limit on printing.
+
+One state software is included in the package but the package does NOT include free e-file for the state return (see one exception below). If you want to e-file your state return you will need to pay a fee of $19.95 to e-file each state return. Alternatively, you can print all the forms and mail them using US post office without any additional fees. If you need to file taxes for an additional state, each additional state is $39.95 plus $19.95 e-file fee.
+
+Note: NY state residents can e-file state returns for free.
+
+ GENERAL
+~~~~~~~~~~~~~
+
+I just finished my preliminary tax return and below are my observations. Note: the forms are not final until mid January of 2015.
+
+ Pet Peeve: H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary. In my opinion, they should wait until the person enters this year's data and suggest the upgrade only if there is something about the return that can benefit from the Premium version. That would have been useful.
+
+What is the difference between Premium and Deluxe? The Premium version offers advanced tools for self-employed and rental property owners: cost basis of home sales, dividends, gifts, and inheritance assets. It has advanced schedule C guidance to maximize deductions for self-employment income. And finally it has guidance for rental property income and expenses. The rest of the Premium package is the same as Deluxe.
+
+Note that the Deluxe package has support for self-employed income as well as stock sale cost basis calculations. Last year I had to do both and I found the guidance in Deluxe package was sufficient to complete the forms.
+
+ Pet Peeve: Help is not context sensitive. For example, when you click on "learn more" about a particular topic the general help window opens but it does not show help topics for the specific topic that you were working on. Instead you need to search and know which key words to use locate the relevant topics.
+
+ H&R Block provides you some guidance for completing Form 1116 (foreign tax credit, for example foreign tax paid by mutual funds). However, you need to keep switching between whole-form view to enter data and then back to interview to read the instructions. Even though the form where you can enter data is visible at the same time as instructions you cannot enter data into it until you switch into whole-form view. This is cumbersome, but at least there is some guidance for this form.
+
+ DeductionPro (which helps you put value on your charitable donations) is integrated into H&R Block software running on your local PC. You no longer need to enter this information on H&R web site. I prefer having this information locally on my PC for better security. It suggests reasonable prices based on condition of the donated item and it is nice not to have to come up with what is reasonable on my own.
+
+ Pet Peeve: I don't use the default location for the tax returns due to how I set up my backup software. The H&R Block software does not initially remember this new location on the second start of the application, it told me I have no returns. I needed to pick the return manually from the File menu, as it did remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+ I usually purchase tax software as early as possible to help me with end year tax planning. However, if timing is not important to you be aware that the price on this package changes often and you can catch some great discounts. I use a nice tool that shows history of Amazon prices. If you enter "Amazon price history alert" in Google it will come up at the top, my favorite has the word camel in the name. You can set up the tool to send you an alert when you desired price drop is reached. During the last tax year season the price fluctuated between $20 and the list price of $44.99, and was on the gold deal special a couple of times.
+
+ For folks trying to download State Forms. The state forms are not available as of 11/30/2014. You have an option of entering email where you will be notified as soon as the form for your state becomes available. Alternatively, you can go to H&R website, hover (do not click) "Download Software" on the top banner and select "State Editions". Currently it says "Please check back in mid January 2015".
+
+When the state forms became available and I clicked to start the download the entire program disappears for about a minute (I thought it crashed), but then the download screen appeared and the program continued normally.
+
+ At the end of the interview process there is a check step (which you can run at any time, but the interview ends with this check). This step flags problems (e.g. missing information) and potential audit alerts (e.g. unusual deductions) with red flags, and reminders (e.g. things you marked tentative) with yellow flags.
+
+ Sometimes I want to return to some section of my return. The best way to jump to any section directly without navigating through other pages is to use "take me to" button which is displayed at the top of every page, on the same line as H&R Block banner.
+
+ Does H&R has the ability to import TurboTax data from previous years?
+Yes. TurboTax files have a .tax extension. Use the Browse button within H&R Block application to navigate to the folder you need and it will import the data from TT return.
+
+ Problem alert 
+For those who are using Windows XP: There is a bug importing TT 2013 data when using XP.  There is a lengthy discussion on this topic in H&R support forum including a post from H&R Support that they aware of the issue and working on it. Amazon does not allow to post URL links in the text of the review, so I am posting a link to the discussion as a comment.
+
+ The final tax return can be saved in a .PDF format for future reference.
+
+ Updated 2/25/15. You might have noticed that front page states that the next update is March 12, 2015. Someone asked me about this rather late update and I was able to find what portion of the return is effected by the update by searching the H&R support forum: This update is related to "The Health Insurance Coverage" with "The Marketplace Health Insurance" for participants that are 65 or older.
+
+ What to do if my social security number was used by a thief?
+
+During the last year there were many different data breaches and some people's social security numbers have been stolen.  It appears that some thieves filed returns using the stolen social security numbers.  If this happens the person who tries to file a return will get the following error:
+
+IRS records show the spouse's Social Security number (SSN) on this return is the same as the primary taxpayer's SSN on another return already filed this year. Double-check your spouse's SSN. Fix any issues and e-file again. Otherwise, you'll have to file a paper return.
+
+What to do if this happens?
+1. Call HRB told them of the issue (1-800-472-5625)
+2. Call IRS (1-800-829-1040) had them flag the SS#
+IRS states that people need to mail completed return, a copy of police report or Form 14039 Identity Theft Affidavit http://www.irs.gov/pub/irs-pdf/f14039.pdf, copy of Drivers License or passport or SS card.
+
+3. Call Equifax and have them put an alert on the SS# (They notify Experian and TransUnion as well)
+4. Call Social Security Administration and notify them (1-800-772-1213)
+5. File with FTC https://www.ftccomplaintassistant.gov/Information#crnt&panel1-1
+6. File a police report of a possible identity theft
+
+
+I have been a H&R Block/TaxCut user for many years. I keep coming back because it works well for the tax forms I need to do and it is less expensive than TurboTax. If you have a question I have not covered leave a comment and I will do my best to answer it.
+
+Ali Julia review
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both H&R Block and TurboTax to compare. I found that both programs satisfied my needs but H&R Block costs consistently less.  I have been buying the Deluxe version of H&R Block, before purchasing I check to see if my needs are covered by the feature set of Deluxe version. The main thing I check if the mutual funds sales and cost basis calculations are included (Schedule D) and the form for Foreign Tax Credit from mutual funds is present (Form 1116). H&R Block Deluxe version includes these forms but to get this functionality in TurboTax you need to buy the Premium version of the software.
+
+ INSTALLATION
+~~~~~~~~~~~~~
+ I had no problems with my install. However last year I helped a friend resolve an install problem on a Windows 8 PC.  I am including what we did in case this helps someone else. Normally the automatic install runs a file called "tcauto.exe". This file in turn calls another program located under "installers" directory which actually does the work.  We were able to by-pass the error by executing the exe program in the installers directory directly "HRBlock_Deluxe+Efile+State_2014_CD.exe" (it is the only file in that directory).
+
+ If you encounter issues with display, such as not seeing selection boxes, check your screen resolution. Both Windows and Mac minimum requirement for the screen resolution is 1024 x 768 pixels or higher. At a lower resolution H&R Block software will have problem with display such as not properly displaying selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+ If you are using a digital download you will need a key-code to install the software after you dowload it. The key-code can be located two ways.
+Option 1: After my download finished the install started automatically offering me a choice of two links "View Keys" and "Install".
+Option 2: You can locate it in your Amazon account:
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+ Does H&R allow to install the software on two PCs?
+I found the answer on H&R Block web site FAQ under the topic "Installing Software on Another Computer"
+I quote the FAQ answer below:
+"There are just a few steps necessary to re-install the H&R Block At Home program from the CD you received in the mail. Follow the steps below to re-install the program or install it on a second computer.
+Insert the H&R Block At Home CD into your computer.
+Click the Need to Re-install? link on the menu bar at the bottom of the screen.
+The Frequently Asked Questions page will open to the first FAQ titled, "Can I install the software on a second computer?"
+Enter your activation code and last 4 digits of the credit card you used to purchase the program initially and click Activate.
+You can find your activation code in your purchase confirmation e-mail.
+Follow the on-screen instructions to complete the installation."
+
+ WHAT IS INCLUDED
+~~~~~~~~~~~~~
+
+I purchased H&R Block Deluxe plus State. This version entitles me to 5 free federal e-files. It allows me to print and mail as many returns as I want without any extra fees, there is no limit on printing or mailing returns using the Post Office.
+
+One state software is included in the package but the package does NOT include free e-file for the state return (see one exception below). If you want to e-file your state return you will need to pay a fee of $19.95 to e-file each state return. Alternatively, you can print all the forms and mail them using US post office without any additional fees. If you need to file taxes for an additional state, each additional state is $39.95 plus $19.95 e-file fee.
+
+Note: NY state residents can e-file state returns for free.
+
+ GENERAL
+~~~~~~~~~~~~~
+
+I just finished my preliminary tax return and below are my observations. Note: the forms are not final until mid January of 2015.
+
+ Pet Peeve: H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary. In my opinion, they should wait until the person enters this year's data and suggest the upgrade only if there is something about the return that can benefit from the Premium version. That would have been useful.
+
+What is the difference between Premium and Deluxe? The Premium version offers advanced tools for self-employed and rental property owners: cost basis of home sales, dividends, gifts, and inheritance assets. It has advanced schedule C guidance to maximize deductions for self-employment income. And finally it has guidance for rental property income and expenses. The rest of the Premium package is the same as Deluxe.
+
+Note that the Deluxe package has support for self-employed income as well as stock sale cost basis calculations. Last year I had to do both and I found the guidance in Deluxe package was sufficient to complete the forms.
+
+ Pet Peeve: Help is not context sensitive. For example, when you click on "learn more" about a particular topic the general help window opens but it does not show help topics for the specific topic that you were working on. Instead you need to search and know which key words to use locate the relevant topics.
+
+ H&R Block provides you some guidance for completing Form 1116 (foreign tax credit, for example foreign tax paid by mutual funds). However, you need to keep switching between whole-form view to enter data and then back to interview to read the instructions. Even though the form where you can enter data is visible at the same time as instructions you cannot enter data into it until you switch into whole-form view. This is cumbersome, but at least there is some guidance for this form.
+
+ DeductionPro (which helps you put value on your charitable donations) is integrated into H&R Block software running on your local PC. You no longer need to enter this information on H&R web site. I prefer having this information locally on my PC for better security.  It suggests reasonable prices based on condition of the donated item and it is nice not to have to come with what is reasonable on my own.
+
+ Pet Peeve: I don't use the default location for the tax returns due to how I set up my backup software. The H&R Block software does not initially remember this new location on the second start of the application, it told me I have no returns. I needed to pick the return manually from the File menu, as it did remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+ I usually purchase tax software as early as possible to help me with end year tax planning. However, if timing is not important to you be aware that the price on this package changes often and you can catch some great discounts. I use a nice tool that shows history of Amazon prices. If you enter "Amazon price history alert" in Google it will come up at the top, my favorite has the word camel in the name. You can set up the tool to send you an alert when you desired price drop is reached. During the last tax year season the price fluctuated between $20 and the list price of $44.99, and was on the gold deal special a couple of times.
+
+ Update: State returns are now available.
+Original comment: For folks trying to download State Forms. The state forms are not available as of 11/30/2014. You have an option of entering email where you will be notified as soon as the form for your state becomes available. Alternatively, you can go to H&R website, hover (do not click) "Download Software" on the top banner and select "State Editions". Currently it says "Please check back in mid January 2015".
+
+When the state forms became available and I clicked to start the download the entire program disappears for about a minute (I thought it crashed), but then the download screen appeared and the program continued normally.
+
+ At the end of the interview process there is a check step (which you can run at any time, but the interview ends with this check). This step flags problems (e.g. missing information) and potential audit alerts (e.g. unusual deductions) with red flags, and reminders (e.g. things you marked tentative) with yellow flags.
+
+ Sometimes I want to return to some section of my return.  The best way to jump to any section directly without navigating through other pages is to use "take me to" button which is displayed at the top of every page, on the same line as H&R Block banner.
+
+ Does H&R has the ability to import TurboTax data from previous years?
+Yes. TurboTax files have a .tax extension. Use the Browse button within H&R Block application to navigate to the folder you need and it will import the data from TT return.
+
+ Problem alert 
+There is a bug importing TT 2013 data when using XP.  There is a lengthy discussion on this topic in H&R support forum including a post from H&R Support that they are aware of the issue and working on it.
+Amazon does not allow to post URL links in the text of the review, so I am posting a link to the discussion as a comment. Hopefully there will be an update when the problem is fixed.
+
+ The final tax return can be saved in a .PDF format for future reference.
+
+ Updated 2/25/15. You might have noticed that front page states that the next update is March 12, 2015. Someone asked me about this rather late update and I was able to find what portion of the return is effected by the update by searching the H&R support forum: This update is related to "The Health Insurance Coverage" with "The Marketplace Health Insurance" for participants that are 65 or older.
+
+ What to do if my social security number was used by a thief?
+
+During the last year there were many different data breaches and some people's social security numbers have been stolen.  It appears that some thieves filed returns using the stolen social security numbers.  If this happens the person who tries to file a return will get the following error:
+
+IRS records show the spouse's Social Security number (SSN) on this return is the same as the primary taxpayer's SSN on another return already filed this year. Double-check your spouse's SSN. Fix any issues and e-file again. Otherwise, you'll have to file a paper return.
+
+What to do if this happens?
+1. Call HRB told them of the issue (1-800-472-5625)
+2. Call IRS (1-800-829-1040) had them flag the SS#
+IRS states that people need to mail completed return, a copy of police report or Form 14039 Identity Theft Affidavit http://www.irs.gov/pub/irs-pdf/f14039.pdf, copy of Drivers License or passport or SS card.
+
+3. Call Equifax and have them put an alert on the SS# (They notify Experian and TransUnion as well)
+4. Call Social Security Administration and notify them (1-800-772-1213)
+5. File with FTC https://www.ftccomplaintassistant.gov/Information#crnt&panel1-1
+6. File a police report of a possible identity theft
+
+
+I have been a H&R Block/TaxCut user for many years. I keep coming back because it works well for the tax forms I need to do and it is less expensive than TurboTax. If you have a question I have not covered leave a comment and I will do my best to answer it.
+
+Ali Julia review
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both H&R Block and TurboTax to compare. I found that both programs satisfied my needs but H&R Block costs consistently less. I have been buying the Deluxe version of H&R Block, before purchasing I check to see if my needs are covered by the feature set of Deluxe version. The main thing I check if the mutual funds sales and cost basis calculations are included (Schedule D) and the form for Foreign Tax Credit from mutual funds is present (Form 1116). H&R Block Deluxe version includes these forms but to get this functionality in TurboTax you need to buy the Premium version of the software.
+
+ INSTALLATION
+~~~~~~~~~~~~~
+ I had no problems with my install. However last year I helped a friend resolve an install problem on a Windows 8 PC. I am including what we did in case this helps someone else. Normally the automatic install runs a file called "tcauto.exe". This file in turn calls another program located under "installers" directory which actually does the work. We were able to by-pass the error my executing the exe program in the installers directory directly "HRBlock_Deluxe+Efile+State_2014_CD.exe" (it is the only file in that directory).
+
+ If you encounter issues with display, such as not seeing selection boxes, check your screen resolution. Both Windows and Mac minimum requirement for the screen resolution is 1024 x 768 pixels or higher. At a lower resolution H&R Block software will have problem with display such as not properly displaying selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+ If you are using a digital download you will need a key-code to install the software after you dowload it. The key-code can be located two ways.
+Option 1: After my download finished the install started automatically offering me a choice of two links "View Keys" and "Install".
+Option 2: You can locate it in your Amazon account:
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+ Does H&R allow to install the software on two PCs?
+I found the answer on H&R Block web site FAQ under the topic "Installing Software on Another Computer"
+I quote the FAQ answer below:
+"There are just a few steps necessary to re-install the H&R Block At Home program from the CD you received in the mail. Follow the steps below to re-install the program or install it on a second computer.
+Insert the H&R Block At Home CD into your computer.
+Click the Need to Re-install? link on the menu bar at the bottom of the screen.
+The Frequently Asked Questions page will open to the first FAQ titled, "Can I install the software on a second computer?"
+Enter your activation code and last 4 digits of the credit card you used to purchase the program initially and click Activate.
+You can find your activation code in your purchase confirmation e-mail.
+Follow the on-screen instructions to complete the installation."
+
+ WHAT IS INCLUDED
+~~~~~~~~~~~~~
+
+This H&R Block Deluxe includes only the federal tax return (no State).  This version entitles a person to 5 free federal e-files.  The program allows to print any number of returns without limits, and if you decide to mail returns (instead of e-filing) there no additional fees.
+
+ GENERAL
+~~~~~~~~~~~~~
+
+I finished my preliminary tax return and below are my observations. Note: the forms are not final until mid January of 2015.
+
+ Pet Peeve: H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary. In my opinion, they should wait until the person enters this year's data and suggest the upgrade only if there is something about the return that can benefit from the Premium version. That would have been useful.
+
+What is the difference between Premium and Deluxe? The Premium version offers advanced tools for self-employed and rental property owners: cost basis of home sales, dividends, gifts, and inheritance assets. It has advanced schedule C guidance to maximize deductions for self-employment income. And finally it has guidance for rental property income and expenses. The rest of the Premium package is the same as Deluxe.
+
+Note that the Deluxe package has support for self-employed income as well as stock sale cost basis calculations. Last year I had to do both and I found the guidance in Deluxe package was sufficient to complete the forms.
+
+ Pet Peeve: Help is not context sensitive. For example, when you click on "learn more" about a particular topic the general help window opens but it does not show help topics for the specific topic that you were working on. Instead you need to search and know which key words to use locate the relevant topics.
+
+ H&R Block provides you some guidance for completing Form 1116 (foreign tax credit, for example foreign tax paid by mutual funds). However, you need to keep switching between whole-form view to enter data and then back to interview to read the instructions. Even though the form where you can enter data is visible at the same time as instructions you cannot enter data into it until you switch into whole-form view. This is cumbersome, but at least there is some guidance for this form.
+
+ DeductionPro (which helps you put value on your charitable donations) is integrated into H&R Block software running on your local PC. You no longer need to enter this information on H&R web site. I prefer having this information locally on my PC for better security. It suggests reasonable prices based on condition of the donated item and it is nice not to have to come with what is reasonable on my own.
+
+ Pet Peeve: I don't use the default location for the tax returns due to how I set up my backup software. The H&R Block software does not initially remember this new location on the second start of the application, it told me I have no returns. I needed to pick the return manually from the File menu, as it did remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+ I usually purchase tax software as early as possible to help me with end year tax planning. However, if timing is not important to you be aware that the price on this package changes often and you can catch some great discounts. I use a nice tool that shows history of Amazon prices. If you enter "Amazon price history alert" in Google it will come up at the top, my favorite has the word camel in the name. You can set up the tool to send you an alert when you desired price drop is reached. During the last tax year season the price fluctuated between $20 and the list price of $44.99, and was on the gold deal special a couple of times.
+
+ At the end of the interview process there is a check step (which you can run at any time, but the interview ends with this check). This step flags problems (e.g. missing information) and potential audit alerts (e.g. unusual deductions) with red flags, and reminders (e.g. things you marked tentative) with yellow flags.
+
+ Sometimes I want to return to some section of my return. The best way to jump to any section directly without navigating through other pages is to use "take me to" button which is displayed at the top of every page, on the same line as H&R Block banner.
+
+ Does H&R has the ability to import TurboTax data from previous years?
+Yes. TurboTax files have a .tax extension. Use the Browse button within H&R Block application to navigate to the folder you need and it will import the data from TT return.
+
+ Problem alert 
+There is a bug importing TT 2013 data when using XP.  There is a lengthy discussion on this topic in H&R support forum including a post from H&R Support that they aware of the issue and working on it.
+Amazon does not allow to post URL links in the text of the review, so I am posting a link to the discussion as a comment.
+
+ Adding this point based on a useful question in the comments:  The final tax return can be saved in a .PDF format for future reference.
+
+ Updated 2/25/15. You might have noticed that front page states that the next update is March 12, 2015. Someone asked me about this rather late update and I was able to find what portion of the return is effected by the update by searching the H&R support forum: This update is related to "The Health Insurance Coverage" with "The Marketplace Health Insurance" for participants that are 65 or older.
+
+ What to do if my social security number was used by a thief?
+
+During the last year there were many different data breaches and some people's social security numbers have been stolen.  It appears that some thieves filed returns using the stolen social security numbers.  If this happens the person who tries to file a return will get the following error:
+
+IRS records show the spouse's Social Security number (SSN) on this return is the same as the primary taxpayer's SSN on another return already filed this year. Double-check your spouse's SSN. Fix any issues and e-file again. Otherwise, you'll have to file a paper return.
+
+What to do if this happens?
+1. Call HRB told them of the issue (1-800-472-5625)
+2. Call IRS (1-800-829-1040) had them flag the SS#
+IRS states that people need to mail completed return, a copy of police report or Form 14039 Identity Theft Affidavit http://www.irs.gov/pub/irs-pdf/f14039.pdf, copy of Drivers License or passport or SS card.
+
+3. Call Equifax and have them put an alert on the SS# (They notify Experian and TransUnion as well)
+4. Call Social Security Administration and notify them (1-800-772-1213)
+5. File with FTC https://www.ftccomplaintassistant.gov/Information#crnt&panel1-1
+6. File a police report of a possible identity theft
+
+
+I have been a H&R Block/TaxCut user for many years. I keep coming back because it works well for the tax forms I need to do and it is less expensive than TurboTax. If you have a question I have not covered leave a comment and I will do my best to answer it.
+
+Ali Julia review
+I just finished my preliminary tax return and happy to report that I have not encountered any problems. Overall, the interface looks very similar to last year.  I purchased the H&R Deluxe + State, but the Federal portion is identical, so I am reposting the Federal portion of the review for reference here.
+
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both H&R Block and TurboTax to compare. I found that both programs satisfied my needs but H&R Block costs consistently less. I have been buying the Deluxe version of H&R Block because it covers it the mutual funds sales and cost basis calculations are included (Schedule D) and the form for Foreign Tax Credit from mutual funds is present (Form 1116). To get this functionality in TurboTax you need to buy the Premium version of the software.
+
+The price on this package changes often and you can catch some great discounts. I use a nice tool that shows history of Amazon prices. If you enter "Amazon price history alert" in Google it will come up at the top, my favorite has the word "camel" (repeated 3 times) in the name. You can set up the tool to send you an alert when you desired price drop is reached. During the last tax year season the price fluctuated between $20 and the list price of $34.99, and was on the gold deal special a couple of times.
+
+' INSTALLATION
+~~~~~~~~~~~~~
+' I had no problems with my install. However in 2013 I helped a friend resolve an install problem on a Windows 8 PC us installing from a CD. I am including what we did again as I know a few people told me in helped with 2014 install. Normally the automatic install runs a file called "tcauto.exe". This file in turn calls another program located under "installers" directory which actually does the work. We were able to by-pass the error by executing the exe program in the installers directory directly, this year it should be called "HR_Block_Tax_Software_2015_Deluxe__State_-_Windows_CD.exe" (it is the only file in that directory).
+
+' If you encounter issues with display, such as not seeing selection boxes, check your screen resolution. Both Windows and Mac minimum requirement for the screen resolution is 1024 x 768 pixels or higher. At a lower resolution H&R Block software will have problem with display such as not properly displaying selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+' If you are using a digital download you will need a key-code to install the software after you download it. The key-code can be located several ways.
+Option 1: In the past when my download finished the install started automatically and offered me a choice of two links "View Keys" and "Install".
+Option 2: This year the install did not start automatically so I clicked on the install program myself, and on the first screen it asked for "Activation code". When I purchased the software Amazon sent me a message which included a Product Code (note that they did not call it Activation code) which is the number I needed.
+Option 3: You can locate it in your Amazon account:
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+' If you have a virus scanner it will generate an alert the first time you run the program, change the permission to "Permit Always" otherwise the program will be blocked.
+
+' Does H&R allow to install the software on two PCs?
+I found the answer on H&R Block web site FAQ under the topic "Installing Software on Another Computer"
+I quote the FAQ answer below:
+"There are just a few steps necessary to re-install the H&R Block At Home program from the CD you received in the mail. Follow the steps below to re-install the program or install it on a second computer.
+Insert the H&R Block At Home CD into your computer.
+Click the Need to Re-install? link on the menu bar at the bottom of the screen.
+The Frequently Asked Questions page will open to the first FAQ titled, "Can I install the software on a second computer?"
+Enter your activation code and last 4 digits of the credit card you used to purchase the program initially and click Activate.
+You can find your activation code in your purchase confirmation e-mail.
+Follow the on-screen instructions to complete the installation."
+
+' WHAT IS INCLUDED
+~~~~~~~~~~~~~
+
+I purchased H&R Block Deluxe entitles me to 5 free federal e-files. It allows me to print and mail as many returns as I want, there is no limit on printed returns.
+
+' GENERAL
+~~~~~~~~~~~~~
+
+I just finished my preliminary tax return and below are my observations. Note: the forms are not final until mid January of 2016.
+
+' Pet Peeve: H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary. In my opinion, they should wait until the person enters this year's data and suggest the upgrade only if there is something about the return that can benefit from the Premium version. That would have been useful.
+
+What is the difference between Premium and Deluxe? The Premium version offers advanced tools for self-employed and rental property owners: cost basis of home sales, dividends, gifts, and inheritance assets. It has advanced schedule C guidance to maximize deductions for self-employment income. And finally it has guidance for rental property income and expenses. The rest of the Premium package is the same as Deluxe.
+
+Note that the Deluxe package has support for self-employed income as well as stock sale cost basis calculations.
+
+' Pet Peeve: Help is not context sensitive. For example, when you click on "learn more" about a particular topic the general help window opens but it does not show help topics for the specific topic that you were working on. Instead you need to search and know which key words to use locate the relevant topics.
+
+' H&R Block provides you some guidance for completing Form 1116 (foreign tax credit, for example foreign tax paid by mutual funds). However, you need to keep switching between whole-form view to enter data and then back to interview to read the instructions. Even though the form where you can enter data is visible at the same time as instructions you cannot enter data into it until you switch into whole-form view. This is cumbersome, but at least there is some guidance for this form.
+
+' DeductionPro (which helps you put value on your charitable donations) is integrated into H&R Block software running on your local PC. It suggests reasonable prices based on condition of the donated item and it is nice not to have to come up with what is reasonable on my own.
+
+' Pet Peeve: I don't use the default location for the tax returns due to how I set up my backup software. The H&R Block software does not initially remember this new location on the second start of the application, it told me I have no returns. I needed to pick the return manually from the File menu, as it did remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+' At the end of the interview process there is a check step (which you can run at any time, but the interview ends with this check). This step flags problems (e.g. missing information) and potential audit alerts (e.g. unusual deductions) with red flags, and reminders (e.g. things you marked tentative) with yellow flags.
+
+' Sometimes I want to return to some section of my return. The best way to jump to any section directly without navigating through other pages is to use "take me to" button which is displayed at the top of every page, on the same line as H&R Block banner.
+
+' Does H&R has the ability to import TurboTax data from previous years?
+Yes. TurboTax files have a .tax extension. Use the Browse button within H&R Block application to navigate to the folder you need and it will import the data from TT return.
+
+' The final tax return can be saved in a .PDF format for future reference.
+
+'  In 2014 TurboTax's introduced a requirement that the data had to be sent to Intuit's servers to be formatted for printing. I verified that H&R Block can print forms when Ethernet connection is disconnected.
+
+'  If you owe taxes there are three options for payment: electronic withdrawal from your bank, mailing a check and paying by credit card from a secure web site. Is there a charge to pay by credit card? Yes. There are three web sites that do this service and the fees vary from the lowest of $2.50 flat fee for a debit card to highest of 2.25% fee by credit card from one of the web sites.  If you search for "pay taxes by credit or debit" you will see the detailed fee schedule on the irs.gov web site.
+
+' IDENTIFY THEFT AND TAX RETURNS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+' Last year there were many reports of thieves filing fraudulent tax returns using stolen social security numbers
+If this happens the person who tries to file their own tax return gets the following error:
+
+IRS records show the spouse's Social Security number (SSN) on this return is the same as the primary taxpayer's SSN on another return already filed this year. Double-check your spouse's SSN. Fix any issues and e-file again. Otherwise, you'll have to file a paper return.
+
+What to do if this happens?
+1. Call HRB told them of the issue (1-800-472-5625)
+2. Call IRS (1-800-829-1040) had them flag the SS#
+IRS states that people need to mail completed return, a copy of police report or Form 14039 Identity Theft Affidavit (...), copy of Drivers License or passport or SS card.
+3. Call Equifax and have them put an alert on the SS# (They notify Experian and TransUnion as well)
+4. Call Social Security Administration and notify them (1-800-772-1213)
+5. File with FTC (...)
+6. File a police report of a possible identity theft
+
+I have been a H&R Block/TaxCut user for many years. I keep coming back because it works well for the tax forms I need to do and it is less expensive than TurboTax. If you have a question I have not covered leave a comment and I will do my best to answer it.
+
+Ali Julia review
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both TaxCut and TurboTax to compare. I found that TurboTax did not do anything better than TaxCut while costing consistently more. In addition, I like the option of being able to file 5 free Federal e-files as I do taxes for other relatives who are less computer savvy.
+
+If you encounter issues with display, such as not seeing selection boxes, check your screen resolution. Both Windows and Mac minimum requirement for the screen resolution is 1024 x 768 pixels or higher. At a lower resolution H&R Block software will have problem with display such as not properly displaying selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+I just finished a preliminary tax return and below are my observations. Note: the forms are not final until January 10, 2013.
+Note that I purchased H&R Block Deluxe plus State, and in this review I am including only the review of the federal forms. The federal forms part of the product are identical, of course, whether one buys the State add-on or not.
+
+1. H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary.
+It would have better if they waited until the financial information is entered and offered the Premium version only to those for whom it might make sense.
+
+What is the difference between Premium and Deluxe? The Premium version offers advanced tools for self-employed and rental property owners: cost basis of home sales, dividents, gifts, and inheritance assets. It has advanced schedule C guidance to maximize deductions for self-employment income. And finally it has guidance for rental property income and expenses. The rest of the Premium package is the same as Deluxe.
+
+Note that the Deluxe package has support for self-employed income as well as stock sale cost basis calculations. This year I had to do both, and I found the guidance to be sufficient to complete the forms.
+
+2. As of 11/19/2012 videos for tax law changes were not available yet (the prompt said coming soon).
+
+3. Minor pet peeve: Help is not context sensitive. For example, when you click on "learn more" about a particular topic the general help window opens but it does not show help topics for the specific topic that you were working on. Instead you need to search and know which words to use locate the relevant topics.
+
+4. Good news: DeductionPro 2012 is now integrated into H&R Block, you no longer need to go to H&R web site.
+
+5. H&R Block provides you some guidance for completing Form 1116 (foreign tax credit, for example from mutual funds). However, you need to keep switching between whole-form view to enter data and then back to interview to read the instructions. Even though the form where you can enter data is visible at the same time as instructions you cannot enter data into it until you switch into whole-form view. This is cumbersome, but at least there is some guidance for this form.
+
+6. Copy and Paste from Interview screens is not possible. Sometimes I wish to do it for some issue as a reminder to myself. My solution is to do PrintScreen (holding ctl key, shift key, and PrintScreen key at the same time). This generates an image of the screen, which I paste into paint or photo editing software which I can print or save for later.
+
+7. I don't use the default location for the tax returns due to how I set up my backup software. The H&R Block software does not initially remember this new location on the second start of the application, it told me I have no returns. I needed to pick the return manually from the File menu, as it did remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+8. I use large font option on my monitor display and in the past had display issues (some things were displayed on top of each other). This year all forms displayed properly with this option. Nice!
+
+9. H&R Block Deluxe entitles you to 5 free federal state e-files.
+
+10. The price on this package changes day to day. I found a nice tools that shows history of Amazon prices. If you enter "price history alert" in Google it will come up at the top, it has the word camel in the name. I find this tool very helpful. I just looked up that the price last year during the tax preparation season hit the $20 mark on three different dates. You can set up an alert tool to email you when your desired price has been reached.
+
+11. A note about digital download key-code
+-----------------------------------------
+I run into a glitch a solution to which I want to include
+
+After I installed the software and started it for the first time it prompted me to enter a key-code. The prompt said that I should have received in the email after purchasing the software, however the email I received from Amazon did not contained a key-code. I had to call Amazon support and they told me that this information can be found following these steps
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+12. Update 12/10/2012.  I received a question if H&R allows to install the software on two PCs.  I found the answer on H&R Block web site FAQ under the topic "Installing Software on Another Computer"
+
+ There are just a few steps necessary to re-install the H&R Block At Home program from the CD you received in the mail. Follow the steps below to re-install the program or install it on a second computer.
+  Insert the H&R Block At Home CD into your computer.
+  Click the Need to Re-install? link on the menu bar at the bottom of the screen.
+  The Frequently Asked Questions page will open to the first FAQ titled, "Can I install the software on a second computer?"
+  Enter your activation code and last 4 digits of the credit card you used to purchase the program initially and click Activate.
+  You can find your activation code in your purchase confirmation e-mail.
+  Follow the on-screen instructions to complete the installation.
+
+13. Update 12/18/2012.  Adding another answer to great question to share with everyone.
+Q:  Is there an audit check which marks problems with red flags?
+A:  At the end of the interview process there is a check step (which you can run at any time, but the interview ends with this check). This step flags problems (e.g. missing information) and potential audit alerts (e.g. unusual deductions) with red flags , and reminders (e.g. things you marked tentative) with yellow flags.
+
+14. Update 2/7/2013. I received a question if I had any problem doing updates of the software.
+I have performed several updates without problems.  If you have a firewall, the firewall prompts with a question if you trust the software and you need to reply "yes". If you say no, the install will be rolled back.  If you accidentally reply "No" to this prompt, I would recommend uninstalling the software. Then installing it again, and then trying another update.  Alternatively you can deactivate the firewall during the install.
+
+I have been a H&R Block/TaxCut user for many years. The interview process is helpful in reminding you things you might have forgotten. 2012 H&R Block package addressed a couple of my old pet peeves (for example, integration with DeductionPro). So I am quite pleased with it and recommend it!
+
+Ali Julia review
+I just finished  my preliminary tax return and happy to report that I have not encountered any problems.  Overall, the interface looks very similar to last year.
+
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both H&R Block and TurboTax to compare. I found that both programs satisfied my needs but H&R Block costs consistently less. I have been buying the Deluxe version of H&R Block because it covers it the mutual funds sales and cost basis calculations are included (Schedule D) and the form for Foreign Tax Credit from mutual funds is present (Form 1116). To get this functionality in TurboTax you need to buy the Premium version of the software.
+
+The price on this package changes often and you can catch some great discounts. I use a nice tool that shows history of Amazon prices. If you enter "Amazon price history alert" in Google it will come up at the top, my favorite has the word "camel" (repeated 3 times) in the name. You can set up the tool to send you an alert when you desired price drop is reached. During the last tax year season the price fluctuated between $20 and the list price of $44.99, and was on the gold deal special a couple of times.
+
+' INSTALLATION
+~~~~~~~~~~~~~
+' I had no problems with my install. However in 2013 I helped a friend resolve an install problem on a Windows 8 PC us installing from a CD. I am including what we did again as I know a few people told me in helped with 2014 install. Normally the automatic install runs a file called "tcauto.exe". This file in turn calls another program located under "installers" directory which actually does the work. We were able to by-pass the error by executing the exe program in the installers directory directly, this year it should be called "HR_Block_Tax_Software_2015_Deluxe__State_-_Windows_CD.exe" (it is the only file in that directory).
+
+' If you encounter issues with display, such as not seeing selection boxes, check your screen resolution. Both Windows and Mac minimum requirement for the screen resolution is 1024 x 768 pixels or higher. At a lower resolution H&R Block software will have problem with display such as not properly displaying selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+' If you are using a digital download you will need a key-code to install the software after you dowload it. The key-code can be located several ways.
+Option 1:  In the past when my download finished the install started automatically and offered me a choice of two links "View Keys" and "Install".
+Option 2:  This year the install did not start automatically so I clicked on the install program myself, and on the first screen it asked for "Activation code".  When I purchased the software Amazon sent me a message which included a Product Code (note that they did not call it Activation code) which is the number I needed.
+Option 3: You can locate it in your Amazon account:
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+' If you have a virus scanner it will generate an alert the first time you run the program, change the permission to "Permin Always" otherwise the program will be blocked.
+
+' Does H&R allow to install the software on two PCs?
+I found the answer on H&R Block web site FAQ under the topic "Installing Software on Another Computer"
+I quote the FAQ answer below:
+"There are just a few steps necessary to re-install the H&R Block At Home program from the CD you received in the mail. Follow the steps below to re-install the program or install it on a second computer.
+Insert the H&R Block At Home CD into your computer.
+Click the Need to Re-install? link on the menu bar at the bottom of the screen.
+The Frequently Asked Questions page will open to the first FAQ titled, "Can I install the software on a second computer?"
+Enter your activation code and last 4 digits of the credit card you used to purchase the program initially and click Activate.
+You can find your activation code in your purchase confirmation e-mail.
+Follow the on-screen instructions to complete the installation."
+
+' WHAT IS INCLUDED
+~~~~~~~~~~~~~
+
+I purchased H&R Block Deluxe plus State. This version entitles me to 5 free federal e-files. It allows me to print and mail as many returns as I want, there is no limit on printed returns.
+
+One state software is included in the package but the package does NOT include free e-file for the state return (see one exception below). If you want to e-file your state return you will need to pay a fee of $19.95 to e-file each state return. Alternatively, you can print all the forms and mail them using US post office without any additional fees. If you need to file taxes for an additional state, each additional state is $39.95 plus $19.95 e-file fee.
+
+Note 1: NY state residents can e-file state returns for free if their income is $60,000 or less.
+Note 2: It is not possible to e-file a state return for New Hampshire, it has to be mailed in.
+
+' GENERAL
+~~~~~~~~~~~~~
+
+I just finished my preliminary tax return and below are my observations. Note: the forms are not final until mid January of 2016.
+
+' Pet Peeve: H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary. In my opinion, they should wait until the person enters this year's data and suggest the upgrade only if there is something about the return that can benefit from the Premium version. That would have been useful.
+
+What is the difference between Premium and Deluxe? The Premium version offers advanced tools for self-employed and rental property owners: cost basis of home sales, dividends, gifts, and inheritance assets. It has advanced schedule C guidance to maximize deductions for self-employment income. And finally it has guidance for rental property income and expenses. The rest of the Premium package is the same as Deluxe.
+
+Note that the Deluxe package has support for self-employed income as well as stock sale cost basis calculations.
+
+' Pet Peeve: Help is not context sensitive. For example, when you click on "learn more" about a particular topic the general help window opens but it does not show help topics for the specific topic that you were working on. Instead you need to search and know which key words to use locate the relevant topics.
+
+' H&R Block provides you some guidance for completing Form 1116 (foreign tax credit, for example foreign tax paid by mutual funds). However, you need to keep switching between whole-form view to enter data and then back to interview to read the instructions. Even though the form where you can enter data is visible at the same time as instructions you cannot enter data into it until you switch into whole-form view. This is cumbersome, but at least there is some guidance for this form.
+
+' DeductionPro (which helps you put value on your charitable donations) is integrated into H&R Block software running on your local PC.  It suggests reasonable prices based on condition of the donated item and it is nice not to have to come up with what is reasonable on my own.
+
+' Pet Peeve: I don't use the default location for the tax returns due to how I set up my backup software. The H&R Block software does not initially remember this new location on the second start of the application, it told me I have no returns. I needed to pick the return manually from the File menu, as it did remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+' For folks trying to download State Forms. The state forms are not available as of 11/20/2015. H&R web site says they will become available in January.  To see the latest status you can go to H&R website, click on Dowload software, then hover over  "Download Software" on the top banner and select "State Editions". Currently it says "Coming soon in January 2016".
+
+When the state forms became available and  teh state software can be downloaded directly from the program.
+
+' At the end of the interview process there is a check step (which you can run at any time, but the interview ends with this check). This step flags problems (e.g. missing information) and potential audit alerts (e.g. unusual deductions) with red flags, and reminders (e.g. things you marked tentative) with yellow flags.
+
+' Sometimes I want to return to some section of my return. The best way to jump to any section directly without navigating through other pages is to use "take me to" button which is displayed at the top of every page, on the same line as H&R Block banner.
+
+' Does H&R has the ability to import TurboTax data from previous years?
+Yes. TurboTax files have a .tax extension. Use the Browse button within H&R Block application to navigate to the folder you need and it will import the data from TT return.
+
+' The final tax return can be saved in a .PDF format for future reference.
+
+'  In 2014 TurboTax's introduced a requirement that the data had to be sent to Intuit's servers to be formatted for printing. I verified that H&R Block can print forms when Ethernet connection is disconnected.
+
+'  If you owe taxes there are three options for payment: electronic withdrawal from your bank, mailing a check and paying by credit card from a secure web site. Is there a charge to pay by credit card? Yes. There are three web sites that do this service and the fees vary from the lowest of $2.50 flat fee for a debit card to highest of 2.25% fee by credit card from one of the web sites.  If you search for "pay taxes by credit or debit" you will see the detailed fee schedule on the irs.gov web site.
+
+' IDENTIFY THEFT AND TAX RETURNS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'  Last year there were many reports of thieves filing fraudulent tax returns using stolen social security numbers
+If this happens the person who tries to file their own  tax return gets the following error:
+
+IRS records show the spouse's Social Security number (SSN) on this return is the same as the primary taxpayer's SSN on another return already filed this year. Double-check your spouse's SSN. Fix any issues and e-file again. Otherwise, you'll have to file a paper return.
+
+What to do if this happens?
+1. Call HRB told them of the issue (1-800-472-5625)
+2. Call IRS (1-800-829-1040) had them flag the SS#
+IRS states that people need to mail completed return, a copy of police report or Form 14039 Identity Theft Affidavit (...) copy of Drivers License or passport or SS card.
+3. Call Equifax and have them put an alert on the SS# (They notify Experian and TransUnion as well)
+4. Call Social Security Administration and notify them (1-800-772-1213)
+5. File with FTC (...)
+6. File a police report of a possible identity theft
+
+I have been a H&R Block/TaxCut user for many years. I keep coming back because it works well for the tax forms I need to do and it is less expensive than TurboTax. If you have a question I have not covered leave a comment and I will do my best to answer it.
+
+Ali Julia review
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both TaxCut and TurboTax to compare. I found that TurboTax did not do anything better than TaxCut while costing consistently more.
+
+ INSTALLATION
+~~~~~~~~~~~~~
+ If you encounter issues with display, such as not seeing selection boxes, check your screen resolution. Both Windows and Mac minimum requirement for the screen resolution is 1024 x 768 pixels or higher. At a lower resolution H&R Block software will have problem with display such as not properly displaying selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+ If you are using a digital download you will need a key-code to install the software after you dowload it.  The key-code can be located two ways.
+Option 1: After my download finished the install started automatically offering me a choice of two links "View Keys" and "Install". When I selected view key-code after a fairly long pause it displayed my key-code in a browser window.
+Option 2: You can locate it in your Amazon account:
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+ Does H&R allow to install the software on two PCs?
+I found the answer on H&R Block web site FAQ under the topic "Installing Software on Another Computer"
+I quote the FAQ answer below:
+"There are just a few steps necessary to re-install the H&R Block At Home program from the CD you received in the mail. Follow the steps below to re-install the program or install it on a second computer.
+Insert the H&R Block At Home CD into your computer.
+Click the Need to Re-install? link on the menu bar at the bottom of the screen.
+The Frequently Asked Questions page will open to the first FAQ titled, "Can I install the software on a second computer?"
+Enter your activation code and last 4 digits of the credit card you used to purchase the program initially and click Activate.
+You can find your activation code in your purchase confirmation e-mail.
+Follow the on-screen instructions to complete the installation."
+
+ WHAT IS INCLUDED
+~~~~~~~~~~~~~
+
+I purchased a digital download version of H&R Block Deluxe plus State. This version entitles you to 5 free federal e-files.  You can print and mail as many returns as you want, there is no limit on printing.
+
+One state software is included in the package but the package does NOT include free e-file for the state return (see one exception below). If you want to e-file  your state return you will need to pay a fee of $19.95 to e-file each state return. Alternatively, you can print all the forms and mail them using US post office.  If you need to file taxes for an additional state, each additional state is $39.95 plus $19.95 e-file fee.  Ouch!
+
+Note: NY state residents can e-file state returns for free.
+
+ GENERAL
+~~~~~~~~~~~~~
+
+I just finished my preliminary tax return and below are my observations. Note: the forms are not final until January 9, 2014.
+
+ H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary. In my opinion, they should wait until the person enters this year's data and suggest the upgrade only if there is something about the return that can benefit from the Premium version.  That would have been useful.
+
+What is the difference between Premium and Deluxe? The Premium version offers advanced tools for self-employed and rental property owners: cost basis of home sales, dividends, gifts, and inheritance assets. It has advanced schedule C guidance to maximize deductions for self-employment income. And finally it has guidance for rental property income and expenses. The rest of the Premium package is the same as Deluxe.
+
+Note that the Deluxe package has support for self-employed income as well as stock sale cost basis calculations. Last year I had to do both and I found the guidance in Deluxe package was sufficient to complete the forms.
+
+ Pet Peeve: Help is not context sensitive. For example, when you click on "learn more" about a particular topic the general help window opens but it does not show help topics for the specific topic that you were working on. Instead you need to search and know which key words to use locate the relevant topics.
+
+ H&R Block provides you some guidance for completing Form 1116 (foreign tax credit, for example foreign tax paid by mutual funds). However, you need to keep switching between whole-form view to enter data and then back to interview to read the instructions. Even though the form where you can enter data is visible at the same time as instructions you cannot enter data into it until you switch into whole-form view. This is cumbersome, but at least there is some guidance for this form.
+
+ DeductionPro (which helps you put value on your charitable donations) is integrated into H&R Block software running on your local PC.  You no longer need to enter this information on H&R web site.  I prefer having this information locally on my PC for better security.  The change from web site to local PC was introduced last year and I was happy to see that this change is here to stay.
+
+ I don't use the default location for the tax returns due to how I set up my backup software. The H&R Block software does not initially remember this new location on the second start of the application, it told me I have no returns. I needed to pick the return manually from the File menu, as it did remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+ I use large font option on my monitor display and in the past years had display issues on some forms (text boxes were display overlapping each other on some forms). This year all forms displayed properly.
+
+ I usually purchase tax software as early as possible to help me with end year tax planning. However, if timing is not important to you be aware that the price on this package changes often and you can catch some great discounts. I use a nice tool that shows history of Amazon prices. If you enter "Amazon price history alert" in Google it will come up at the top, my favorite has the word camel in the name. You can set up the tool to send you an alert when you desired price drop is reached.  During the last tax year season the price fluctuated between $20 and the list price of $44.99, and was on the gold deal special a couple of times.
+
+ For folks trying to download State Forms. The state forms are not available as of 11/17/2013. You have an option of entering email where you will be notified as soon as the form for your state becomes available. Alternatively, you can go to H&R website, click on "Download Software" on the top banner, and select "State Editions".  Currently it says "Available in January 2014".
+
+When the state forms will become available they can be downloaded by selecting the State Tab and then clicking on the button labelled "Buy" (a little scary since we already paid for it) but then "buy" will turn into "update" and the forms will be downloaded to your computer.
+
+ At the end of the interview process there is a check step (which you can run at any time, but the interview ends with this check). This step flags problems (e.g. missing information) and potential audit alerts (e.g. unusual deductions) with red flags, and reminders (e.g. things you marked tentative) with yellow flags.
+
+ Update: To post an answer to a good question asked via a comment:  Does H&R has the ability to import TurboTax data from previous years?
+ Yes. TurboTax files have a .tax extension. Use the Browse button within H&R Block application to navigate to the folder you need and it will import the data from TT return.
+
+ Update: Several people asked me via comments if Schedule C is included in Deluxe edition because it is not explicitly mentioned in the description.  Schedule C form is included and covered in the interview.
+
+I have been a H&R Block/TaxCut user for many years.  I keep coming back because it works well for the tax forms I need to do and it is less expensive than TurboTax. If you have a question I have not covered leave a comment and I will do my best to answer it.
+
+Ali Julia review
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both TaxCut and TurboTax to compare. I found that TurboTax did not do anything better than TaxCut while costing consistently more.
+
+ INSTALLATION
+~~~~~~~~~~~~~
+ If you encounter issues with display, such as not seeing selection boxes, check your screen resolution. Both Windows and Mac minimum requirement for the screen resolution is 1024 x 768 pixels or higher. At a lower resolution H&R Block software will have problem with display such as not properly displaying selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+ If you are using a digital download you will need a key-code to install the software after you download it. The key-code can be located two ways.
+Option 1: After my download finished the install started automatically offering me a choice of two links "View Keys" and "Install". When I selected view key-code after a fairly long pause it displayed my key-code in a browser window.
+Option 2: You can locate it in your Amazon account:
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+ Does H&R allow to install the software on two PCs?
+I found the answer on H&R Block web site FAQ under the topic "Installing Software on Another Computer"
+
+I quote the FAQ answer below:
+"There are just a few steps necessary to re-install the H&R Block At Home program from the CD you received in the mail. Follow the steps below to re-install the program or install it on a second computer.
+Insert the H&R Block At Home CD into your computer.
+Click the Need to Re-install? link on the menu bar at the bottom of the screen.
+The Frequently Asked Questions page will open to the first FAQ titled, "Can I install the software on a second computer?"
+Enter your activation code and last 4 digits of the credit card you used to purchase the program initially and click Activate.
+You can find your activation code in your purchase confirmation e-mail.
+Follow the on-screen instructions to complete the installation."
+
+ WHAT IS INCLUDED
+~~~~~~~~~~~~~
+
+I purchased a digital download version of H&R Block Deluxe plus State. The Federal portion of these two packages is identical, so I am cross posting my review of the Federal portion of the software for both packages .
+
+H&R Block Deluxe entitles you to 5 free federal e-files. You can print and mail as many returns as you want, there is no limit on printing.
+
+ GENERAL
+~~~~~~~~~~~~~
+
+I just finished my preliminary tax return and below are my observations. Note: the forms are not final until January 9, 2014.
+
+ H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary. In my opinion, they should wait until the person enters this year's data and suggest the upgrade only if there is something about the return that can benefit from the Premium version. That would have been useful.
+
+What is the difference between Premium and Deluxe? The Premium version offers advanced tools for self-employed and rental property owners: cost basis of home sales, dividends, gifts, and inheritance assets. It has advanced schedule C guidance to maximize deductions for self-employment income. And finally it has guidance for rental property income and expenses. The rest of the Premium package is the same as Deluxe.
+
+Note that the Deluxe package has support for self-employed income as well as stock sale cost basis calculations. Last year I had to do both and I found the guidance in Deluxe package was sufficient to complete the forms.
+
+ Pet Peeve: Help is not context sensitive. For example, when you click on "learn more" about a particular topic the general help window opens but it does not show help topics for the specific topic that you were working on. Instead you need to search and know which key words to use locate the relevant topics.
+
+ H&R Block provides you some guidance for completing Form 1116 (foreign tax credit, for example foreign tax paid by mutual funds). However, you need to keep switching between whole-form view to enter data and then back to interview to read the instructions. Even though the form where you can enter data is visible at the same time as instructions you cannot enter data into it until you switch into whole-form view. This is cumbersome, but at least there is some guidance for this form.
+
+ DeductionPro (which helps you put value on your charitable donations) is integrated into H&R Block software running on your local PC. You no longer need to enter this information on H&R web site. I prefer having this information locally on my PC for better security. The change from web site to local PC was introduced last year and I was happy to see that this change is here to stay.
+
+ I don't use the default location for the tax returns due to how I set up my backup software. The H&R Block software does not initially remember this new location on the second start of the application, it told me I have no returns. I needed to pick the return manually from the File menu, as it did remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+ I use large font option on my monitor display and in the past years had display issues on some forms (text boxes were display overlapping each other on some forms). This year all forms displayed properly.
+
+ I usually purchase tax software as early as possible to help me with end year tax planning. However, if timing is not important to you be aware that the price on this package changes often and you can catch some great discounts. I use a nice tool that shows history of Amazon prices. If you enter "Amazon price history alert" in Google it will come up at the top, my favorite has the word camel in the name. You can set up the tool to send you an alert when you desired price drop is reached. During the last tax year season the price fluctuated between $20 and the list price of $44.99, and was on the gold deal special a couple of times.
+
+ At the end of the interview process there is a check step (which you can run at any time, but the interview ends with this check). This step flags problems (e.g. missing information) and potential audit alerts (e.g. unusual deductions) with red flags, and reminders (e.g. things you marked tentative) with yellow flags.
+
+ Does H&R has the ability to import TurboTax data from previous years?
+Yes. TurboTax files have a .tax extension. Use the Browse button within H&R Block application to navigate to the folder you need and it will import the data from TT return.
+
+ Update: Several people asked me via comments if Schedule C is included in Deluxe edition because it is not explicitly mentioned in the description.  Schedule C form is included and covered in the interview.
+
+I have been a H&R Block/TaxCut user for many years. I keep coming back because it works well for the tax forms I need to do and it is less expensive than TurboTax. If you have a question I have not covered leave a comment and I will do my best to answer it.
+
+Ali Julia review
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both TaxCut and TurboTax to compare. I found that TurboTax did not do anything better than TaxCut while costing consistently more. In addition, I like the option of being able to file 5 free Federal e-files as I do taxes for other relatives who are less computer savvy.  The files with the return are recognized by both Windows PC and Mac.  The data can be imported from a return made on PC computer by copying the files to the Mac and then importing them.
+
+H&R Block software also wins if compared to the free on-line options. I don't like using the on-line tax programs for two reasons (1) I don't want my financial data to be on someone's web site (2) free offers include the Federal tax only.
+
+This year I used a digital download for the first time rather than a boxed version. I liked the security of having a physical CD in case I need to re-install on another computer several years down the road. But you are supposed to be able to download the software again to a different computer and when the boxed version was not available I went digital.
+
+Downloading the software was easy, however during the install I got an error registering the software.  When I started the software it immediately gave me a prompt to enter a key-code which (the prompt said) I should have received in the email after purchasing the software.  The email I received from Amazon contained no such key-code.  I had to call Amazon support and they told me that this information can be found following these steps
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+Once this was done the rest of the software functions well. In fact it looked more polished than in prior years. I always had minor display problems because I use large fonts and they never scaled quite right.  This year everything displayed perfectly.
+
+I read one review which mentioned a problem with seeing selection boxes.  The problem there most likely caused by low screen resolution.  Both Windows and Mac minimum requirement for screen resolution is 1024 x 768 pixels or higher.  At a lower resolution, there will be problem with display such as not seeing selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+I did a preliminary tax return and below are my observations.
+
+1. H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary.
+
+2. Copy and Paste from Interview screens is not possible. Sometimes I wish to do it for some issue as a reminder to myself. My solution is to do PrintScreen (holding ctl key, shift key, and PrintScreen key at the same time). This generates an image of the screen, which I paste into paint or photo editing software which I can print or save for later.
+
+3. I don't use the default location for the tax returns, as I want to my backup program to back up only the data not the software itself. The software does not  initially remember this new location on startup, it tells me I have no returns.  I needed to pick the return manually from the File menu, as it does remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+4. Some forms (such as foreign tax credit over the limit to be directly on 1040) require entering data manually.  This year the foreign tax credit form is some what automated, when you hit next button it takes you to the next place on the form you need to fill out (last your you were just presented the form to fill out on your own). This form is not that hard to do manually as this form does not change year to year.
+
+5. I use large font option on my monitor display and in the past had display issues (some things were displayed on top of each other). This year all forms displayed properly with this option. This is the first time in all the years I've used H&R Block software that I have no complaint about the display and did not need to change my monitor settings just to do the tax preparation. Nice!
+
+6. H&R Block charges $19.95 to e-file each state return. Of course, this charge can be avoided by printing the forms and mailing them in.
+
+7. In prior years the package include DeductionPro software. This year, like last year, this software is only available as an online tool. I will not use software that requires me to put my financial data on their site, and DeductionPro wants to import the data to H&R web site, so I will not be using it. Disappointing.
+
+8. The price on this package changes day to day. I found a nice tools that shows history of Amazon prices and allows you to generate an email alert when the price reaches our desired price range.  If you enter "price history alert" in Google it will come up at the top, it has the word camel in the name.  I find this tool very helpful.  I purchased this package for $31, last year I saw the prices fluctuate between $25 and the list price of $44.99.
+
+9.  For folks trying to download State Forms before January 16, 2012. The state forms are not available for download until January 16 for most states.
+If you go to the Software Update Center on H&R website you will see a section called State Updates. Under there you there is a link called "Forms Available". If you click on that, it will show a table that shows availability of forms for each State.  Right now (last checked on 1/6/2011) none of them are available.  I called about my state (Massachusetts) and they told me that most state forms will become available for download on January 16. In the software package, select State Tab and click the button that is called "Buy"  (a little scary since we already paid for it) but then "buy"  will turn into "update" and when the forms will become available they will be downloaded to your computer.
+
+10. ** ERROR ALERT ** 1/16/12 Version of Massachusetts state return contained an error that was corrected in 1/24/12 update.
+If you owed taxes on your 2010 State return and paid owed tax in 2011, this payment was incorrectly included in Line 36 on the MA Form 1 as an amount withheld in 2011. This overstates the amount paid to the State for the 2011 tax year. This error has been reported to H&R and corrected in 1/24/12 update.
+
+I have been a H&R Block/TaxCut user for many years. The interview process is helpful in reminding you things you might have forgotten. On-line help is useful.  2011 H&R Block package appears more polished and has a number of improvements to a couple of small pet peeves I had in the past.  So I am quite pleased with it and recommend it!
+
+Ali Julia review
+I've used H&R Block's tax software (formerly called TaxCut) every year since 1995. Several times when I saw a promotional deal I purchased both TaxCut and TurboTax to compare. I found that TurboTax did not do anything better than TaxCut while costing consistently more. In addition, I like the option of being able to file 5 free Federal e-files as I do taxes for other relatives who are less computer savvy.
+
+H&R Block software also wins if compared to the free on-line options. I don't like using the on-line tax programs for two reasons (1) I don't want my financial data to be on someone's web site (2) free offers include the Federal tax only.
+
+This year I used a digital download for the first time rather than a boxed version. I liked the security of having a physical CD in case I need to re-install on another computer several years down the road. But you are supposed to be able to download the software again to a different computer and when the boxed version was not available I went digital.
+
+Downloading the software was easy, however during the install I got an error registering the software.  When I started the software it immediately gave me a prompt to enter a key-code which (the prompt said) I should have received in the email after purchasing the software.  The email I received from Amazon contained no such key-code.  I had to call Amazon support and they told me that this information can be found following these steps
+1) Log into Amazon
+2) Select Your Account at the top right of the page
+3) Select Games and Software downloads which is towards the bottom of the long page you see when you log in
+4) Then under H&R software entry you will see the key-code that you need to enter to unlock the software
+
+Once this was done the rest of the software functions well. In fact it looked more polished than in prior years. I always had minor display problems because I use large fonts and they never scaled quite right.  This year everything displayed perfectly.
+
+I read one review which mentioned a problem with seeing selection boxes.  The problem there most likely caused by low screen resolution.  Both Windows and Mac minimum requirement for screen resolution is 1024 x 768 pixels or higher.  At a lower resolution, there will be problem with display such as not seeing selection boxes. Screen resolution can be changed on your control panel by change PC's display settings.
+
+I did a preliminary tax return and below are my observations.
+
+1. H&R Block starts the interview process with an annoying up-sell pitch, recommending an upgrade from Deluxe to Premium even when it is not necessary.
+
+2. Copy and Paste from Interview screens is not possible. Sometimes I wish to do it for some issue as a reminder to myself. My solution is to do PrintScreen (holding ctl key, shift key, and PrintScreen key at the same time). This generates an image of the screen, which I paste into paint or photo editing software which I can print or save for later.
+
+3. I don't use the default location for the tax returns, as I want to my backup program to back up only the data not the software itself. The software does not  initially remember this new location on startup, it tells me I have no returns.  I needed to pick the return manually from the File menu, as it does remember recently used files. The third time I started the software, it finally knew the location of the tax return file.
+
+4. Some forms (such as foreign tax credit over the limit to be directly on 1040) require entering data manually.  This year the foreign tax credit form is some what automated, when you hit next button it takes you to the next place on the form you need to fill out (last your you were just presented the form to fill out on your own). This form is not that hard to do manually as this form does not change year to year.
+
+5. I use large font option on my monitor display and in the past had display issues (some things were displayed on top of each other). This year all forms displayed properly with this option. This is the first time in all the years I've used H&R Block software that I have no complaint about the display and did not need to change my monitor settings just to do the tax preparation. Nice!
+
+6. H&R Block charges $19.95 to e-file each state return. Of course, this charge can be avoided by printing the forms and mailing them in.
+
+7. In prior years the package include DeductionPro software. This year, like last year, this software is only available as an online tool. I will not use software that requires me to put my financial data on their site, and DeductionPro wants to import the data to H&R web site, so I will not be using it. Disappointing.
+
+8. The price on this package changes day to day. I found a nice tools that shows history of Amazon prices and allows you to generate an email alert when the price reaches our desired price range.  If you enter "price history alert" in Google it will come up at the top, it has the word camel in the name.  I find this tool very helpful.  I purchased this package for $31, last year I saw the prices fluctuate between $25 and the list price of $44.99.
+
+9.  For folks trying to download State Forms before January 16, 2012. The state forms are not available for download until January 16 for most states.
+If you go to the Software Update Center on H&R website you will see a section called State Updates. Under there you there is a link called "Forms Available". If you click on that, it will show a table that shows availability of forms for each State.  Right now (last checked on 1/6/2011) none of them are available.  I called about my state (Massachusetts) and they told me that most state forms will become available for download on January 16. In the software package, select State Tab and click the button that is called "Buy"  (a little scary since we already paid for it) but then "buy"  will turn into "update" and when the forms will become available they will be downloaded to your computer.
+
+10. ** ERROR ALERT ** 1/16/12 Version of Massachusetts state return contained an error that was corrected in 1/24/12 update.
+If you owed taxes on your 2010 State return and paid owed tax in 2011, this payment was incorrectly included in Line 36 on the MA Form 1 as an amount withheld in 2011. This overstates the amount paid to the State for the 2011 tax year. This error has been reported to H&R and corrected in 1/24/12 update. Thank you to Tech Impaired to spotted it and reported to H&R!
+
+I have been a H&R Block/TaxCut user for many years. The interview process is helpful in reminding you things you might have forgotten. On-line help is useful.  2011 H&R Block package appears more polished and has a number of improvements to a couple of small pet peeves I had in the past.  So I am quite pleased with it and recommend it!
+
+Ali Julia review
+
+Topic 4: using 0.06529 software 0.04824 taxcut 0.03216 years 0.01387 year 0.008 problems 0.00612 happy 0.00302 issues 0.00254 time 0.0023 10 0.00216
+ How Many: 10841
+I, like many other former TurboTax users, purchased the TaxCut software expecting a lower quality product that would get the job done with minimal bells and whistles.  I found that TaxCut is not only visually appealing in a simplistic yet professional manner but it is also incredibly easy to use.  It takes care of the biggest chunk of work by being able to import your tax file from the previous year for either TaxCut or TurboTax software.  This made the transition to TaxCut practically transparent.  TaxCut has all the features and functionality you'd expect in tax software without the spyware hocus-pocus of TurboTax.  I suspect it will take Intuit a while to recover from their design screw up.  Of course, that will depend greatly on H&R Block's ability to enhance and more aggressively market TaxCut.  This is the stuff that open market competition strives for!  Highly Recommended!
+I, like many other former TurboTax users, purchased the TaxCut software expecting a lower quality product that would get the job done with minimal bells and whistles.  I found that TaxCut is not only visually appealing in a simplistic yet professional manner but it is also incredibly easy to use.  It takes care of the biggest chunk of work by being able to import your tax file from the previous year for either TaxCut or TurboTax software.  This made the transition to TaxCut practically transparent.  TaxCut has all the features and functionality you'd expect in tax software without the spyware hocus-pocus of TurboTax.  I suspect it will take Intuit a while to recover from their design screw up.  Of course, that will depend greatly on H&R Block's ability to enhance and more aggressively market TaxCut.  This is the stuff that open market competition strives for!  Highly Recommended!
+I have used Taxcut in my business for a number of years and was extremely dissapointed when they stopped making it for Mac. When I learned they were back, it was a real relief.
+
+However, after reading some of the reviews I was was a bit worried about going back to it. Since I had to use that other software last year and was not happy with it, I called TaxCut support to see if they had worked out some of the issues sighted in the reviews. I must have sounded unconvinced because a supervisor who happened to be listening in contacted me about my concern, assured me that many of the eaerlier issues had been addressed and offered a free copy (note full disclosure)in order to convince me that the issues had been addressed and the product was even better than the earlier versions.
+
+In short, I have finished my taxes and am very happy with the TaxCut experience.
+
+Aside from a small glitch with the updating, Taxcut was extremely easy to use. The support team walked me through the updating issue, so that was easy as well.
+
+The look and feel of TaxCut was intuitive and easy to navigate. The questions and explanations were clear. The tips were informative. If I found I was missing some important data it was easy to continue and return to the uncompleted form later.
+
+I hope they don't stop making the Mac version again because it is a real pain to switch between TaxCut and that other software. I also hope they will make it possible in future editions to import data from business software like Quickbooks or MYOB. Other than that, I am very happy with TaxCut, so I give it a high 5.
+I've been using the H&R software since it first came out.  I have had to deal with many tax issues using the software (deaths & estate settlements, investment firm issues, corporate splits and mergers, real estate sales and purchases, etc..)  and have always found the query/review design of the software effective.  Since the software has come out I have only had 2 problems with my taxes - one was caused by my employer messing up our W-2s which required me filing an amended return (not as easy as a primary return and with some clarify issues in the software because of the use of the primary return phasing in the queries) and the other was related to multiple-state incomes and how income is treated differently in different states. This was not a software issue but did require a little more work than usual.  I have only had to use a tax advisor once since using the software and that was about a fine point of residency law and the IRS's interpretation of multi-state residencies.
+This is the fourth year using TaxCut and I am still very pleased.  I used the competing product, TurboTax, the first few years I did taxes using the computer but switched when I realized TaxCut was cheaper.  I have never looked back. TurboTax and TaxCut for the first time are now the same price and this year I was tempted to go back to TurboTax to see if it was better, but decided I am too happy with TaxCut to switch.  Besides, TaxCut is keeping track of my year-to-year carryovers (like capital losses).
+This is the fourth year using TaxCut and I am still very pleased.  I used the competing product, TurboTax, the first few years I did taxes using the computer but switched when I realized TaxCut was cheaper.  I have never looked back. TurboTax and TaxCut for the first time are now the same price and this year I was tempted to go back to TurboTax to see if it was better, but decided I am too happy with TaxCut to switch.  Besides, TaxCut is keeping track of my year-to-year carryovers (like capital losses).
+I have used Taxcut for the past 2 years and will use it again this year.  When I first started using Taxcut I did my taxes on paper first then entered all the information into Taxcut.  Not only was it exactly as I anticipated but Taxcut even found a few errors in my own interpretation of the forms.  I then checked with the IRS web site to find out where I went wrong and Taxcut was right.  Thanks to Taxcut I find it very easy to do my taxes and have had zero problems with the program crashing or the way the program figures my taxes.  Everything is the same as I have been doing for years.
+I have used Taxcut for the past 2 years and will use it again this year.  When I first started using Taxcut I did my taxes on paper first then entered all the information into Taxcut.  Not only was it exactly as I anticipated but Taxcut even found a few errors in my own interpretation of the forms.  I then checked with the IRS web site to find out where I went wrong and Taxcut was right.  Thanks to Taxcut I find it very easy to do my taxes and have had zero problems with the program crashing or the way the program figures my taxes.  Everything is the same as I have been doing for years.
+I have been using the Taxcut Deluxe version for the past seven years and have extremely happy with it.  When I started using it seven years ago I doubted I could prepare my own tax return without making any mistakes, so for the first two years I had my sister, a licensed CPA and CFO, review my returns after I prepared them with Taxcut.  She not only verified that everything was correct, but she noticed that Taxcut calculated items that she would have overlooked, since she was managing a corporate accounting department and was not preparing personal returns anymore.  After those first two years, I have not had her review my returns and she started using Taxcut to prepare her own. My father, also a licensed CPA and retired CFO, was using Turbotax to prepare his personal returns and was becoming frustrated with it.  He switched to Taxcut a few years ago when he heard about Turbotax installing [...]and he decided he didn't want to hassle with it anymore.  In addition, he was filing state returns in two states and Taxcut state allowed him to do that at no additional charge.  Between the three of us, Taxcut has worked without any errors and we have had no problems using or installing it.  [...]
+
+This year, I have already imported my files from last year and have begun to plan my tax return.  It only took a few minutes to install both the federal and state programs and import my files from last year, which I had backed up on CD.  I am currently using it to plan my tax liability for this year and will be prepared to file as soon as my wife and I receive our W2's and year-end statements from our investments.  I haven't used Deduction Pro in the past, but I did install it this year since it was in the box and I figured I would see how it worked.  My wife and I make donations every year and never thought they were worth much.  Not thinking there was much value to any of the items we donated, I itemize just a few, so far, and it looks like they were worth more than I thought.  I will definitely be itemizing all of our donations this year.
+
+I give Taxcut five stars because it's easy to install, easy to use, and simple to back up and uninstall when you are finished using it.  Most importantly, it accurately calculates your taxes.
+I have been using Taxcut for many years.  Many years ago I had difficulties with TurboTax which prompted me to use Taxcut the next year and I've been using Taxcut ever since - for the past 10 years. Taxcut is easy to use and less expensive than Turbotax for similar package features.
+
+Topic 5: good 0.07585 software 0.07351 best 0.02224 buy 0.02066 value 0.00327 year 0.00298 block 0.00241 got 0.00233 amazon 0.00184 better 0.00177
+ How Many: 10841
+Very good software package...easily understood, good internal monitoring controls and reminders.  Very good at finding errors and listing them for resolution.  Good product and good company.  You don't have to be an accountant to make good use of it.
+As in every year I use H&R block software, it is always a very good buy, (especially on sale), and very through in asking questions, and directing you toward the right answer in the maze of the IRS tax code.  I especially appreciated this year, compared to the major competion, which tried to pull a fast one over on the consumer, in pricing scheme.  Not H&R block though.  Best value...  best tax SW!
+I have used TaxCut for 4 years and this will be my 5th.  I had taxes prepared by a professional for years and find this software asks the same questions he did...but without an hourly charge!  If you buy the non-final edition you can expect some idiosyncracies...it's best to wait until the final edition is published as tax laws change right up to December 31. This is True of ALL tax software.  The only thing I would change are some of the explanation screens; some seem not complete, and others are jargon-filled.  A good all-around buy for basic tax-prep!
+I have used TaxCut for 4 years and this will be my 5th.  I had taxes prepared by a professional for years and find this software asks the same questions he did...but without an hourly charge!  If you buy the non-final edition you can expect some idiosyncracies...it's best to wait until the final edition is published as tax laws change right up to December 31. This is True of ALL tax software.  The only thing I would change are some of the explanation screens; some seem not complete, and others are jargon-filled.  A good all-around buy for basic tax-prep!
+I feel like there is an imbalance in ranking for this software.  They made me quite upset also because state forms are even included with this software until January 7th.  That makes this software pretty useless for end-of-year tax planning and estimating what I will owe.
+
+However--this is still the best software on the market.  I use it every year.  Customer service is terrible but the software works wonders.  I used to do my taxes by hand and this saves me an entire day probably!  Or saves me hundreds of dollars getting the taxes prepared elsewhere!  So even with the annoyances---software is still the best thing out there.
+Best way to buy,bought online,This edition is good for most people ,includes deductions&you can send up to 5 returns electronically. Would recommend Was good  value for a download.
+Amazon had the best price for my tax preparation software.  Normally, I wait until Feb. and TaxCut in recent years has appeared at my local Dollar store.  However, this year, H&R Block changed the software to various levels, similar to the "other" tax preparation software on the market.  This forced me to quickly find the best price for the highest level of the new software.  Amazon came through!!!  It was definitely the cheapest, compared to the other offers of coupons and discounts.  Thanks!
+The tax software itself is great. Dropped the review by one star as you cannot group charitable deductions and must itemize each individual article. Otherwise, good price and good tax software. I'd buy it again.
+Good price, good product. Have used it for many years without a problem. Good price, good product. It fits the bill.
+Good software and was amazed that I could purchase it online being that it is an older version of the software. Not crazy that it always tries to default you into filing electronically - but you take the good with the bad. :)
+
+Topic 6: years 0.04002 using 0.01631 software 0.0054 better 0.00511 10 0.0049 year 0.00489 past 0.00344 like 0.00257 works 0.00244 happy 0.00241
+ How Many: 10841
+O YEA!  Love H&R Block.  Have rentals, am stock speculator and am a tax pro beyond usual tax pros in the sense that my experience includes but is not limited to IRS Tax Examiner, Tele Contact Rep, Revenue Officer and GS13/10 Analyst.  Did a two year stint as an Enrolled Agent.  One would hope that USAA Fed Sav Bank would pair up with H&R to create a Investment Portfolio download that is convenient but alas, USAA has gone ho-palloi.  One is unable to tell the difference between USAA and the Bank of So-Average.  Keep H&R Block -- scrap USAA Investments.  By the way --  H&R has a HEART!  They provided me at NO CHARGE  access to a tax filing year I needed when my WWII Army 3rd Division Hero Father passed.  H&R telephone contact reps are absolutely wonderful and pull out ALL the STOPS to provide the ultimate in elevated Customer Service.
+I have been using this software for many years and find it very helpful. Even expatriate reporting which is potentially complicated has been made simple and accurate. Only once(in over 10 yrs) has the IRS  raised a question which was successfully resolved in a phone call. There are marked imporovements over the years.
+Fit beautifully on my S80. Dropped the vehicle with perfect wheel gap front to rear. Very nice ride quality, improved handling. Car takes corners much better. Recommend replacing struts at the same time with Bilstein HDs.
+Never done taxes so easily. Have been using it for over five years now and it keeps getting better and better. Highly recommended. Don't think there is anything better.
+10 years and very happy all refunds  with no problems
+I switched from Turbo to Tax Cut almost 10 years ago.  Using Turbo's Interview method, it was difficult for me to follow as to why I was getting deductions or additions.  It didn't have as transparent explanation for why I was or wasn't eligible for tax breaks I had heard about.  I could dig around and find the answer, but why waste the time & effort.  I found H&R had a better line of sight to the reasons for getting or not getting deductions. In the end, I felt I better understood my return and could talk/defend it intelligently, if needed.
+
+Glad H&R Block ditched the TaxCut name and began branding this product as its own.  Because of their #2 position in the DIY market, they began offering extra perks. The link to be able to get live help from one of their Offices is OUTSTANDING feature not stressed enough.  I only used once in 10 years, but the option is there when needed. With the increase in IRS Agents being hired to enforce more complicated regulations, this is a great security blanket for those who do their own taxes.
+Have been using this brand for years and been very happy with it.
+I have been using this every year for 10 years.  It saves a bundle.  Support on the phone is excellent.
+Have been using H&R for 10 years.. continue to love it for ease of use. Cost effective. you can do C corp returns as well
+Stopped using the other brand about 5 years ago. And I'm not looking back.
+
+Topic 7: used 0.10801 years 0.09598 ve 0.05226 software 0.01051 past 0.01019 year 0.00695 satisfied 0.00545 10 0.00483 block 0.00435 previous 0.00411
+ How Many: 10841
+I used Turbo Tax for many, many years. A couple of years ago I bought a copy and used it a month or so later. Forward planning!! Well, all the rebates you have send in within 30 days of purchase. I got NO response from my many e mails to the company. I was ripped of to the tune of about a $100!! I will no longer purchase anything made by that company. I have used this product now for a few years and am very happy with it. I have had no problems with rebates, the program, etc... I recommed proofing the whole thing before you finalize it. I found something I mis understood but I had already sent it. It was to their favor so I didn't worry about it.
+I used Turbo Tax for many, many years. A couple of years ago I bought a copy and used it a month or so later. Forward planning!! Well, all the rebates you have send in within 30 days of purchase. I got NO response from my many e mails to the company. I was ripped of to the tune of about a $100!! I will no longer purchase anything made by that company. I have used this product now for a few years and am very happy with it. I have had no problems with rebates, the program, etc... I recommed proofing the whole thing before you finalize it. I found something I mis understood but I had already sent it. It was to their favor so I didn't worry about it.
+Installed with no issues. Have used same software past few years. Imported past data saving lots of time. Yet to do this years return but past years went very smoothly.
+I haven't used this years version yet but I've been using this software for many years and I've always been well satisfied with it.  The fact that it's cheaper than TurboTax doesn't hurt either.  I don't see any reason to use anything else.
+Haven't used it yet but have used earlier years and was completely satisfied with them
+I've used H&R Block tax software for several years now and am really happy with the simplicity of use and its accuracy. I've used the "other" tax software prior to using H&R Block and never had the same positive results.
+Been using Taxcut for the last ten years.  Would say that it is as good as other tax programs I have used in the past, but since I haven't used any other programs in the last ten years it is hard to compare.
+I've used H&R Block tax software for the past 5 years. It's intuitive, easy to use and educational as well. I've not used TurboTax so I don't have a basis for comparison. Kiplinger rated H&R Block above TurboTax.
+I've used H&R Block's tax software for about 8 years now, and have always been satisfied.  No problems and I've never been audited!  I plan on using again next year.
+I've used TurboTax in past years, but it no longer supports OSX.3.9.  So far I'm very satisfied with the TaxCut procedures, updates and simplicity.
+
+Topic 8: taxes 0.11184 doing 0.02299 makes 0.01393 year 0.00688 time 0.00665 got 0.0063 software 0.00593 expected 0.00558 simple 0.00497 right 0.00432
+ How Many: 10841
+I have used Turbo Tax for the last decade.
+
+  I royally screwed up my taxes by contributing too much to HSA accounts for both my wife and I over the last five years.  We had separate HSA accounts through our employers, and I contributed the maximum for individual and my wife contributed maximum for family for five years.  Only until year five did TT's  warning seem ominous enough for me to look into this excess contribution that we were supposedly making.
+
+  I know, I'm an idiot for not knowing that since we both had HSA accounts that we were limited to just a family deduction.  Regardless, it was my fault, and I was paying a 6% tax on this money every year until I knew it was there.  Finally, I was able to pull it out of our HSA accounts as excess contributions and was ready to move on with my life.  TT could not calculate this withdrawal...
+
+ I spent  several days talking with support experts who recommended several "workarounds" (since TT could not calculate correctly, according to the experts) that ended up giving me a large tax return instead of the taxes that I should have been paying (There are multiple posts dating back at least three years as to the ineffectiveness of TT software dealing with HSA's). I spent  a week  working on this!
+
+In the mean time, I googled my problem, and it came up with a review from Amazon that mentioned my problem in it's context and that H&R block's tax software took care of his problem (It was actually a wide ranging, informative, well put together review... unlike this one.)  I figured I would give H&R block a try while I worked through my problems with TT, as I was almost done with my taxes except for this one HUGE problem.  H&R was able to download my previous TT tax return, which made things a little quicker.  When I got to the HSA section I entered my info and was pretty irritated that it wasn't calculating it correctly either... or so I thought!  I expected a big hassle like I got at TT, having to alter numbers, and make it "work".  I entered my 1099-SA amounts and it calculated it perfectly and took away the excess contribution which TT was unable to do!
+
+ I think Turbo Tax is easier to work with, but I think the calculations may be more accurate with H&R. If you have an HSA I would definitely use H&R!
+I have to admit, I am not a happy camper when tax time rolls around.  It takes awhile to complete my taxes.  However, H&R Block's tax software has been the easiest and safest way to complete anyone's taxes.  I have been using this software for a few years and I am here to tell you that as time goes on, they always seem to improve on the product, little tweak here and a little tweak there.  They incorporate all the newest rules and regulations as quickly as possible with their updates so it would be hard to do your taxes wrong.  They guarantee you will do it right and if you get audited, and the IRS finds a mistake... they will be right there for you.  This is a safe guarantee I personally have been eased by over the years of using the software.  I know no one likes doing their taxes, I know I don't, but H&R Block will make it easy to do them.  They walk you through many issues you may have and recommend whatever form you will need.  For those who are looking for software to help with tax season, I highly recommend them.
+I'm going through my orders, reviewing everything I failed to review at the time of purchase. I hate taxes. I hate doing taxes. My husband hates new computer programs. So I'm stuck with doing taxes. This program is as good as any other. It works and I don't get in trouble with the IRS.
+I work for H&R Block but I like to do my taxes at home, rather than in the office.  This is entirely different from the software used in the offices - but it's extremely capable and much more user-friendly.  If you are dead set on doing your own taxes, you can't do better than this.  Note that doing your taxes online at hrblock.com will give you a similar experience.  Neither one is a substitute for an in-office consultation, but if you're sure you know what you're doing, this (or hrblock.com) is the way to go.
+Hi, It makes filing your taxes a lot easier and less expensive. I like doing my own taxes instead of paying some character $175.00 to do them for me. I like the 5 free e-files and 1 free state. It also has the little "What's this" explanation boxes to click on for further info. I have 3 rental properties and a royalties from minerals, so this program makes quick work of doing my taxes, as long as I keep track of my receipts for everything. The program asks a lot of questions and has easy to enter places for figures, and BEST OF ALL: ERROR CHECK!!!!!!!!!!!!. I did my taxes on a Saturday afternoon, E-filed them that evening and had my refund in my checking account in less than a week!!! I will continue to use this program as I have for the past several years. Thanks for reading my review. Rick J.  PS... Its cheaper to buy this program here at Amazon.com than it is at Walmart or Beast Buy.
+This is my first time doing my own taxes and so far this has been a very simple process.  The software is very simple and the questions it asks is straightforward.  I basically gathered all of my tax documents, checked the boxes of what I had, and plugged in the numbers.  I got this on sale during the black Friday time frame for about $35.  I would definitely recommend this software to anyone who wants to do their own taxes.  I will definitely purchase this again next year.
+Makes doing your taxes very simple. If you're even half way organized this software which set you up and help get your taxes done in minutes vs. hours. Very accurate and very reasonable.
+I've used the HRBlock software for several years now and it works fine.  My taxes are fairly complicated with various forms of income including royalties, stocks/bonds, dividends, small business, rental properties, standard salaried income and so forth.  And, doing the state taxes is especially easy since all the federal information is automatically imported.  As a result, doing state taxes literally takes only a few minutes after answering questions.  For the person new to all this, the questionaire is clear and easy to follow, making doing what you're supposed to pretty easy.  A few years ago I had a strange situation and had to call to take my "one-time consult a tax professional for free" consult and was able to get the answer I needed.  It took a little time, but I got a written response which, according to the software, HRBlock will stand behind should there be a problem with the IRS.  I never heard from the IRS so presumably all was well.  I recommend this software for doing federal and state taxes.
+I'm gonna make it short, i needed a software that would do my self-employed tax (1140) and my personal,(1040) this one did it easily, efficiently and cheaply, my taxes were simple, some 1099 and w2, there were no problem at all, i used to pay $200 + for someone just to put all the information i gave them in this software and do the taxes for me, not anymore. e-file my personal, got it ok, mailed my 1140s no probs. my first time ever doing my taxes and no probs, if you have any doubts just consult your old tax return. For somethings you really need to have it because you have to select the same options as before. It's a lot better when do it yourself as you don't have to share your personal information with anyone and you have better control on what you doing adjusting as you go. Ok it's not short anymore, so..., grab a cup of coffee, in my case a beer , sit down, relax and go.
+I usually dread doing taxes but this software makes it so easy that I routinely complete my taxes early! Love it!
+
+Topic 9: turbotax 0.05852 year 0.04028 block 0.03462 just 0.0196 deluxe 0.0165 like 0.01594 tt 0.01563 version 0.01351 did 0.01029 switched 0.00958
+ How Many: 10841
+My original review of HR Block Deluxe was rated by me with 2-stars. However the main reason for this low review was the program's inability to import TurboTax data. This occurred with computers running Windows XP. However, the latest updates have now fixed this problem and not only do the TurboTax data files transfer effortlessly, HR Block's program works as well as TurboTax.
+
+As it is with other former TurboTax users, I switched to HR Block to give it a trial run. My first impressions are that it is an easy program to use, and the interface and presentation is slight different than TurboTax, it basically does the same job by taking your through a series of interview questions. The overall program seems more streamlined and data entry goes faster after you get used to the system.
+
+And of course, HR Block as all the missing forms that were formerly left out of TT Deluxe. After doing a side-by-side comparison of the two programs, and after the initial jitters as to whether or not I would like HR Block's product, my personal conclusion is that I like HR Block and can safely say that I'll be a customer next year too, if HR Block doesn't self-destruct like Intuit did this year.
+
+As to why I gave this program 4-stars instead of 5, this basically has to do with the slowness of HR Block addressing or even admitting that there was a problem with the importing of TurboTax data. The HR Block forums finally did address the issue and notified its customers that a fix was on the way, but it took way too long to quell the concerns of customers who recently switched to its software.
+
+Customer service reps didn't have a clue to what was happening with this bug, and most of the time didn't even realize there was a problem. All they basically said was, "Gee, we're sorry. But call tech support for help." This didn't do any good as these guys just said to reinstall the software, which didn't work of course.
+
+But in-spite of all the bumps in the road, HR Block Deluxe came through and proved itself to be a worthy opponent to Intuit's product. As far as the refund numbers from TurboTax and HR Block, the difference was a matter of a few dollars, with HR Block erring on the side of caution.
+My original review of HR Block Deluxe was rated by me with 2-stars. However the main reason for this low review was the program's inability to import TurboTax data. This occurred with computers running Windows XP. However, the latest updates have now fixed this problem and not only do the TurboTax data files transfer effortlessly, HR Block's program works as well as TurboTax.
+
+As it is with other former TurboTax users, I switched to HR Block to give it a trial run. My first impressions are that it is an easy program to use, and the interface and presentation is slight different than TurboTax, it basically does the same job by taking your through a series of interview questions. The overall program seems more streamlined and data entry goes faster after you get used to the system.
+
+And of course, HR Block as all the missing forms that were formerly left out of TT Deluxe. After doing a side-by-side comparison of the two programs, and after the initial jitters as to whether or not I would like HR Block's product, my personal conclusion is that I like HR Block and can safely say that I'll be a customer next year too, if HR Block doesn't self-destruct like Intuit did this year.
+
+As to why I gave this program 4-stars instead of 5, this basically has to do with the slowness of HR Block addressing or even admitting that there was a problem with the importing of TurboTax data. The HR Block forums finally did address the issue and notified its customers that a fix was on the way, but it took way too long to quell the concerns of customers who recently switched to its software.
+
+Customer service reps didn't have a clue to what was happening with this bug, and most of the time didn't even realize there was a problem. All they basically said was, "Gee, we're sorry. But call tech support for help." This didn't do any good as these guys just said to reinstall the software, which didn't work of course.
+
+But in-spite of all the bumps in the road, HR Block Deluxe came through and proved itself to be a worthy opponent to Intuit's product. As far as the refund numbers from TurboTax and HR Block, the difference was a matter of a few dollars, with HR Block erring on the side of caution.
+I switched from TurboTax Basic to H&R Block Basic last year due to Intuit's second cheesy attempt to squeeze their customers for a ridiculous amount of money.
+
+This year it looks like H&R Block Basic is about half the price of TurboTax Basic. Beautiful. I'm still waiting for some 1099's, but I've already started my taxes by importing my W-2. Easy. Looks exactly like last year and that went really well. So, I'm going to take the liberty to five star this now since last year's experience was an easy 5 stars.
+
+How does this software compare to TurboTax? It's just as easy. It mostly works in the same way as TurboTax with small differences here and there. The interface is much snappier than the 2013 version of TurboTax - the last version of TurboTax I used.
+
+If I may take a moment to bash Intuit (the makers of TurboTax): That company actively lobbies against making tax filing easy. Just Google "TurboTax Lobbies Lawmakers to Keep Tax Code Complicated" for an ABC News article on the subject.
+
+I wouldn't have even of realized this if Intuit hadn't of tried to gouge customers last year. I have a lot of ill will towards Intuit now and I was previously a happy long time customer.
+I have used TurboTax for the last ten years or so, but because of the pricing and content issues already well documented in these comments, I decided to consider switching to Block.  After enough research to assure myself that others were having good experiences with Block, I decided to give it a try.  The 2014 Deluxe version of Block easily uploaded my prior years information from TurboTax (Whew!  Off to a good start).  The series of tax related questions that followed seemed more direct and less encumbered with advertising and urges to upgrade than the TurboTax version.  Overall, I am very pleased with the 2014 Deluxe version of the HR Block tax software.  Will be using them again next year.
+
+I also use Quickbooks, which has been an excellent product from the same company (Intuit) that publishes TurboTax.  Unfortunately, Intuit has been taking aggressive steps to reduce the capacity of my QB so I would have to "upgrade," e.g., they terminated my ability to download/upload information directly from my bank.  Seems to me that Intuit is pushing too aggressively to force users to spend more money on their products - wanting to make more money is ok; it's what drives our system, but Intuit has developed a pattern of being sneaky and devious in their tactics.  I would not be so upset with them if they were charging more and delivering more, but they seem to be sneaking up on users, e.g., TurboTax 2014 doesn't really tell you what you are missing in 2014 (that was included in 2013 and previous years), until you are at a point in the preparation of your return where it is tempting to submit, pay the extra $40 and move on.  I am very glad that I made the switch to Block this year and I hope enough others switch that TurboTax gets the message.  Thank you HR Block.
+I've been using TurboTax since 1997.  Although there were a few things I thought could be improved, I had no reason to try anything different until this year, when H&R Block made me an offer I couldn't refuse to try their product.  So I did, with hesitation and skepticism.  And I'm glad I did!
+
+HR Block Deluxe was as easy to use as TT Deluxe, and the end result was the same refund.
+
+Things I like better about HR Block over TT:
+- TT had me fill in all possible deductions like Tax prep software costs and bank safe deposit box fees, only to ignore them because of minimums that were far greater.  HR Block lists the minimum cutoff %s and amounts at the top of the page with the deductions, so I didn't waste a bunch of time filling in the information that wouldn't be used.
+- HR Block asked for mileage for each charitable donation drop off.  I did not see this in TT's ItsDeductible (if it's there, it's not obvious).
+- HR Block's help menus are great, answering all but one of my questions in an easy to understand format.
+- And of course HR Block didn't get greedy and play any games with pricing and features.  Yes, TT apologized and changed things back after a couple of months, but that was only because people flocked to HR Block and others.
+
+Things I like better about TT over HR Block:
+For entering many items, the ItsDeductible website is slightly easier and quicker to use than HR Block's equivalent.
+
+So thank you H&R Block for the great offer, a very nice product, and no games.
+I was a loyal TurboTax customer for many years -- in fact my earliest versions of MacInTax are now legal drinking age. But when Intuit decided to change their pricing scheme and force me to upgrade from Basic to Home & Office to file some of the schedules I needed, I like thousands of others, decided to switch to H&R Block this year. H&R Block Deluxe worked fine -- it imported all my data from 2013 perfectly. H&R Block doesn't have as good of a user interface compared with TT, but it doesn't have those annoying "upsale" offers like TT either. Considering it was approx $70 less than the comparable product from Intuit, it was a no-brainer for me. I'm very happy with the product, my federal refund was safely deposited in my bank account several weeks ago and I plan to remain an H&R customer from this point forward ... or until they decide to make a bone-head marketing decision like Intuit.
+I am a former TurboTax customer who was turned off by Intuit's money grab this year.
+I went with the H&R Block Deluxe version, which was less than half the price of the corresponding TurboTax version.
+It suited me fine.  I have investments (Schedule A, Schedule D); self-employment income (Schedule C), and a lot of charitable donations.  The H&R Block Deluxe version handled it all easily.
+I liked the TurboTax interface a little better, but that may have been because I had used it the prior 10 years.
+I also believe the TurboTax help is better;  I tried searching the H&R Block help to see what to do about a 1099SA I received; it was not helpful, whereas I found great help on the TurboTax web site!
+Some of the 'audit checks' were a bit annoying - kept telling me I had something marked tentative, but it was a mystery, I could never find it, it pointed to a sheet without the data it highlighted on it.  So that was a little annoying but I just ignored it.
+This product is good enough.  There was no drama, I felt like I got what I paid for, I can't see paying the extra $20 for TurboTax Deluxe - or the extra $40 for TurboTax Premier, which Intuit sneakily forced me into because of capital gains.  Intuit's 'we goofed' letter is laughable, and they appear to have peeved a lot of former customers, who now realize there are cheaper, equally effective versions of tax software out there.
+Like many other long time Intuit TurboTax Deluxe users, I was forced to switch to HR Block Deluxe when Intuit decided to delete Schedule D and other forms from their Deluxe version. The good news for me was that HR Block Deluxe handled all the forms I needed. I was able to upload my 2013 TurboTax return into the 2014 TurboTax Deluxe software which saved a lot of effort (however, the upload was incomplete for Form 3800, described later). The bad news is if you take itemized deductions, HR Block fails to add certain deductions automatically like TurboTax does. If you itemize, collect social security and pay Medicare B & D premiums, HR Block does not automatically add those premiums into your insurance costs and you must add them in manually (in fact, HR Block does not even ask you to enter the 1099 SSA Medicare B and D data - TurboTax does). Also, if you have a carry forward Form 3800 Business Credit, the navigation into that form is not automatic as it was in TurboTax which picks up the carry forward from the prior year's return. In addition, HR Block software rounds brokerage 1099 numbers to the nearest dollar as they are inputted, instead of waiting until all like amounts are added. This can and did result in slightly higher reported totals. TurboTax rounding takes place after each 1099 category is totaled. Another discovery I made (by testing against TurboTax OnLine versions), is that if you need to file a Form 3800 carry forward, Intuit forces you to upgrade two levels, Deluxe->Premier->Home&Business, even if you do not have any active business interests. All in all, HR Block Deluxe works fine but lacks the polish of TuboTax.
+I was a 20+ year TurboTax user, but while ordering for 2014, noticed all the bad reviews and warnings about the changes to TurboTax Deluxe and the impact on customers.  Being one of those affected by the change, I decided to take the opportunity to try a different solution.  I chose H&R Block Deluxe.  After completing the 2014 filings for myself, and my extended family (6 returns), I have found H&R Block Deluxe to be as easy to use, and as accurate as TurboTax.  The returns included home sales, investment sales and exchanges, IRAs and capital loss/gain calculations.  I was able to import prior year TurboTax files without issue, import investments from Ameriprise just as easy as TT, and even though the interface is different than TT, it was intuitive, and just as easy to use.  My only minor complaints are that the pre-defined list of items in the donation calculator DeductionPro product in H&R Block is not as comprehensive as the ItsDeductible product in TT, and the state product did not contain the calculation of tax penalty, you had to download a form and calculate yourself, or request the state to calculate for you.
+
+Based on my experience this year, I will continue to use H&R Block Deluxe moving forward, unless they make a bonehead move like Intuit did this year with TurboTax.  Thank you Intuit for giving me the incentive to try another product and find that it works just as well, for less money.  Your back peddling and empty apologies are not enough to win back my business.  I have found that your product is not superior, and your business practices and care for your customer are offensive.
+While it's a little too early to be sure yet, this product looks like it'll be just what I need. I have used TurboTax for the past 15 years or so, but was disturbed by what they did this year. Usually, I would get their Basic or Deluxe version and would make do with their minimal advice that I needed to fill out a simple Schedule C. This year (2014) they were going to force me to get their most expensive version (Home and Business) to do my Sch. C. Totally unreasonable. So I have switched. My initial experience with H&R has been favorable. The software didn't take very long to download, it installed cleanly (Windows 7), and imported the info from my TurboTax 2013 file with no complaints. Maybe it's just because it's different, but I liked the H&R inquiry pages better than TurboTax's; they seem more direct and cleaner (not so many unnecessary graphics). TurboTax seemed to be getting kludgier and kludgier every year. At this point, anyway, I'm kind of glad they finally made switching such an easy decision.
+
+Topic 10: does 0.03353 job 0.02742 software 0.01517 works 0.00648 gets 0.0062 year 0.00594 did 0.00425 better 0.00246 like 0.00193 using 0.00191
+ How Many: 10841
+Like so many others, I always used TTax. Each year it went up in price. It does a great job, but the fact that HR does the same thing for half the price made me switch. HR is slightly more clunky. (Backing up in HR does not bring you back to the previous page and you have to go to the main menu and click again on the start page for each section. It's ok, however.)
+Does the job and no rip off pricing
+Does a fine job like it does every year. Easily pulls my W2 out of ADP and supported most of my brokerages.
+Does a good job, but does not include some needed forms. Besides, the IRS is so annoying that it does not allow e-filing some returns.
+Thank you for a great review, C. MacPhail. For a record, today the price dipped to $18.99 :)  NY state e-filing is free, as it becomes a mandatory this year. So if you file for NY state only, it will be only $18.99! Very cheap compared to Turbotax.
+
+For everybody's consideration, I share my two cents as I happened to try all THREE major filing methods this year: an accountant, Turbotax(online trial version), and, H&R block software (a free promotion CD as I was a user in past). My conclusion is, all has pros and cons, you will need to pay your own attention to be accurate as possible, because none of them are perfect - just C. MacPhail and others said.
+
+My accountant I hired was clearly wrong in a few tricky areas (bank interests, part-time state residency etc) which were originally the reasons why I initially intended to work with her this year - I've filed only with software before - to save the time for research/worries on those things. Why I found she was wrong? Because I used a free, promotional H&R Block software this year (it was mailed to me) to compare side by side as well as Turbotax's free draft online just in case. I know I'm a bit unusual, but at the same time I was so curious how much she could save money more than software - it turned out to be opposite! She came back with $1700 state PAYMENT while both software said $2500 REFUND. This is a too big difference to ignore.
+
+Of course less refund does not mean incorrect, she could be right, the most importance is accuracy than more refund, so I even researched on IRS/state websites, tax advice websites and H&R block and Turbotax articles, and confirmed that my accountant was absolutely wrong and I was shocked how much a professional could be wrong; I could be filing wrongly for less refund, I pay more fee than software, then I might get audited so I have to hire an accountant again to represent?! So crazy. She was definitely acting professionally and caring in terms of communication, took time to explain why she did this, and nice enough to let me go without charging at all stating she was not comfortable in my case. But when her knowledge is wrong, that's wrong, I can't trust her work. I also found she was not particularly proactive to suggest any tax saving tips/questions either as she is already busy with her other clients...
+
+So I'd say, if you don't want to worry or don't have a time at all for DIY, your tax situation is way complicated, AND if you have found a great accountant you can trust, the high price for accountants worth it. I thought I carefully selected this accountant by interviewing several ones based on people's recommendations/Yelp reviews, confirming she said she could handle my situations before hiring her, but still her job was wrong where I concerned, and she gave up on my case at end. Maybe it is my fault choosing her, but she does have a good background/experience/reviews on my resume!!!
+
+For tax tips, I feel software definitely does a better job (the problem is that you have to understand and translate into your case by yourself; this is where accountants are supposed to be better when they knows your situation inside out and have a time to care and ask). I'd say, if you are fairly confident with software and go by price, H&R block software is definitely an winner. Turbotax does have more sophisticated user interface (as suggested in C. MacPhail's review), but H&R block software did suggest some tax tip better than Turbotax while H&R block made me nervous when it lets me get in actual form to enter numbers, in my case.
+
+If you could, try both before paying, and go for which you felt comfortable. The both software is comparable, it is really a personal preference and convenience. You could try an accountant too like I did, but remember, we could get audited/get errors even if we pay more $$$ to the accountant. Since there will be always a chance to get audited with any method, why don't we go for software which is cheaper and actually more time-saving if you are an worried type like me. Good luck and happy tax filing!
+It does what it's supposed to do, and does it well. I didn't get audited, so I am happy!
+Gets the job done. Significantly cheaper than the other rip off brand (if you look for the frequent discounts).
+This works fairly well for me.  It easily downloads the capital gains from Microsoft Money, the interviews are fairly straightforward.  However there are a few areas (like foreign tax credit) where it should be automated but isn't.  But on the whole it does a nice job, they just need to improve it a little every year then it could be a 5 star item.
+Gets the job done. Some things are not as intuitive as I expect, for example I had to look around quite a bit to find where to enter vehicle expenses for a contracting job. It was almost easier going directly to the IRS forms to do this.
+It does what it is supposed to do, help you prepare your taxes. I feel it is a good software, and does what it is supposed to.
+It does it's thing.  I buy it every year and it does what it does and I pay or get a refund.  Not my favorite purchase of the year
+
+Topic 11: product 0.09231 great 0.07526 price 0.06395 works 0.02376 amazon 0.01206 excellent 0.012 fast 0.00787 deal 0.00762 purchase 0.00473 value 0.00423
+ How Many: 10841
+Great product for simple taxes.  I buy this to do my sons taxes and this was a great deal!  Seller sold for a great price and shipping was incredibly fast.
+This is the best price I could find on the internet! Bar none! I had been searching for this item for a couple months until I found this price. Fast shipping too! A great consumer deal. You owe it to yourself to check out this deal before looking elsewhere.
+Product received as advertised. Easy to install. Ready to receive updates. Works perfect. Great value! Will try a get this next year. Great savings over in store purchase price.
+Great price and fast delivery. Great product. Thank you.
+Great price and fast delivery. Great product. Thank you.
+The product was exactly as advertised, was priced very reasonably, and performed perfectly.  The product and company performed perfectly.  It was delivered faster than advertised.  I would recommend this product and company to everyone.
+Great product, great price, fast shipping.
+I used H&R Block At Home Premium and found it to be a very useful product for doing your taxes.  At Home Premium allowed me to complete my taxes easily and with confidence.  I would highly recommend this product and of course purchasing it through AMAZON.COM made it very easy at a great price.  Amazon shipped the product free and it arrived promptly.  Thanks AMAZON.COM!
+Product arrived very quickly. Product arrived as advertised. The price was very comparable to others found locally are on line. I didn't use the product and I changed my mind and had a tax prepared do our taxes again.
+Great quality and low price..!!
+Arrived quickly and in good condition.
+I would recommend this product to anyone looking for a similar item.
+
+Topic 12: state 0.04444 return 0.03173 file 0.02075 federal 0.01969 filing 0.01653 returns 0.01497 free 0.01331 don 0.01192 business 0.01153 software 0.0113
+ How Many: 10841
+TaxCut offers individuals a powerful option for preparing an income tax return that is relatively easy to use. TaxCut assumes that you know little or nothing about income tax law. The software will ask a number of questions and will prompt you for information based on your answers. It will help tremendously if you gather as many of your tax documents as possible before starting. This software is significantly cheaper than paying a service to prepare it and much easier than doing in manually.
+
+The e-file option has been around for some years and is a great way to get your refunds faster. But if you owe money, there's not as much of an advantage.  Still, you get five free electronic filing so you might as well use one.  In the unlikely event that you plan to prepare more than five returns, make sure you use the e-file for the ones due a refund and file the ones with money due manually.  The program will print all the forms you need so it's easy to do and it will save you the cost of the fees for the additional e-files.
+
+The one negative for this program is that the publisher used to offer free e-filing for the state return as well as federal but has dropped that for the 2008 edition.  With a charge weighing in a whopping $19.95 for e-filing each state return, this is not a trivial fee.  I would recommend filing state returns manually unless you will receive a refund large enough to make getting the check a week or so faster worth that extra money.
+
+Please note that this version covers both Federal and State returns. Most people will need both, but if you live in a state with no income tax then you'll want to look at&nbsp;<a data-hook="product-link-linked" class="a-link-normal" href="/H-R-Block-TaxCut-2008-Premium-Federal-e-file/dp/B001HO6Q7O/ref=cm_cr_arp_d_rvw_txt?ie=UTF8">H&R Block TaxCut 2008 Premium Federal + e-file</a>&nbsp;for considerably less money.
+
+If you don't itemize your deductions and have a very simple return, you might be better off preparing the forms manually on your own. On the opposite end of the spectrum, if you have a return with major league complications, you should probably go to a good CPA. For everyone else, this is really a no-brainer. It's inexpensive, easy to use, and accurate. I've been using TaxCut for quite a few years and would not even consider giving it up.
+TaxCut offers individuals a powerful option for preparing an income tax return that is relatively easy to use. TaxCut assumes that you know little or nothing about income tax law. The software will ask a number of questions and will prompt you for information based on your answers. It will help tremendously if you gather as many of your tax documents as possible before starting. This software is significantly cheaper than paying a service to prepare it and much easier than doing in manually.
+
+The e-file option has been around for some years and is a great way to get your refunds faster. But if you owe money, there's not as much of an advantage.  Still, you get five free electronic filing so you might as well use one.  In the unlikely event that you plan to prepare more than five returns, make sure you use the e-file for the ones due a refund and file the ones with money due manually.  The program will print all the forms you need so it's easy to do and it will save you the cost of the fees for the additional e-files.
+
+There are a couple of issues to take note of if you buy this version of TaxCut.  First, this version covers only federal tax returns and does not include a program for state taxes.  If you live in a state with no income tax, this is the version you want.  But if you do need to file with your state, you'll want to buy the&nbsp;<a data-hook="product-link-linked" class="a-link-normal" href="/H-R-Block-TaxCut-2008-Premium-Federal-State-e-file/dp/B001HOD50K/ref=cm_cr_arp_d_rvw_txt?ie=UTF8">H&R Block TaxCut 2008 Premium Federal + State + e-file</a>&nbsp;version.  Second, there are some tax tools not included in this package that would require the&nbsp;<a data-hook="product-link-linked" class="a-link-normal" href="/H-R-Block-TaxCut-2008-Premium-Federal-e-file/dp/B001HO6Q7O/ref=cm_cr_arp_d_rvw_txt?ie=UTF8">H&R Block TaxCut 2008 Premium Federal + e-file</a>&nbsp;version.  These probably won't be needed by everyone, but take a good look at the chart in the product description area to see if you will miss the features or not.
+
+If you don't itemize your deductions and have a very simple return, you might be better off preparing the forms manually on your own. On the opposite end of the spectrum, if you have a return with major league complications, you should probably go to a good CPA. For everyone else, this is really a no-brainer. It's inexpensive, easy to use, and accurate. I've been using TaxCut for quite a few years and would not even consider giving it up.
+First time user of Taxcut and pleased with it so far.  As my husband and I are filing jointly for the first time (as a same-sex couple living in California), Taxcut's software was unclear about how to file our taxes since our marriage (not RDP) is only recognized at the state level and not federally.  Hopefully this information garnered from taxcut.com will help others in similar situations out: the key is that one will need to file as unmarried individuals on the federal (and can efile) but state taxes will need to be mailed in; since the program uses your federal filing status (married/unmarried) to do the state taxes, one needs to rerun the program with a mock federal filing in the program (without actually submitting the federal form) to then be able to get the corrected married-couple settings for the state filing section.  Ah the joys of second-class citizenship in socially barbaric country.  See below:
+
+*******
+
+Issue: Filing a joint federal return with a same-sex partner
+
+For federal tax purposes, a marriage is a legal union only between a man and a woman as husband and wife. This means you can't file a joint federal return with a partner of the same sex. However, some states allow joint filing for registered domestic partnerships, civil unions, or same-sex marriages. These states include:
+
+  * California
+  * Connecticut
+  * District of Columbia
+  * New Hampshire
+  * Massachusetts
+  * New Jersey
+  * Vermont
+
+You can file joint state returns with TaxCut for domestic partnerships, same-sex marriages, and civil unions by following these steps:
+
+1. To meet your federal tax obligation, each party must complete a federal tax return using one of the following filing statuses:
+  * Single
+  * Head of Household
+  * Qualifying Widow(er)
+You cannot file a federal return using the Married Filing Jointly or Married Filing Separately status.
+
+2. For your state return, you must decide whether you want to file Married Filing Jointly or Married Filing Separately. In most cases, filing jointly works to your advantage.
+
+3. Complete another federal return with a filing status of either Married Filing jointly or Married Filing Separately to use as a base for your state return. Do not file this return.
+Note: The filing status you use should correspond to the filing status you want to use for your state return.
+
+4. Complete your state return.
+
+5. You must file a paper return and mail it. We'll include mailing instructions when you complete your return.
+
+If you need assistance with this process, contact us at 1-888-4TAXCUT. Our agents will be happy to assist you.
+
+*****
+
+You can find this info online at:
+[...]
+TaxCut offers individuals a powerful option for preparing an income tax return that is relatively easy to use. TaxCut assumes that you know little or nothing about income tax law. The software will ask a number of questions and will prompt you for information based on your answers. It will help tremendously if you gather as many of your tax documents as possible before starting. This software is significantly cheaper than paying a service to prepare it and much easier than doing in manually.
+
+The e-file option has been around for some years and is a great way to get your refunds faster. But if you owe money, there's not as much of an advantage.  Still, you get five free electronic filing so you might as well use one.  In the unlikely event that you plan to prepare more than five returns, make sure you use the e-file for the ones due a refund and file the ones with money due manually.  The program will print all the forms you need so it's easy to do and it will save you the cost of the fees for the additional e-files.
+
+One thing to take note of is that this version covers only federal tax returns and does not include a program for state taxes.  If you live in a state with no income tax, this is the version you want.  But if you do need to file with your state, you'll want to buy the&nbsp;<a data-hook="product-link-linked" class="a-link-normal" href="/H-R-Block-TaxCut-2008-Premium-Federal-State-e-file/dp/B001HOD50K/ref=cm_cr_arp_d_rvw_txt?ie=UTF8">H&R Block TaxCut 2008 Premium Federal + State + e-file</a>&nbsp;version.
+
+If you don't itemize your deductions and have a very simple return, you might be better off preparing the forms manually on your own. On the opposite end of the spectrum, if you have a return with major league complications, you should probably go to a good CPA. For everyone else, this is really a no-brainer. It's inexpensive, easy to use, and accurate. I've been using TaxCut for quite a few years and would not even consider giving it up.
+TaxCut offers individuals a powerful option for preparing an income tax return that is relatively easy to use.  TaxCut assumes that you know little or nothing about income tax law.  The software will ask a number of questions and will prompt you for information based on your answers.  It will help tremendously if you gather as many of your tax documents as possible before starting.  This software is significantly cheaper than paying a service to prepare it and much easier than doing in manually.
+
+The e-file option has been around for some years and is a great time saver for those due a refund.  If you owe money, you might want to save a few dollars and just file manually.  The program will print all the forms you need so it's easy to do and there's no real advantage to electronically filing if you're writing a check.
+
+Please note that this version covers both Federal and State returns.  Most people will need both, but if you live in a state with no income tax then you'll want to look at&nbsp;<a data-hook="product-link-linked" class="a-link-normal" href="/H-R-Block-TaxCut-2007-Premium-Federal-Win-Mac/dp/B000WPWYJS/ref=cm_cr_arp_d_rvw_txt?ie=UTF8">H&R Block TaxCut 2007 Premium Federal (Win/Mac)</a>&nbsp;for considerably less money.
+
+If you don't itemize your deductions and have a very simple return, you might be better off preparing the forms manually on your own.  On the opposite end of the spectrum, if you have a return with major league complications, you might be better off going to a good CPA.  For everyone else, this is really a no-brainer.  It's inexpensive, easy to use, and accurate.  I've been using TaxCut for quite a few years and would not even consider giving it up.
+TaxCut offers individuals a powerful option for preparing an income tax return that is relatively easy to use.  TaxCut assumes that you know little or nothing about income tax law.  The software will ask a number of questions and will prompt you for information based on your answers.  It will help tremendously if you gather as many of your tax documents as possible before starting.  This software is significantly cheaper than paying a service to prepare it and much easier than doing in manually.
+
+The e-file option has been around for some years and is a great time saver for those due a refund.  If you owe money, you might want to save a few dollars and just file manually.  The program will print all the forms you need so it's easy to do and there's no real advantage to electronically filing if you're writing a check.
+
+Please note that this version covers both Federal and State returns.  Most people will need both, but if you live in a state with no income tax then you'll want to look at&nbsp;<a data-hook="product-link-linked" class="a-link-normal" href="/H-R-Block-TaxCut-2007-Premium-Federal-Win-Mac/dp/B000WPWYJS/ref=cm_cr_arp_d_rvw_txt?ie=UTF8">H&R Block TaxCut 2007 Premium Federal (Win/Mac)</a>&nbsp;for considerably less money.
+
+If you don't itemize your deductions and have a very simple return, you might be better off preparing the forms manually on your own.  On the opposite end of the spectrum, if you have a return with major league complications, you might be better off going to a good CPA.  For everyone else, this is really a no-brainer.  It's inexpensive, easy to use, and accurate.  I've been using TaxCut for quite a few years and would not even consider giving it up.
+TaxCut offers individuals a powerful option for preparing an income tax return that is relatively easy to use. TaxCut assumes that you know little or nothing about income tax law. The software will ask a number of questions and will prompt you for information based on your answers. It will help tremendously if you gather as many of your tax documents as possible before starting. This software is significantly cheaper than paying a service to prepare it and much easier than doing in manually.
+
+The e-file option has been around for some years and is a great time saver for those due a refund. If you owe money, you might want to save a few dollars and just file manually. The program will print all the forms you need so it's easy to do and there's no real advantage to electronically filing if you're writing a check.
+
+Please note that this version is good for Federal returns only.  It's a bargain if you live in a state with no income tax, but if you live in one of the many states that require a return every year you'll be happier with&nbsp;<a data-hook="product-link-linked" class="a-link-normal" href="/H-R-Block-TaxCut-2007-Premium-Federal-State-Win-Mac/dp/B000WQ10LK/ref=cm_cr_arp_d_rvw_txt?ie=UTF8">H&R Block TaxCut 2007 Premium Federal + State (Win/Mac)</a>
+
+If you don't itemize your deductions and have a very simple return, you might be better off preparing the forms manually on your own. On the opposite end of the spectrum, if you have a return with major league complications, you might be better off going to a good CPA. For everyone else, this is really a no-brainer. It's inexpensive, easy to use, and accurate. I've been using TaxCut for quite a few years and would not even consider giving it up.
+TaxCut offers individuals a powerful option for preparing an income tax return that is relatively easy to use. TaxCut assumes that you know little or nothing about income tax law. The software will ask a number of questions and will prompt you for information based on your answers. It will help tremendously if you gather as many of your tax documents as possible before starting. This software is significantly cheaper than paying a service to prepare it and much easier than doing in manually.
+
+The e-file option has been around for some years and is a great time saver for those due a refund. If you owe money, you might want to save a few dollars and just file manually. The program will print all the forms you need so it's easy to do and there's no real advantage to electronically filing if you're writing a check.
+
+Please note that this version is good for Federal returns only.  It's a bargain if you live in a state with no income tax, but if you live in one of the many states that require a return every year you'll be happier with&nbsp;<a data-hook="product-link-linked" class="a-link-normal" href="/H-R-Block-TaxCut-2007-Premium-Federal-State-Win-Mac/dp/B000WQ10LK/ref=cm_cr_arp_d_rvw_txt?ie=UTF8">H&R Block TaxCut 2007 Premium Federal + State (Win/Mac)</a>
+
+If you don't itemize your deductions and have a very simple return, you might be better off preparing the forms manually on your own. On the opposite end of the spectrum, if you have a return with major league complications, you might be better off going to a good CPA. For everyone else, this is really a no-brainer. It's inexpensive, easy to use, and accurate. I've been using TaxCut for quite a few years and would not even consider giving it up.
+I just buy the Deluxe version, complete both Federal and State, then I file the Federal electronically through H&R.
+
+Then I will fill print the completed State's 1040 (which is free) and go to our state's website in Illinois ([...]) where you can file for free electronically and receive direct deposit or check.
+I pay the for the software to ensure I get the numbers correct since I do 3 different family member's returns. I file 3 different federal returns electronically through H&R (5 are included in the Deluxe version) and 3 different state returns through the IL website.
+
+You can verify you did it correctly on the state's website if your state's return amount in the printed 1040 from H&R program matches what you will see on the IL website before you submit it.
+
+Overall, I pay $20 total to do the 3 returns - Double check that your state offers the free service and go from there.
+There is a lot of confusion about fees for doing your personal tax returns using tax software.
+
+The main distinction is that there is a difference between *preparing* a tax return and *e-filing* or *filing* a tax return.
+
+The difference between *e-filing* a tax return and just *filing* a tax return using tax software like H&R Block or TurboTax etc. is that *e-filing* means the prepared tax return is submitted to the tax authority electronically. You can, if you wish, print the prepared tax return instead, put it in an envelope, and sent it to the tax authority by mail - this would be *filing* the tax return, as opposed to *e-filing*.
+
+With the H&R Block Tax Software Deluxe + State 2014 software, you are paying for software which will enable you to *prepare* up to 5 Federal tax returns and and *prepare* up to 5 State tax returns for ONE State only.
+
+When it comes to submitting the Federal tax returns, there is no e-filing fee - you can e-file up to 5 Federal tax returns electronically with this software, and there's no additional cost to do so. You can still print them out and mail them in if you wanted do, but I don't see why anyone would want to since e-filing the Federal tax returns is free, unless you have additional documentation the IRS require.
+
+When it comes to submitting the State tax returns, you have two options:
+(1) you can print out the prepared State tax return, put it in an envelope, and mail it to your State tax authority, and the only cost would be the stamp to send it, OR
+(2) you can *e-file* the prepared State tax return via the software, and there will be an e-filing fee of $19.99 per State tax return to do so. This is not specific to H&R Block - you'll find TurboTax does it, as do all the others, to my knowledge. The one exception I am aware of is for New York State personal income tax filers - most New York State personal income tax filers can e-file for free, but that is mandated by New York State Law, meaning H&R Block, TurboTax etc. are not allowed to charge for e-filing in New York State. Let's hope other States start pushing similar legislation.
+
+That's basically all there is to that.
+
+Another point to note: if you need to file tax returns in more than one State, you will have to pay for additional software to *prepare* returns for those additional State(s) - I believe the cost is around $39.95 for each State, and that will allow up to 5 tax returns to be *prepared* (not e-filed) for each State purchased. You will also still be subject to another $19.99 e-filing fee for each additional State return filed as well (with the exception of New York). This is the same for TurboTax and all other retail tax software suppliers, to my knowledge.
+
+There has also been comments about a $29.95 refund processing fee. I'll explain what I believe this fee is about. This fee is mostly mentioned with reference to TurboTax products, but I'll mention it here in case H&R Block have the same policy. When you have finished preparing your State tax return and elect to e-file it for the $19.99 fee mentioned above, you have an option to pay that $19.99 fee online by credit card right there and then, or have it deducted from your State tax refund. If you pay by credit card right there and then, there should not be any return processing fee. If you instead elect to pay that $19.99 fee by having it deducted from your State tax return, guess what - you're going to get hit with a $29.95 refund processing fee on top, just for the 'effort' of the company having to take their $19.99 out of it. That is what that fee is all about, I believe. Clearly it is better to pay the $19.99 by credit card right there and then, if you are able to.
+
+Any H&R Block staff reading this please comment if I've said anything incorrect here and I will amend it accordingly.
+
+On a personal note, I have used TurboTax Deluxe for years, and like many others, have switched to H&R Block Deluxe for my 2014 taxes because of TurboTax pulling what could be considered as a classic "bait and switch" by requiring an expensive upgrade to their Premier edition in order to get the same features that were previously always available in the Deluxe edition (for me, it was IRS Schedule D filing). Fortunately H&R Block have not made such a change. I filed my 2014 returns a couple of days ago using H&R Block Deluxe tax software and had zero issues importing my 2013 TurboTax file and completing my 2014 returns on H&R Block Deluxe. I appreciated the H&R Block charitable donation calculator, and use of the product was extremely intuitive. I have no intention of going back to TurboTax in future years.. particularly when TurboTax Premier was retailing at approximately 4 times what I paid for H&R Block Deluxe at the time I purchased it, for the same feature set! Thank you H&R Block.

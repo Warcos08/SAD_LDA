@@ -16,7 +16,7 @@ def display_topics(H, W, feature_names, documents, no_top_words, no_top_document
     #print("PREPARANDO ARCHIVO .CSV PARA VOLCAR PARAMETROS...")
     #archivo = open(nombreCSV, "a")
 
-    archivo = open('Resultados/txt/LDA-18-0.9-0.9-MicroNeg.txt', 'w')   #PARA QUE SALGA EN FORMATO TXT
+    archivo = open('Resultados/txt/LDA-31-0.25-0.30-SonyNeg.txt', 'w')   #PARA QUE SALGA EN FORMATO TXT
 
     for topic_idx, topic in enumerate(H):
         print("Topic %d:" % (topic_idx))
