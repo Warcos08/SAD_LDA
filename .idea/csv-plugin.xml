@@ -45,13 +45,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/Resultados/Topics-review/NintTMPos2.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/Resultados/csv/Gensim/GensimParamsMicroNeg.csv">
           <value>
             <Attribute>
@@ -144,13 +137,6 @@
           </value>
         </entry>
         <entry key="/data/SonyPos.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/prueba1.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
