@@ -3,13 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="/IntuitTMNeg.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/Resultados/Topics-review/IntuitTMNeg.csv">
           <value>
             <Attribute>
@@ -17,7 +10,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/Resultados/Topics-review/MicroPos.csv">
+        <entry key="/Resultados/Topics-review/IntuitTMPos.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -25,6 +18,13 @@
           </value>
         </entry>
         <entry key="/Resultados/Topics-review/MicroTMNeg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Resultados/Topics-review/MicroTMPos.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -52,6 +52,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/Resultados/csv/Gensim/GensimParamsMicroNeg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Resultados/csv/Gensim/GensimParamsMicroPos.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Resultados/csv/Gensim/GensimParamsSonyNeg.csv">
           <value>
             <Attribute>
@@ -59,7 +73,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/Topics-18-2-2-MicroNeg.csv">
+        <entry key="/Resultados/csv/LDA/LDA-28-2.0-2.0-NintNeg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Resultados/csv/LDA/LDA-31-0.25-0.3-SonyNeg.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -123,13 +144,6 @@
           </value>
         </entry>
         <entry key="/data/SonyPos.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/prueba.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
