@@ -45,6 +45,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/Resultados/Topics-review/SonyTMPos.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Resultados/csv/Gensim/GensimParamsMicroNeg.csv">
           <value>
             <Attribute>
