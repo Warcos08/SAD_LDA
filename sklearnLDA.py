@@ -89,4 +89,4 @@ df_document_topic["brand"] = df["brand"]
 df_document_topic["price"] = df["price"]
 df_document_topic["reviewTime_y"] = df["reviewTime_y"]
 df_document_topic["Dom_Topic"] = dom_topic
-df_document_topic.to_csv("Resultados/Topics-review/IntuitTMPos.csv")
+df_document_topic.to_csv("Resultados/Topics-review/IntuitTMNeg.csv")
