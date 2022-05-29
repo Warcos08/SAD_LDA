@@ -16,7 +16,7 @@ def display_topics(H, W, feature_names, documents, no_top_words, no_top_document
     #print("PREPARANDO ARCHIVO .CSV PARA VOLCAR PARAMETROS...")
     #archivo = open(nombreCSV, "a")
 
-    archivo = open('Resultados/txt/LDA-' + str(nTopics) + '-' + str(alpha) + '-' + str(eta) + '-MicroPos.txt', 'w')   #PARA QUE SALGA EN FORMATO TXT
+    archivo = open('Resultados/txt/LDA-' + str(nTopics) + '-' + str(alpha) + '-' + str(eta) + '-IntuitNeg.txt', 'w')   #PARA QUE SALGA EN FORMATO TXT
 
     for topic_idx, topic in enumerate(H):
         print("Topic %d:" % (topic_idx))
@@ -84,5 +84,9 @@ docnames = df["Unnamed: 0"]
 df_document_topic = pd.DataFrame(np.round(lda_W, 2), columns=topicnames, index=docnames)
 # dominant topic for each document
 dom_topic = np.argmax(df_document_topic.values, axis = 1)
+df_document_topic["overall"] = df["overall"]
+df_document_topic["brand"] = df["brand"]
+df_document_topic["price"] = df["price"]
+df_document_topic["reviewTime_y"] = df["reviewTime_y"]
 df_document_topic["Dom_Topic"] = dom_topic
-df_document_topic.to_csv("Resultados/Topics-review/MicroTMPos.csv")
+df_document_topic.to_csv("Resultados/Topics-review/IntuitTMNeg.csv")
