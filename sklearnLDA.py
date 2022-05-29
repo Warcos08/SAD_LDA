@@ -84,5 +84,9 @@ docnames = df["Unnamed: 0"]
 df_document_topic = pd.DataFrame(np.round(lda_W, 2), columns=topicnames, index=docnames)
 # dominant topic for each document
 dom_topic = np.argmax(df_document_topic.values, axis = 1)
+df_document_topic["overall"] = df["overall"]
+df_document_topic["brand"] = df["brand"]
+df_document_topic["price"] = df["price"]
+df_document_topic["reviewTime_y"] = df["reviewTime_y"]
 df_document_topic["Dom_Topic"] = dom_topic
 df_document_topic.to_csv("Resultados/Topics-review/IntuitTMPos.csv")
