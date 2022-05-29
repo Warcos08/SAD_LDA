@@ -108,6 +108,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/data/IntuitPos.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data/MicroNeg.csv">
           <value>
             <Attribute>

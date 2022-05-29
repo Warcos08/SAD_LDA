@@ -3,7 +3,7 @@ import csv
 
 def main():
     data = pd.read_csv("data/HRBlockIntuitReviewsTrainDev_vLast7.csv")
-    data = data[['overall', 'brand', 'reviewText', 'summary']]
+    data = data[['overall', 'brand', 'price','reviewTime_y','reviewText', 'summary']]
 
     # Formo los dataframes que vamos a utilizar en cada prueba
     HRNeg = pd.DataFrame(columns=["reviewText", "summary"])
